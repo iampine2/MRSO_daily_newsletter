@@ -1,149 +1,6 @@
 {
-  "daily_summary": "• Square Enix 주요 투자자의 사업 근본적 재평가 요구와 실적 부진 비판 논란\n\n• Resident Evil: Requiem과 Assassin's Creed Black Flag 리메이크 등 대작 게임 연이은 발표\n\n• Call of Duty의 연속 출시 중단 선언과 Battlefield 6의 커뮤니티 피드백 반영 업데이트\n\n• Pokémon Go 원격 교환 기능 추가와 10만 달러 Pokémon 카드 절도 사건 발생",
+  "daily_summary": "• Call of Duty Black Ops 7의 부진한 반응으로 Activision이 동일 하위 시리즈 연속 출시 중단 결정, 장기 개발 전략 전환\n\n• Microsoft의 25년 Xbox 독점작 Halo가 2026년 PlayStation 진출로 콘솔 독점 IP 전략의 근본적 변화 가속화\n\n• Capcom이 Mega Man, Devil May Cry, Ace Attorney 신작 계획 발표로 기존 IP 재활용 통한 안정적 수익 확보 전략 본격화\n\n• Nintendo Switch 2 출시와 함께 Skyrim Anniversary Edition 재출시로 레거시 게임의 신규 플랫폼 이식 수익화 모델 확산",
   "articles": [
-    {
-      "title": "PlayStation Store Leak Confirms Leon S. Kennedy Is in Resident Evil Requiem",
-      "url": "https://www.ign.com/articles/confirmed-leon-s-kennedy-is-in-resident-evil-requiem-playstation-store-leak-reveals",
-      "date": "2025-12-09 20:41",
-      "comments": 176,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/g7uethpbiaazzaq-1765283237391.jpeg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "At long last, Leon S. Kennedy has been confirmed to appear in Resident Evil: Requiem — via a leaked image on the PlayStation Store.\nThe reveal of new cover art for the game featuring Leon finally puts to bed one of this year's biggest gaming mysteries — something developer Capcom has itself refused to address — just days ahead of Requiem's appearance at The Game Awards. Presumably we'll see Leon announced officially there.\nThis morning, Resident Evil fans began spotting the new cover art appearing on PlayStation 5 consoles in the pre-download screen for owners of the standard (non-Deluxe) version of the game. IGN has now verified this ourselves, and can confirm the image is legitimate. Leon is real.\nThe game's cover shows a stubbled and haggard-looking Leon looming over Requiem's other main protagonist, Grace Ashcroft. In his appearance, Leon looks most similar to his iconic look from Resident Evil 4, his floppy hair set off by a snazzy leather jacket, its collar lined with fur.\nRumors",
-      "media": "IGN",
-      "title_kr": "PlayStation Store 유출로 Leon S. Kennedy의 Resident Evil Requiem 등장 확정",
-      "content_summary_kr": "PlayStation Store에 유출된 커버 아트를 통해 Leon S. Kennedy의 Resident Evil: Requiem 출연이 확정됨. The Game Awards를 며칠 앞두고 PlayStation 5 콘솔의 사전 다운로드 화면에서 새로운 커버 아트가 노출되었으며, IGN이 이를 직접 확인하여 진위 검증 완료. 커버에는 Resident Evil 4의 상징적인 스타일과 유사한 모습의 Leon이 또 다른 주인공 Grace Ashcroft와 함께 등장함.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Major Square Enix Investor Slams Current Performance, Urges Other Shareholders to Share 'Frank Views' As It Calls for a 'Fundamental Reassessment' of Its Business",
-      "url": "https://www.ign.com/articles/major-square-enix-investor-slams-current-performance-urges-other-shareholders-to-share-frank-views-as-it-calls-for-a-fundamental-reassessment-of-its-business",
-      "date": "2025-12-09 22:00",
-      "comments": 159,
-      "thumbnail": "https://assets-prd.ignimgs.com/2023/06/08/ff7-1686257511703.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "A major investor in Final Fantasy maker Square Enix has published a 100-page document criticizing the company's performance and calling for a \"fundamental reassessment\" of its business, citing perceived \"sluggish\" revenue and profits.\nIn a press statement, 3D Investment Partners — Square Enix's third-largest investor, holding around a 14% stake — claims there has been a \"significant deterioration in earning power\" despite the company owning some of the world's biggest franchises and being a \"preeminent Japanese game developer.\"\n\"What Square Enix once brought to life was a 'culture' that shaped an era, and an 'industry' that fascinated the world. Is Square Enix really giving birth to something genuinely new, or has Square Enix turned away from the challenges before it and let its steps falter?\" the document asks, imploring that the firm \"surprises us, moves us, and ignites that passion we once felt,\" as \"gamers across the globe have been waiting, endlessly, for that irreplaceable experi",
-      "media": "IGN",
-      "title_kr": "주요 Square Enix 투자자, 현재 실적 비판하며 사업 '근본적 재평가' 요구... 다른 주주들에게도 '솔직한 의견' 공유 촉구",
-      "content_summary_kr": "Square Enix의 3대 주주인 3D Investment Partners(지분 14%)가 회사의 부진한 매출과 수익을 비판하며 사업 전반에 대한 근본적 재평가를 요구하는 100페이지 분량의 문서 발표. 세계적 프랜차이즈를 보유한 선도적 일본 게임 개발사임에도 불구하고 수익 창출력이 크게 악화됐다고 지적하며, 과거의 감동과 혁신을 되찾아 전 세계 게이머들이 기다려온 특별한 경험을 다시 제공할 것을 촉구.",
-      "category": "매출 & 성과",
-      "game_relevance": 0.9
-    },
-    {
-      "title": "Ubisoft's Long-Awaited Pirate Remake Is Named Assassin's Creed Black Flag Resynced",
-      "url": "https://www.ign.com/articles/assassins-creed-black-flag-resynced-is-the-name-of-ubisofts-long-awaited-pirate-remake",
-      "date": "2025-12-10 00:34",
-      "comments": 111,
-      "thumbnail": "https://assets-prd.ignimgs.com/2024/02/26/blackflag-1708953846684.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Assassin's Creed Black Flag Resynced is the full name of Ubisoft's piratical remake that's had more leaks than a sunken ship.\nThe game's new title is now visible on the PEGI European ratings board website, which is about as official as it gets. (The game is rated 18 for violence and bad language.)\nAdditionally, there's a mention here that Black Flag Resynced will include the ability to make in-game purchases. It's still unknown how Resynced will plug into the franchise's existing Animus Hub, which lets you buy optional cosmetic content. Alternatively, this could potentially signify the ability to buy DLC further down the line. Is the game's memorable Freedom Cry add-on in line for a remake, too?\nToday's development comes just a couple of weeks after the game's release date was reportedly spilled online. During Ubisoft's latest financial results the French publisher laid out a slate of upcoming games set to arrive before the end of its current financial year, on March 31, 2026.\nThe name",
-      "media": "IGN",
-      "title_kr": "Ubisoft의 오랜 기다림 끝에 공개된 해적 리메이크작, Assassin's Creed Black Flag Resynced로 명명",
-      "content_summary_kr": "Assassin's Creed Black Flag Resynced가 유럽 게임 등급 심사 기관 PEGI 웹사이트에 정식 등재되며 공식 타이틀명 확정. 게임 내 구매 기능 포함 예정이며, 기존 Freedom Cry DLC의 리메이크 가능성도 제기. Ubisoft는 2026년 3월 31일까지의 회계연도 내 출시 예정 게임 목록에 본 작품을 포함시킨 상황.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "'I Don't Care if I Get Let Go at This Point': GameStop Staff Reveal The Dark Side of Trade Anything Day, As Customers Harassed Employees and Deliberately Brought In Banned Items",
-      "url": "https://www.ign.com/articles/i-dont-care-if-i-get-let-go-at-this-point-gamestop-staff-reveal-the-dark-side-of-trade-anything-day-as-customers-harassed-employees-and-deliberately-brought-in-banned-items",
-      "date": "2025-12-09 22:40",
-      "comments": 50,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/gettyimages-2241257460-1-1765287641918.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "A day after GameStop celebrated its Trade Anything Day event, the retailer's staff have shared their experiences of handling everything customers brought in — including numerous items deliberately designed to shock or gross out employees at the cash register.\nYesterday, GameStop shared a bizarre list of items it proudly said it had accepted in exchange for store credit, including a taxidermied bobcat, a painting of someone's dog with hair like Snoop Dogg, and a physical Netflix disc for the Nintendo Wii.\nBut, it turns out, the list of items GameStop couldn't accept was even weirder — and staff have now recounted how they had to deal with customers looking to cause trouble or go viral on social media by filming their store visits, all while carting a range of dubious items in tow.\nNumerous examples have been posted to TikTok and X showing encounters between customers and tired-looking GameStop staff as they are presented with objects clearly designed to cause them discomfort.\nOne such i",
-      "media": "IGN",
-      "title_kr": "'이 시점에서 해고당해도 상관없다': GameStop 직원들이 폭로한 Trade Anything Day의 어두운 이면, 고객들의 직원 괴롭힘과 금지 품목 고의 반입",
-      "content_summary_kr": "GameStop의 Trade Anything Day 행사 다음 날, 직원들이 소셜 미디어 조회수를 노린 고객들로부터 금지된 물품과 혐오스러운 아이템을 고의로 받으며 겪은 괴롭힘 경험을 공개. TikTok과 X에는 불편하고 부적절한 물건을 들고 온 고객들과 지친 GameStop 직원들의 영상이 다수 게시됨.",
-      "category": "규제 & 이슈",
-      "game_relevance": 0.3
-    },
-    {
-      "title": "We Think We Know What Geoff Keighley's Weird Desert Statue Is Teasing",
-      "url": "https://www.ign.com/articles/we-think-we-know-what-geoff-keighleys-weird-desert-statue-is-teasing",
-      "date": "2025-12-10 05:18",
-      "comments": 47,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/cj4jx4fzvcc523ya2tmalskfleibglrqbtfamb5nw5ujisnf565fmr7unsbd5jsl4ttwopcumgrig-1765310260526.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Earlier this month, a large, demonic-looking monolith appeared in the Mojave Desert, and Geoff Keighley tweeted a photo of it. The monolith featured figures of all sorts of strange creators: skeletons, alligators, soldiers, a wolf, and more. In the time since, online gaming enthusiasts have been eagerly speculating as to what the monolith and Keighley were teasing ahead of The Game Awards. Diablo 4? The Elder Scrolls 6? God of War? Bloodborne 2? Altered Beast?\nWell, the mystery may have been solved in advance of The Game Awards on Thursday. As spotted by MP1st, some newly registered trademarks reveal a game and a logo that looks essentially identical to a symbol on the monolith. And those trademarks appear to be for a new Divinity game, from Larian Studios.\nHow do we know? Well, let's take a look at one of the trademarks. It's for an image, and it looks like this:\nNow compare that to the big symbol at the center of the statue:\nSo yeah, that's definitely the same symbol, so we're in the",
-      "media": "IGN",
-      "title_kr": "Geoff Keighley의 수상한 사막 조형물이 암시하는 것",
-      "content_summary_kr": "Mojave 사막에 등장한 악마 형상의 대형 조형물을 Geoff Keighley가 공개하면서 The Game Awards에서 발표될 게임에 대한 추측이 난무한 가운데, 새로 등록된 상표를 통해 Larian Studios의 새로운 Divinity 게임일 가능성 확인. 조형물 중앙의 심볼과 상표 로고가 일치하는 것으로 밝혀짐.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 0.95
-    },
-    {
-      "title": "Bethesda Shadowdrops the Elder Scrolls V: Skyrim Nintendo Switch 2 Edition",
-      "url": "https://www.ign.com/articles/bethesda-found-another-platform-to-release-skyrim-on-nintendo-switch-2-and-its-out-today",
-      "date": "2025-12-10 00:05",
-      "comments": 44,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/skyrim-1765282868310.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Bethesda has released The Elder Scrolls V: Skyrim on pretty much every platform since it came out in 2011, but now it’s found another: the Nintendo Switch 2.\nBethesda announced and shadowdropped Skyrim Anniversary Edition today, December 9, on Switch 2 just in time for the holidays. Check out how Skyrim looks on Switch 2 in the video below.\nThe Elder Scrolls V: Skyrim Anniversary Edition includes the base game and the three official Expansions: Dawnguard; Dragonborn; and Hearthfire. Players on Switch 2 get experience enhanced resolution, improved load times, performance optimisation, Joy-Con 2 mouse support, motion controls, Amiibo support, and more versus the OG Switch version, taking advantage of the more powerful hardware.\nWhat’s more, this edition offers exclusive Nintendo content from The Legend of Zelda: Breath of the Wild, including the Master Sword, Hylian Shield, and Champion’s Tunic. You’ll also get hundreds of unique Creations Club items, with quests, weapons, armor, spells,",
-      "media": "IGN",
-      "title_kr": "Bethesda, The Elder Scrolls V: Skyrim Nintendo Switch 2 Edition 전격 출시",
-      "content_summary_kr": "Bethesda가 12월 9일 Nintendo Switch 2용 Skyrim Anniversary Edition을 전격 공개 및 출시. 해당 버전은 본편과 3개 확장팩을 포함하며, 향상된 해상도와 로딩 시간, Joy-Con 2 마우스 지원 등 Switch 2의 강화된 하드웨어를 활용한 최적화와 함께 The Legend of Zelda: Breath of the Wild의 독점 콘텐츠 및 수백 가지 Creation Club 아이템 제공.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Final Fantasy 7 Remake Director Issues Update on Part 3 Progress and Reveals Cloud's Iconic Buster Sword Was Almost Resized to Make It 'More Realistic'",
-      "url": "https://www.ign.com/articles/final-fantasy-7-remake-director-issues-update-on-part-3-progress-and-reveals-clouds-iconic-buster-sword-was-almost-resized-to-make-it-more-realistic",
-      "date": "2025-12-09 19:43",
-      "comments": 34,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/06/08/ff7xboxannouncetrailer-ign-blogroll-1749407388958.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Final Fantasy's Cloud has one of the most recognizable weapons in gaming history, but the Final Fantasy 7 Remake team actually considered resizing his iconic Buster Sword to make it more realistic before deciding to stick with the original design.\nIn a new interview alongside Clair Obscur: Expedition 33 director Guillaume Broche, Final Fantasy 7 Rebirth director Naoki Hamaguchi opened up about the decision, admitting that while rescaling Cloud's sword did come up, \"it was just too iconic\" to change.\n\"While making Remake, there was this aspect of the weight and how Cloud swings it around with one hand that sort of felt like it would weaken the sense of realism, you know?\" Hamaguchi said, according to a translation by a Final Fantasy fan account on X/Twitter (thanks, GR+).\n\"So at the time, when we were making Remake, there was some discussion about whether we should give Cloud a more realistic version of the Buster Sword,\" Hamaguchi added. \"But it was just too iconic, and if we'd made it",
-      "media": "IGN",
-      "title_kr": "Final Fantasy 7 Remake 디렉터, 파트 3 진행 상황 업데이트 및 Cloud의 상징적인 버스터 소드 크기 조정 검토 사실 공개",
-      "content_summary_kr": "Final Fantasy 7 Rebirth 디렉터 Naoki Hamaguchi, Remake 제작 당시 현실감을 위해 Cloud의 상징적인 버스터 소드 크기 축소를 논의했으나 아이콘으로서의 가치가 너무 커서 원본 디자인 유지를 결정했다고 밝힘. Cloud가 한 손으로 휘두르는 검의 무게감이 현실성을 약화시킬 수 있다는 우려가 있었으나, 최종적으로 시리즈의 정체성을 지키는 방향을 선택.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "'It Was the Moral Core' – Russell Crowe Takes Aim at Gladiator 2 and the Changes it Made to Maximus as a Character",
-      "url": "https://www.ign.com/articles/it-was-the-moral-core-russell-crowe-takes-aim-at-gladiator-2-and-the-changes-it-made-to-maximus-as-a-character",
-      "date": "2025-12-10 04:48",
-      "comments": 31,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/11/03/gladiator-crowe-thumb-1762212733652.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Russell Crowe is ready to talk about Gladiator 2, and he’s not exactly happy with how Ridley Scott’s sequel ties in with the original.\nCrowe, who won an Oscar for his lead role as Maximus in the 2000 Best Picture winner, spoke about his disappointment in its long-awaited follow-up during an interview with Australian radio station Triple J. He begins airing his grievances by referring to the film as a “sequel that we don’t have to name out loud” but quickly makes his target clear.\n“It wasn’t the pomp. It wasn’t the circumstance. It wasn’t the action. It was the moral core,” Crowe explains. “And the thing is there was a daily fight on that set. It was a daily fight to keep that moral core of the character. The amount of times they suggested sex scenes and stuff like that for Maximus, it’s like, you’re taking away his power.”\nThe area the actor specifically takes issue with is the existence of Gladiator 2’s main character, Lucius (Paul Mescal). It is eventually revealed that Lucius is the",
-      "media": "IGN",
-      "title_kr": "'그것이 도덕적 핵심이었다' – Russell Crowe, Gladiator 2와 Maximus 캐릭터 변경에 대해 비판",
-      "content_summary_kr": "Russell Crowe가 Gladiator 2에 대한 실망감을 표명하며, 원작에서 Maximus 캐릭터의 도덕적 핵심을 지키기 위해 매일 싸워야 했던 과정을 회상. 제작진이 제안한 섹스 신 등이 캐릭터의 힘을 약화시킨다고 주장하며, 속편의 주요 캐릭터 Lucius(Paul Mescal)의 존재 자체에 대해 문제를 제기함.",
-      "category": "IP & 콜라보",
-      "game_relevance": 0.0
-    },
-    {
-      "title": "Battlefield 6 Devs Leave Wicked Grin Skin Almost Unrecognizable After Community Calls Out Bright Colors",
-      "url": "https://www.ign.com/articles/battlefield-6-devs-leave-wicked-grin-skin-almost-unrecognizable-after-community-calls-out-bright-colors",
-      "date": "2025-12-10 03:22",
-      "comments": 24,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/battlefield-6-wicked-grin-1765303012336.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Notorious Battlefield 6 skin Wicked Grin has had its colors toned down once again, but this time, players are celebrating the removal of, well, its Wicked Grin.\nBattlefield Studios launched update 1.1.3.0 alongside its Season 1 finale, Winter Offensive, today. Although patch notes covered sweeping changes to Breakthrough, hit registration, and the overall audio experience, much of the online community was pleased to see the update tackle one of the EA FPS’s biggest controversies.\nYou may recognize the above Support cosmetic as the Wicked Grin skin. While the clothing items themselves seem to be largely unchanged (minus one new bright yellow armband), the outfit’s standout features have been almost completely reworked. Where there were once bright blue colors highlighting the infantry class, players will now find muted tones and the complete removal of the toothy smile the skin originally earned its name from.\nThe Wicked Grin changes exist as what many in the Battlefield 6 community are",
-      "media": "IGN",
-      "title_kr": "Battlefield 6 개발진, 커뮤니티의 밝은 색상 지적에 따라 Wicked Grin 스킨을 거의 알아볼 수 없을 정도로 변경",
-      "content_summary_kr": "Battlefield 6가 업데이트 1.1.3.0을 통해 논란이 되었던 Wicked Grin 스킨의 색상을 대폭 수정. 밝은 파란색을 차분한 톤으로 변경하고 스킨 이름의 유래가 된 이빨 모양의 미소 디자인을 완전히 제거하여, 커뮤니티의 지나치게 화려한 색상에 대한 불만을 반영한 조치.",
-      "category": "업데이트 & 패치",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Call of Duty Will No Longer Do Back-to-back Releases of Modern Warfare or Black Ops Games",
-      "url": "https://www.ign.com/articles/call-of-duty-will-no-longer-do-back-to-back-releases-of-modern-warfare-or-black-ops-games",
-      "date": "2025-12-10 09:03",
-      "comments": 18,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/02/blackopsthumb-1764696477235.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Call of Duty will no longer release multiple Black Ops or Modern Warfare games back-to-back, after two Modern Warfare releases in 2022 and 2023, and two Black Ops releases in 2024 and 2025, respectively, and negative feedback and concerning sales reports for the most recent release, Black Ops 7.\nThis news was delivered from \"the Call of Duty team\" (encompassing studios Treyarch, Sledgehammer, Infinity Ward, and Raven Software) on the official website, in a post that acknowledged the criticism of Black Ops 7 as well as broader criticism of the franchise in recent years. As the post opens:\nThe post goes on to state a number of changes the Call of Duty studios will be making going forward. For starters, they're opening up Black Ops 7's multiplayer zombies mode for a free trial and Double XP weekend next week, in an effort to get those who have hesitated on Black Ops 7 to \"experience the game firsthand and decide for yourselves.\" They also are committing to \"unprecedented season support,\" ",
-      "media": "IGN",
-      "title_kr": "Call of Duty, Modern Warfare와 Black Ops 게임 연속 출시 중단 선언",
-      "content_summary_kr": "Call of Duty 개발진이 2022~2023년 Modern Warfare 연속 출시와 2024~2025년 Black Ops 연속 출시 이후, 최신작 Black Ops 7의 부정적 피드백과 저조한 판매량을 인정하며 같은 시리즈의 연속 출시를 중단하겠다고 발표. Black Ops 7 멀티플레이어 좀비 모드 무료 체험과 Double XP 이벤트 제공 및 전례 없는 시즌 지원을 약속함.",
-      "category": "규제 & 이슈",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "First Official The Boys Video Game Is a VR Exclusive for Meta Quest 3 and PlayStation VR2",
-      "url": "https://www.ign.com/articles/first-official-the-boys-video-game-is-a-vr-exclusive-for-meta-quest-3-and-playstation-vr2",
-      "date": "2025-12-09 20:49",
-      "comments": 12,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/499307339-2046296299503875-6926551253292088465-n-1765280842962.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "The first official The Boys video game is a virtual reality exclusive for Meta Quest 3 and PlayStation VR2.\nSony Pictures Virtual Reality and developer Arvore announced their collaboration for The Boys: Trigger Warning, which is due out spring 2026 priced $23.99. It’s described as a stealth-action VR game that puts players “on the front lines of the war against Supes.” The debut trailer is below.\nYou play an original character who accidentally uncovers a “grotesque Vought secret that turns a family outing into carnage.” You’re then forced to become a Supe, and join forces with The Boys to infiltrate Vought and “take revenge in the most chaotic way possible.”\nThere are a number of familiar characters in the game, and cast members from the hit Prime Video show reprise their roles. Expect to see Laz Alonso as Mother’s Milk, Colby Minifie as Ashley Barrett, as and P.J. Byrne as Adam Bourke. Jensen Ackles also appears as a “twisted interpretation” of Soldier Boy, created exclusively for the",
-      "media": "IGN",
-      "title_kr": "첫 공식 The Boys 비디오 게임, Meta Quest 3와 PlayStation VR2 독점 VR 게임으로 출시",
-      "content_summary_kr": "Sony Pictures Virtual Reality와 개발사 Arvore가 2026년 봄 23.99달러 가격으로 출시 예정인 VR 스텔스 액션 게임 'The Boys: Trigger Warning'을 Meta Quest 3와 PlayStation VR2 독점으로 발표. 플레이어는 Vought의 비밀을 우연히 발견한 오리지널 캐릭터가 되어 Supe로 변신하고 The Boys와 협력하여 복수하는 내용이며, 드라마 원작 배우들인 Laz Alonso, Colby Minifie, Jensen Ackles 등이 성우로 참여.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
     {
       "title": "Lego's Legend Of Zelda Deku Tree Model Gets Rare Discount",
       "url": "https://www.gamespot.com/articles/lego-the-legend-of-zelda-great-deku-tree-nintendo-building-set/1100-6523747/",
@@ -152,36 +9,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4309133-great-deku-tree-main.jpg",
       "body": "Lego The Legend of Zelda: Great Deku Tree 2-in-1\n$265 (was $300) | 2,500 Pieces\nThe Legend of Zelda fans can save on Lego's 2-in-1 Great Deku Tree building set at Woot right now. The Amazon-owned retailer has the 2,500-piece display model for $265 (was $300). Woot's Lego deals tend to sell out fast, especially on pricey models that almost always sell for full price at major retailers. This is the second time Woot has had a deal on Lego's Great Deku Tree, and the previous deal sold out in hours.\nThis awesome Lego set lets Zelda fans build the Deku Tree based on its appearance in Breath of the Wild or Ocarina of Time. The Great Deku Tree launched in September 2024 on the Lego Store and at major retailers in January 2025. It's the first and currently only Zelda Lego set, but Lego recently teased a new release for 2026.\nThe Great Deku Tree is one of numerous pricey Lego sets on sale at Woot. The deals officially end December 12, but all of the discounted sets will probably sell out before ",
       "media": "GameSpot",
-      "title_kr": "Lego의 The Legend of Zelda Deku Tree 모델, 드문 할인 진행",
-      "content_summary_kr": "Amazon 계열사 Woot에서 Lego The Legend of Zelda Great Deku Tree 2-in-1 세트(2,500피스)를 기존 300달러에서 265달러로 할인 판매 중. 2024년 9월 출시된 이 세트는 Breath of the Wild 또는 Ocarina of Time 버전의 Deku Tree를 선택해 제작할 수 있으며, 현재 유일한 Zelda Lego 제품으로 이전 할인 시 몇 시간 만에 매진된 바 있음.",
+      "title_kr": "Lego의 Legend Of Zelda Deku Tree 모델, 이례적인 할인 진행",
+      "content_summary_kr": "Amazon 계열 리테일러 Woot에서 Lego의 Legend of Zelda Great Deku Tree 2-in-1 세트(2,500피스)를 정가 $300에서 $265로 할인 판매 중. 2024년 9월 출시된 이 제품은 현재 유일한 Zelda Lego 세트이며, Breath of the Wild 또는 Ocarina of Time 버전 중 하나로 제작 가능. Woot의 Lego 할인 상품은 빠르게 품절되는 경향이 있어 조기 마감 예상.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.6
-    },
-    {
-      "title": "Tomb Raider: Sigourney Weaver in Talks to Join Live-Action Prime Video Show",
-      "url": "https://www.ign.com/articles/tomb-raider-sigourney-weaver-in-talks-to-join-live-action-prime-video-show",
-      "date": "2025-12-10 06:02",
-      "comments": 9,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/sigourney-weaver-1765312695165.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Sigourney Weaver may soon swing into the world of Prime Video’s next video game adaptation, as the Alien star is reportedly in talks to join the cast of the new Tomb Raider show.\nA Deadline report says Weaver, who will appear in Avatar: Fire and Ash next week and The Mandalorian and Grogu in 2026, is currently in active negotiations to appear in the series in an undisclosed role. Her deal with Amazon has not yet been finalized.\nShould Weaver board the latest crack at a live-action Tomb Raider adaptation, she’ll join Game of Thrones alum Sophie Turner, who has been confirmed to star as Lara Croft. Phoebe Waller-Bridge (Fleabag, Indiana Jones and the Dial of Destiny) is attached as creator, writer, and executive producer on the show, which is expected to begin production January 19, 2026. Chad Hodge is also involved as executive producer and co-showrunner, with Jonathan Van Tulleken in the mix as director and executive producer.\nThe Prime Video Tomb Raider series comes from Story Kitchen",
-      "media": "IGN",
-      "title_kr": "Tomb Raider: Sigourney Weaver, Prime Video 실사 시리즈 출연 협상 중",
-      "content_summary_kr": "Alien 시리즈로 유명한 Sigourney Weaver가 Prime Video의 Tomb Raider 실사 시리즈 출연을 위해 Amazon과 협상 중. Sophie Turner가 Lara Croft 역으로 확정되었으며, Phoebe Waller-Bridge가 제작자 겸 작가로 참여하고 2026년 1월 19일 제작 시작 예정.",
-      "category": "IP & 콜라보",
-      "game_relevance": 0.6
-    },
-    {
-      "title": "IGN Readers Hate Running Back to Fight Hollow Knight: Silksong's Groal Over and Over Again",
-      "url": "https://www.ign.com/articles/ign-readers-say-silksongs-bilewater-boss-has-the-worst-runback-in-a-souls-game",
-      "date": "2025-12-10 01:46",
-      "comments": 7,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/09/11/silksong-hunters-march-bench-1757554598007.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "\"What defines a Soulslike?\" is a question I would not dare to try and answer on IGN given the myriad viewpoints on it out there, but one oft-discussed feature of FromSoftware's games at least is the \"runback\", or the... well, run back to a boss after you've died to it, especially when there's a significant distance or challenge involved. Not a lot of games have these. FromSoftware and Hollow Knight games have some heinous ones.\nHow heinous? Truly heinous, if the many internet threads and discussions complaining about some of them are any indication. But we wanted to know, which one is the worst?\nWe ran a poll on IGN last month where we asked readers to vote on the Soulslike boss with the worst runback. To populate our poll options, I consulted a number of sources. I asked our Soulslike experts here at IGN, I asked for suggestions on Bluesky, and I went back to several old Reddit threads in various Souls communities where fans lamented horrible runbacks to see what was complained about ",
-      "media": "IGN",
-      "title_kr": "IGN 독자들, Hollow Knight: Silksong의 보스 Groal 재도전 이동 경로에 극심한 불만 표출",
-      "content_summary_kr": "IGN이 Soulslike 게임 중 보스 재도전 시 가장 최악의 이동 경로(runback)를 묻는 설문조사 실시. FromSoftware와 Hollow Knight 시리즈가 특히 악명 높은 runback으로 유명하며, IGN은 전문가 의견과 Reddit 커뮤니티 불만 사례를 수집해 설문 항목 구성.",
-      "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.85
+      "game_relevance": 0.3,
+      "importance": 0.1
     },
     {
       "title": "New Switch 2 System Update Rolling Out, And You Probably Know What It Does",
@@ -191,10 +23,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1813/18138562/4619701-switch2.png",
       "body": "Stability is nice to have in life. And Nintendo clearly believes it's good for the company's hybrid consoles. That's why updates improving stability for Switch 2 and the original Switch are now available, bringing both hardware versions up to 21.1.0.\nNintendo started rolling out the new system updates for Switch and Switch 2 yesterday, December 8. Both patch notes are the same: \"General system stability improvements to enhance the user's experience.\" This is also the same language from a Switch 2 update in September, and stability patches have been joked about regarding Nintendo for years at this point.\nNow Playing: Metroid Prime 4 Beyond Review\nHowever, last month brought a beefier update to Switch 2 and Switch. Nintendo added better visual clarity on the home menu regarding digital and physical games as well as GameChat improvements, for example. The patch did bring about more stability improvements, too.\nSince releasing in June, Switch 2 has already sold 10 million units, smashing r",
       "media": "GameSpot",
-      "title_kr": "Switch 2 새 시스템 업데이트 배포 중, 내용은 예상 가능",
-      "content_summary_kr": "Nintendo가 Switch 2와 오리지널 Switch의 시스템 버전 21.1.0 업데이트를 12월 8일부터 배포. 이번 업데이트는 '사용자 경험 향상을 위한 전반적인 시스템 안정성 개선'만을 포함하며, Nintendo의 전형적인 안정성 패치로 확인. 지난달에는 홈 메뉴 시각적 개선 및 GameChat 기능 향상 등 보다 실질적인 업데이트가 제공된 바 있음.",
+      "title_kr": "새로운 Switch 2 시스템 업데이트 배포, 내용은 예상 가능",
+      "content_summary_kr": "Nintendo가 Switch 2와 기존 Switch에 대한 21.1.0 버전 시스템 업데이트를 12월 8일부터 배포 중. 업데이트 내용은 '사용자 경험 향상을 위한 전반적인 시스템 안정성 개선'으로, Nintendo가 수년간 반복해온 안정성 패치와 동일한 내용임. 지난달에는 홈 메뉴의 디지털/물리 게임 표시 개선 및 GameChat 기능 향상 등 보다 실질적인 업데이트가 있었으며, 6월 출시된 Switch 2는 이미 1,000만 대 판매를 돌파함.",
       "category": "업데이트 & 패치",
-      "game_relevance": 0.9
+      "game_relevance": 0.8,
+      "importance": 0.3
     },
     {
       "title": "Lord Of The Rings Lego Sets On Sale For Big Discounts, But Probably Not For Long",
@@ -204,49 +37,25 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/4619622-legolordoftherings.png",
       "body": "The Lord of the Rings: Barad-dur Lego Set (5,471 Pieces)\n$400 (was $460)\nThe Lord of the Rings: Rivendell Lego Set (6,167 Pieces)\n$440 (was $500)\nThe two largest Lord of the Rings Lego sets are on sale at Amazon-owned retailer Woot. From now until December 12, while supplies last, Lord of the Rings fans can save $60 on the 5,471-piece Barad-dur tower and the 6,167-piece Rivendell Lego set. Both sets are part of the Lego Icons line and almost always sell for full price at major retailers. Woot's Lego deals typically sell out fast; in fact, both of these sets sold out in hours when they were featured in Woot's Black Friday sale last month.\nTake a look at these massive Lego Lord of the Rings models below. We also added a list of more Lego deals at Woot at the bottom of this story, including The Legend of Zelda: The Great Deku Tree, Dungeons & Dragons: Red Dragon's Tale, and several Star Wars UCS models.\nThis $460 Lord of the Rings set includes 5,471 pieces, and the completed build stretch",
       "media": "GameSpot",
-      "title_kr": "Lord Of The Rings Lego 세트, 대폭 할인 판매 중이나 조기 품절 예상",
-      "content_summary_kr": "Amazon 계열 쇼핑몰 Woot에서 12월 12일까지 Lord of the Rings Lego 세트 2종을 60달러 할인 판매. Barad-dur(5,471피스)는 400달러, Rivendell(6,167피스)는 440달러에 구매 가능하며, 지난 Black Friday 세일 때 수 시간 만에 품절된 바 있어 조기 품절 전망.",
-      "category": "IP & 콜라보",
-      "game_relevance": 0.3
+      "title_kr": "Lord Of The Rings Lego 세트, 대폭 할인 판매 중이지만 오래가지 않을 전망",
+      "content_summary_kr": "Amazon 소유 리테일러 Woot에서 12월 12일까지 Lord of the Rings Lego 세트 2종을 60달러 할인 판매. 5,471피스의 Barad-dur 타워는 400달러, 6,167피스의 Rivendell 세트는 440달러에 판매 중이며, 지난 Black Friday 세일 때 몇 시간 만에 품절된 인기 상품으로 조기 품절 예상.",
+      "category": "커뮤니티 & 이벤트",
+      "game_relevance": 0.3,
+      "importance": 0.1
     },
     {
-      "title": "Pokémon Card Thieves Caught on Camera in $100,000 Robbery That's Just the Latest of Its Kind in Southern California",
-      "url": "https://www.ign.com/articles/pokmon-thieves-steal-cards-worth-100000-in-latest-californian-store-heist",
-      "date": "2025-12-09 20:21",
-      "comments": 4,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/your-opinions-on-team-rocket-v0-3pghw9mrlewb1-1765278619188.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Thieves keen to steal Pokémon cards have struck again in Southern California, turning over a Burbank store and taking more than $100,000 of stock.\nThe robbery is just the latest in a string of similar incidents across the region, KTLA5 reports, where three masked figures were seen raiding card shops and escaping within minutes.\nLA Sports Cards' Burbank shop was hit last week, on December 2, in a high-speed theft that was over in just three minutes. During that time, the thieves crowbarred open the outlet's door and made multiple trips to a waiting vehicle, all while carrying armfuls of Pokémon merchandise.\n\"[For the] vast majority, they were targeting Pokémon cards,\" store owner Kiet Nguyen said. \"They did take some locked boxes from the back that had sports cards... They were targeting liquid assets, Pokémon is so easy to sell these days that sealed product, everyone has it. So it wouldn't raise any suspicion if someone was to sell it, it's available everywhere.\"\nAlongside new Pokémon",
-      "media": "IGN",
-      "title_kr": "Southern California에서 발생한 10만 달러 규모 Pokémon 카드 절도 사건, 용의자들이 CCTV에 포착됨",
-      "content_summary_kr": "Southern California Burbank 지역의 카드 상점에서 복면을 쓴 절도범 3명이 3분 만에 10만 달러 상당의 Pokémon 카드를 훔치는 사건 발생. 이 지역에서 최근 유사한 Pokémon 카드 절도 사건이 연이어 발생 중이며, 절도범들은 쉽게 현금화할 수 있는 봉인된 Pokémon 제품을 주요 타깃으로 삼고 있음. 매장 주인 Kiet Nguyen은 절도범들이 어디서나 구할 수 있는 Pokémon 카드가 의심을 사지 않고 판매하기 쉬운 유동 자산이라며 범행 동기를 설명함.",
-      "category": "규제 & 이슈",
-      "game_relevance": 0.3
-    },
-    {
-      "title": "Prime Video Releases First Images of Young Sherlock Played By Hero Fiennes Tiffin",
-      "url": "https://www.ign.com/articles/prime-video-releases-first-images-of-young-sherlock-played-by-hero-fiennes-tiffin",
-      "date": "2025-12-10 01:51",
+      "title": "Sony Might Have Leaked Leon Kennedy In Resident Evil Requiem",
+      "url": "https://www.gamespot.com/articles/sony-might-have-leaked-leon-kennedy-in-resident-evil-requiem/1100-6536800/",
+      "date": "2025-12-10 03:38",
       "comments": 3,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/sherlock-main-1765299103549.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "My dear Watson, Prime Video just released first-look images for their upcoming series Young Sherlock, which will star Hero Fiennes Tiffin as Holmes himself.\nThe streamer released eight images that highlight Tiffin and other actors in \"the origin story of Sherlock Holmes\" which is set to be an \"irreverent, action-laden mystery that follows the iconic detective’s early adventures.\" According to Prime, the show will follow \"the origin story of Sir Arthur Conan Doyle’s beloved detective in an explosive re-imagining of this iconic character’s early days.\"\nAs for the full synopsis: \"Sherlock Holmes is a disgraced young man – raw and unfiltered – when he finds himself wrapped up in a murder case that threatens his liberty. His first ever case unravels a globe-trotting conspiracy that changes his life forever. Unfolding in 1870s Oxford and adventuring abroad, the series will expose the early antics of the anarchic adolescent who is yet to evolve into Baker Street’s most renowned resident.\"\nAlo",
-      "media": "IGN",
-      "title_kr": "Prime Video, Hero Fiennes Tiffin 주연의 'Young Sherlock' 첫 공개 이미지 공개",
-      "content_summary_kr": "Prime Video가 Hero Fiennes Tiffin이 젊은 Sherlock Holmes 역을 맡은 신규 시리즈 'Young Sherlock'의 첫 공개 이미지 8장을 공개. 1870년대 Oxford를 배경으로 Arthur Conan Doyle의 탐정 캐릭터가 Baker Street의 명탐정이 되기 전, 첫 살인 사건에 휘말리며 세계적 음모를 해결하는 젊은 시절의 모험을 다룬 액션 미스터리 시리즈로 제작.",
-      "category": "IP & 콜라보",
-      "game_relevance": 0.0
-    },
-    {
-      "title": "Pokémon Go Has Finally Added Remote Trading — and for Now, There Don't Seem to Be Many Strings Attached",
-      "url": "https://www.ign.com/articles/after-almost-a-decade-pokmon-go-delights-fans-by-finally-adding-remote-trading-and-for-now-there-are-no-strings-attached",
-      "date": "2025-12-09 19:41",
-      "comments": 3,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/unnamed-1765276241311.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Pokémon Go now finally lets players trade creatures from afar — a feature that fans have wanted for almost a decade.\nSince Pokémon Go launched in 2016, the game has been hesitant to allow gameplay that does not encourage players to meet up in person. Remote raiding was only added to the game during the era of Covid lockdowns, and trading has remained locked within a small location radius — until now.\nRemote trading will still require some work to unlock, with the feature available when in-game friends hit a fresh, fifth interaction tier — Forever Friends — that will require a couple of months more levelling beyond Best Friends (though this can be heavily reduced by completing Weekly Challenges).\nOnce Forever Friends, you'll get to make a Remote Trade — and there's a clever system for selecting three creatures you'd be happy to swap, while picking one from your friends' selection. Only when both parties are happy with the matchup will the trade take place.\nSubsequent Remote Trades will ",
-      "media": "IGN",
-      "title_kr": "Pokémon Go, 마침내 원격 교환 기능 추가 — 현재로서는 큰 제약 없어",
-      "content_summary_kr": "Pokémon Go가 2016년 출시 이후 약 10년 만에 원격 거래 기능을 추가함. 해당 기능은 게임 내 친구 관계가 새로운 5단계인 'Forever Friends'에 도달해야 사용 가능하며, Best Friends 달성 후 수개월의 추가 레벨링이 필요함. 양측이 각각 3마리의 포켓몬을 선택해 교환할 수 있는 시스템으로 구현됨.",
-      "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15976769/4619842-rersc.jpg",
+      "body": "While we're still a couple of months away from Resident Evil Requiem's release, it looks like there could be a surprise return awaiting fans. Before it was removed, the PlayStation Store revealed new cover art for the game that featured longtime Resident Evil protagonist Leon Kennedy. PlayStation 5 players noticed the art on the pre-download screen for owners of the standard (non-Deluxe) version of the game.\nIGN later confirmed the art, which showed a stubbled and haggard-looking Leon hovering over Requiem's other main protagonist, Grace Ashcroft. Leon appeared similar to his Resident Evil 4 look, with his fur-lined leather jacket, albeit a bit more grizzled.\nLeon's inclusion in the game has been something that Capcom has vehemently denied, with even producer Masato Kumazawa denouncing alleged leaked images of Leon going around last month. \"There has been a photo lately of Leon with an eyepatch, and just basically saying there's a DLC or a new costume for Leon--but just to make sure, t",
+      "media": "GameSpot",
+      "title_kr": "Sony, Resident Evil Requiem에 Leon Kennedy 등장 실수로 유출 가능성",
+      "content_summary_kr": "Resident Evil Requiem 출시를 앞두고 PlayStation Store가 주인공 Leon Kennedy가 포함된 새로운 커버 아트를 공개했다가 삭제함. Capcom은 그동안 Leon의 게임 등장을 강력히 부인해왔으나, PlayStation 5 예약 다운로드 화면에서 Grace Ashcroft와 함께 있는 Leon의 모습이 포착됨.",
+      "category": "게임 출시 & 발표",
+      "game_relevance": 1.0,
+      "importance": 0.6
     },
     {
       "title": "Games Weren't A Big Part Of Netflix's Attempted WB Takeover",
@@ -256,10 +65,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1837/18375603/4619993-hogwartslegacy.jpg",
       "body": "Last week, Netflix put forth an $82 million deal to purchase Warner Bros. Studios, one of the biggest movie and TV studios in the world. Warner Bros. also has a considerable place in the video game industry with franchises like Batman, Harry Potter, and Mortal Kombat under its domain. However, one Netflix executive has now acknowledged that Warner Bros.' gaming division wasn't a significant factor in considering its bid.\nDuring a Netflix conference call about the potential WB sale, co-CEO Gregory K. Peters expressed some eagerness to exploit the video game franchises under Warner Bros. in the future. But he added that the games were \"relatively minor\" in the company's initial plans and that it may be \"worth going back again to sort of how we thought about the deal and building our valuation model.\"\n\"While they definitely have been doing some great work in the game space, we actually didn’t attribute any value to that from the get-go because they're relatively minor compared to the gran",
       "media": "GameSpot",
-      "title_kr": "Netflix의 Warner Bros. 인수 시도에서 게임 부문은 주요 고려 대상이 아니었음",
-      "content_summary_kr": "Netflix가 Warner Bros. Studios 인수를 위해 820억 달러 규모의 제안을 했으나, 공동 CEO Gregory K. Peters는 Batman, Harry Potter, Mortal Kombat 등의 게임 프랜차이즈를 보유한 Warner Bros.의 게임 부문이 인수 평가에서 '비교적 사소한' 요소였으며 초기 가치 평가에 전혀 반영되지 않았다고 밝힘. Netflix는 향후 게임 프랜차이즈 활용 의향은 있으나 인수 결정의 주요 동인은 영화 및 TV 스튜디오 부문이었음을 확인.",
+      "title_kr": "Netflix의 Warner Bros. 인수 시도에서 게임은 큰 비중 차지하지 않아",
+      "content_summary_kr": "Netflix가 Warner Bros. Studios 인수를 위해 820억 달러 규모의 제안을 했으나, Gregory K. Peters 공동 CEO는 Batman, Harry Potter, Mortal Kombat 등의 게임 프랜차이즈를 보유한 Warner Bros.의 게임 부문이 인수 결정에 있어 '상대적으로 사소한' 요소였다고 언급. Netflix는 초기 기업 가치 평가 모델에서 게임 부문에 대한 가치를 전혀 반영하지 않았으며, 영화 및 TV 스튜디오 사업에 초점을 맞춘 것으로 확인됨.",
       "category": "매출 & 성과",
-      "game_relevance": 0.6
+      "game_relevance": 0.6,
+      "importance": 0.75
     },
     {
       "title": "Pokemon Legends: Z-A Is Giving Away A Very Big Charizard",
@@ -270,9 +80,10 @@
       "body": "The Pokemon Company is giving away another free gift for Pokemon Legends: Z-A players. Ahead of the game's Mega Dimension DLC, you can snag a mighty alpha Charizard for a limited time.\nOn top of being much larger than a typical Charizard, this particular Pokemon is level 36 and knows Solar Beam--a move Charizard normally can only learn via TM. This should make it a helpful partner to have on your team when facing off against the overleveled Pokemon that reside in Hyperspace Lumiose.\nTo claim the free alpha Charizard, fire up your copy of Pokemon Legends: Z-A and do the following:\nThis code will only be valid until January 19, 2026, so you have until then to claim the free Pokemon.\nThis isn't the only free gift you can get right now in Pokemon Legends: Z-A. The Pokemon Company is also giving away Mega Stones for Diancie and Mewtwo. Once you've claimed the stones and cleared the main story, you can undertake special side quests to catch the two legendary Pokemon.\nPokemon Legends: Z-A's M",
       "media": "GameSpot",
       "title_kr": "Pokemon Legends: Z-A, 거대한 Charizard 무료 배포",
-      "content_summary_kr": "The Pokemon Company가 Pokemon Legends: Z-A 플레이어들에게 레벨 36의 알파 Charizard를 2026년 1월 19일까지 무료 배포. 해당 Charizard는 일반 크기보다 훨씬 크며 Solar Beam 기술을 보유하고 있어 Hyperspace Lumiose의 고레벨 포켓몬 대전에 유용. 이 외에도 Diancie와 Mewtwo의 Mega Stone도 함께 무료 제공 중.",
+      "content_summary_kr": "The Pokemon Company가 Pokemon Legends: Z-A 플레이어들에게 레벨 36의 알파 Charizard를 2026년 1월 19일까지 무료로 배포. 이 Charizard는 일반 개체보다 훨씬 크며 통상적으로 TM을 통해서만 배울 수 있는 Solar Beam 기술을 보유. Diancie와 Mewtwo의 Mega Stone도 함께 무료 배포 중.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.1
     },
     {
       "title": "Call Of Duty: Black Ops 7 Is Just $50 On PS5, PS5, And Xbox Right Now",
@@ -282,23 +93,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1701/17013431/4619853-blops7.jpg",
       "body": "Call of Duty: Black Ops 7\n$50 (was $70)\nWith the holiday season drawing close, it's not too late to grab a good deal on some new video games like Call of Duty: Black Ops 7. The latest entry in Activision's long-running FPS franchise is already discounted to just $50 (was $70) at Amazon and Walmart. That's a nearly 30% markdown just one month after its launch. The deal applies to the PlayStation 5, PS4, and Xbox Series X Cross-gen physical standard editions, but we're not sure how long it'll be available at this price--and it looks like stocks are low on PS4 version--so it's wise to pick it up soon.\nThe Call of Duty: Black Ops 7 standard edition contains the full base game--which includes a new single-player campaign, multiplayer, and the latest iteration of the popular Call of Duty: Zombies mode. The Xbox version is a cross-gen edition that lets you play on either Xbox Series X or Xbox One, while the PS5 version is only for Sony's latest console. The PS4 version, however, lets you play",
       "media": "GameSpot",
-      "title_kr": "Call Of Duty: Black Ops 7, PS5·PS4·Xbox에서 현재 50달러에 판매 중",
-      "content_summary_kr": "Activision의 FPS 게임 Call of Duty: Black Ops 7이 출시 한 달 만에 Amazon과 Walmart에서 기존 70달러에서 50달러로 약 30% 할인 판매 중. PlayStation 5, PS4, Xbox Series X 크로스젠 물리 스탠다드 에디션에 할인 적용되며, 싱글 플레이어 캠페인, 멀티플레이어, Zombies 모드 포함.",
+      "title_kr": "Call Of Duty: Black Ops 7, PS5·PS4·Xbox에서 현재 50달러 할인 판매 중",
+      "content_summary_kr": "Call of Duty: Black Ops 7이 출시 한 달 만에 Amazon과 Walmart에서 정가 70달러에서 50달러로 30% 할인 판매 중. PS5, PS4, Xbox Series X 크로스젠 물리 스탠다드 에디션에 할당 적용되며, 싱글플레이 캠페인, 멀티플레이어, Zombies 모드가 포함된 기본 게임 전체 수록.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Sony Might Have Leaked Leon Kennedy In Resident Evil Requiem",
-      "url": "https://www.gamespot.com/articles/sony-might-have-leaked-leon-kennedy-in-resident-evil-requiem/1100-6536800/",
-      "date": "2025-12-10 03:38",
-      "comments": 2,
-      "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15976769/4619842-rersc.jpg",
-      "body": "While we're still a couple of months away from Resident Evil Requiem's release, it looks like there could be a surprise return awaiting fans. Before it was removed, the PlayStation Store revealed new cover art for the game that featured longtime Resident Evil protagonist Leon Kennedy. PlayStation 5 players noticed the art on the pre-download screen for owners of the standard (non-Deluxe) version of the game.\nIGN later confirmed the art, which showed a stubbled and haggard-looking Leon hovering over Requiem's other main protagonist, Grace Ashcroft. Leon appeared similar to his Resident Evil 4 look, with his fur-lined leather jacket, albeit a bit more grizzled.\nLeon's inclusion in the game has been something that Capcom has vehemently denied, with even producer Masato Kumazawa denouncing alleged leaked images of Leon going around last month. \"There has been a photo lately of Leon with an eyepatch, and just basically saying there's a DLC or a new costume for Leon--but just to make sure, t",
-      "media": "GameSpot",
-      "title_kr": "Sony, Resident Evil Requiem에 Leon Kennedy 등장 실수로 유출",
-      "content_summary_kr": "Resident Evil Requiem 출시를 앞두고 PlayStation Store의 사전 다운로드 화면에 주인공 Leon Kennedy가 등장하는 커버 아트가 노출되었다가 삭제됨. Capcom은 지난달부터 Leon의 게임 등장 가능성을 강력히 부인해왔으나, IGN이 해당 이미지를 확인하면서 Leon의 깜짝 등장 가능성이 높아진 상황.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.1
     },
     {
       "title": "Capcom Has Plans For More Mega Man, Devil May Cry, and Ace Attorney titles",
@@ -309,9 +108,10 @@
       "body": "For the last few years, Capcom has been laser-focused on its core franchises like Street Fighter, Resident Evil, and Monster Hunter. Now, Capcom's latest disclosure to investors indicates that the company wants to expand and revisit three of its other franchises: Mega Man, Devil May Cry, and Ace Attorney.\nCapcom's 2025 Integrated Report is online, and it notes that Mega Man, Devil May Cry, and Ace Attorney are the fourth-, fifth-, and seventh-highest-grossing franchises in Capcom's history. COO Haruhiro Tsujimoto mentioned those three games specifically as intellectual properties that the company wants to expand upon.\n\"We consistently release two to three major new titles each year, but recognize the need to grow our pipeline going forward,\" said Tsujimoto. \"Capcom owns a wealth of globally popular brands, such as Mega Man, Devil May Cry, and Ace Attorney. We aim to expand our user base and improve our performance through new releases, remakes, and ports of titles in these series to ne",
       "media": "GameSpot",
       "title_kr": "Capcom, Mega Man, Devil May Cry, Ace Attorney 신작 계획 보유",
-      "content_summary_kr": "Capcom이 2025 투자자 보고서를 통해 Mega Man, Devil May Cry, Ace Attorney 프랜차이즈 확장 계획 공개. COO Haruhiro Tsujimoto는 이들 IP가 자사 역대 매출 4위, 5위, 7위 프랜차이즈라며, 신작 출시, 리메이크, 포팅을 통해 사용자 기반 확대 및 실적 개선을 목표로 한다고 발표.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 0.95
+      "content_summary_kr": "Capcom이 2025 투자자 보고서를 통해 Mega Man, Devil May Cry, Ace Attorney 프랜차이즈 확장 계획을 공개. 해당 시리즈들은 Capcom 역대 매출 4위, 5위, 7위를 기록한 IP로, COO Haruhiro Tsujimoto는 신작 출시, 리메이크, 포팅을 통해 사용자 기반 확대 및 성과 개선을 목표로 한다고 발표.",
+      "category": "매출 & 성과",
+      "game_relevance": 1.0,
+      "importance": 0.75
     },
     {
       "title": "PlayStation 2025 Wrap-Up: See How Much You Played This Year",
@@ -321,10 +121,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4619808-ps-wrap.jpg",
       "body": "Yearly wraps have become an annual tradition across various platforms, and PlayStation is no exception. The PlayStation Wrap website has gone live, and once again, members of the PlayStation community can explore the total number of hours spent across single-player and multiplayer games. You'll have until January 8 to check out your stats--PlayStation Wrap-Up will continue to update until then--and users can redeem a unique glass-themed avatar once they complete their tour down memory lane.\nThis year's PlayStation Wrap-Up also includes a look at the number of games played on PS5 and PS4, a closer look at your gaming style, and even the DualSense controller you used the most. If you've used other PlayStation accessories, such as PlayStation VR2 or the PlayStation Portal handheld, those stats will also be included in your personal wrap-up. Additionally, you can get a brief look at how active you were on PlayStation Plus throughout the year, and Sony is also offering a curated list of rec",
       "media": "GameSpot",
-      "title_kr": "PlayStation 2025 Wrap-Up: 올해 얼마나 플레이했는지 확인",
-      "content_summary_kr": "PlayStation이 연간 게임 활동 통계를 확인할 수 있는 PlayStation Wrap 웹사이트를 공개. 1월 8일까지 PS5와 PS4에서 플레이한 게임 시간, 게임 스타일, 사용한 DualSense 컨트롤러, PlayStation VR2 및 PlayStation Portal 등 액세서리 사용 통계를 확인할 수 있으며, 통계 확인 완료 시 유리 테마 아바타 제공.",
+      "title_kr": "PlayStation 2025 Wrap-Up: 올해 당신의 플레이 시간 확인",
+      "content_summary_kr": "PlayStation이 2025년 연간 게임 통계를 확인할 수 있는 PlayStation Wrap 웹사이트를 오픈. 1월 8일까지 PS5/PS4에서 플레이한 게임 수, 싱글/멀티플레이 시간, DualSense 컨트롤러 사용 현황, PS VR2 및 PlayStation Portal 활동 통계 등을 확인할 수 있으며, 통계 확인 완료 시 유리 테마 아바타 제공.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.8
+      "game_relevance": 0.7,
+      "importance": 0.3
     },
     {
       "title": "Xbox Teases \"A Lot Of Exciting Things\" To Be Announced In 2026",
@@ -334,10 +135,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/4619786-xbox.jpg",
       "body": "Xbox's Jason Ronald has teased that Microsoft has \"a lot of exciting things to share\" in 2026 for the Xbox's 25th anniversary. Speaking to the BBC, Ronald was asked specifically if more Original Xbox games would be coming to Xbox Game Pass. Ronald didn't confirm anything outright but said fans have a lot to look forward to for the anniversary next year.\n\"I can't announce anything today, but 2026 is the 25th anniversary of Xbox. And we want to celebrate the great legacy and the history that we have at Xbox, as well as defining the future of where the Xbox ecosystem is going,\" he said. \"So, I can't confirm or deny what you are asking, but stay tuned. We have a lot of exciting things to share next year.\"\nAlso in the interview, Ronald said Xbox feels \"a need but also a responsibility\" to preserve games from the past and \"enable them to be played in entirely new ways.\"\nBeyond the possible addition of more Original Xbox games for Game Pass in 2026, Microsoft will release Halo: Campaign Evolv",
       "media": "GameSpot",
-      "title_kr": "Xbox, 2026년 \"많은 흥미로운 것들\" 발표 예고",
-      "content_summary_kr": "Xbox의 Jason Ronald이 2026년 Xbox 25주년을 맞아 \"많은 흥미로운 것들을 공유할 것\"이라고 예고함. 구체적인 내용은 밝히지 않았으나 Xbox의 유산을 기념하고 미래를 정의할 계획이며, 과거 게임들을 보존하고 새로운 방식으로 플레이할 수 있도록 할 책임이 있다고 언급함.",
+      "title_kr": "Xbox, 2026년에 \"많은 흥미로운 것들\" 발표 예고",
+      "content_summary_kr": "Xbox의 Jason Ronald이 2026년 Xbox 25주년을 맞아 \"공유할 흥미로운 것들이 많다\"고 예고. 그는 Xbox의 유산을 기념하고 생태계의 미래를 정의하겠다고 밝혔으며, 과거 게임을 보존하고 새로운 방식으로 플레이할 수 있도록 할 책임이 있다고 강조. Original Xbox 게임의 Game Pass 추가 가능성을 암시하며 구체적인 발표는 내년을 기다려 달라고 언급.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 0.85
+      "game_relevance": 0.8,
+      "importance": 0.6
     },
     {
       "title": "Rumored Assassin's Creed IV: Black Flag Remake Has A Really Silly Title, According To Rating",
@@ -347,10 +149,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1850/18504982/4619717-ac4_ss4_full.jpg",
       "body": "Evidence of a remake or remaster of the fan-favorite Assassin's Creed IV: Black Flag is solidifying, with a listing from European content-rating board PEGI emerging.\nAccording to the PEGI listing, the re-release of the Ubisoft classic is titled Assassin's Creed Black Flag Resynced, and it unsurprisingly has an 18 adults-only rating for violence, language, and in-game purchases. Ratings are generally a sign that a title's release is imminent.\n\"Resynced\" is an amusing subtitle for a re-release, most likely referring to the in-universe Animus virtual reality machine that lets the player character experience historical events through an avatar, \"syncing\" them with memories of someone else from that time period. If you really want to make a stretch, \"Resynced\" could be a nautical pun.\nThe existence of this Black Flag revisit has been an open secret in the industry for years, with leaks dating back to 2023 and voice actors hinting about the project. Per reports as recent as this November, th",
       "media": "GameSpot",
-      "title_kr": "Assassin's Creed IV: Black Flag 리메이크로 추정되는 작품, 등급 심사에서 다소 이상한 제목 확인",
-      "content_summary_kr": "유럽 콘텐츠 등급 심사 기관 PEGI에 'Assassin's Creed Black Flag Resynced'라는 제목으로 등록되며 Black Flag 리메이크 존재 사실상 확정. 'Resynced'는 작중 Animus 가상현실 기기의 '동기화' 개념을 활용한 부제로 추정되며, 18세 이용가 등급 부여. 2023년부터 누출 정보와 성우들의 힌트가 있었으며, 등급 심사 등록은 출시 임박을 의미하는 신호.",
+      "title_kr": "소문으로 떠돈 Assassin's Creed IV: Black Flag 리메이크, 등급 심사에서 다소 우스꽝스러운 제목 확인",
+      "content_summary_kr": "유럽 콘텐츠 등급 심사 기관 PEGI에 'Assassin's Creed Black Flag Resynced'라는 제목으로 등록되며 팬들에게 사랑받았던 Assassin's Creed IV: Black Flag의 리메이크 또는 리마스터 증거가 구체화. 'Resynced'라는 부제는 게임 내 Animus 가상현실 기기의 '동기화' 개념을 참조한 것으로 추정되며, 폭력성과 인게임 결제로 인해 성인 등급 부여. 2023년부터 리크와 성우들의 암시를 통해 업계 내 공공연한 비밀이었던 이 프로젝트의 출시가 임박한 것으로 판단.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "One Year Ago, Indiana Jones And The Great Circle Reminded Us How Hilarious The Series Is",
@@ -360,36 +163,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1585/15855271/4619721-ss_8221cf729bc6491919a8532679be64f1c67dcdaf.1920x1080.jpg",
       "body": "Indiana Jones and the Great Circle is celebrating its one-year anniversary today, December 9, 2025. Below, we look back at how it uniquely translated the adventurous and comedic spirit of the original movies in video game form.\nThere are several expectations that come with an Indiana Jones video game--it's a legacy franchise and a known quantity, having chugged along across various media since the franchise's inception in 1981. Among the checklist items for any Indy game are whip-swinging traversal, puzzle-solving in exotic locales, and fascist-punching action.\nIndiana Jones and the Great Circle certainly has all of the expected elements, but studio MachineGames went far beyond what anyone thought an Indiana Jones video game could be. In a post-Uncharted world, it would be hard to blame a AAA studio if it just followed Naughty Dog's cinematic game formula, made Indiana Jones basically Nathan Drake with a fedora, and called it a day with little shame.\nInstead, the Great Circle places yo",
       "media": "GameSpot",
-      "title_kr": "1년 전, Indiana Jones And The Great Circle이 시리즈의 유머를 상기시킴",
-      "content_summary_kr": "2024년 12월 9일 출시 1주년을 맞은 Indiana Jones and the Great Circle이 원작 영화의 모험과 코미디 정신을 게임으로 성공적으로 구현했다는 평가. 개발사 MachineGames는 Uncharted 스타일의 영화적 게임 공식을 따르지 않고 독창적인 접근 방식으로 Indiana Jones 게임의 기대치를 뛰어넘는 작품을 완성했다는 회고.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Assassin's Creed Black Flag Resynced Is the Remakes Official Title - IGN Daily Fix",
-      "url": "https://www.ign.com/videos/assassins-creed-black-flag-resynced-is-the-remakes-official-title-ign-daily-fix",
-      "date": "2025-12-10 06:56",
-      "comments": 2,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/gfix-120925-blogroll2-1765312807013.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "In today's Daily Fix:\nThe latest leak for Ubisoft's still-unannounced Assassin's Creed Black Flag remake may have revealed the game's official title. Assassin's Creed Black Flag Resynced appeared on the PEGI ratings website, but has since been pulled, lending credence to the title's legitimacy. Ubisoft has yet to confirm its existence, but a previous financial results presentation teased an unannounced game for March 31, 2026. In other gaming leaks news, the PlayStation store may have revealed a major franchise character returning to Resident Evil. Art for Resident Evil Requiem features Leon S. Kennedy prominently along with new character Grace Ashcroft. Kennedy has not been featured in a mainline Resident Evil game since Resident Evil 6 back in 2012. Expect a proper reveal at The Game Awards later this week. And finally, take a peek into a four-park family vacation at Universal Orlando Resort.\nPresented by Universal Orlando Resort.",
-      "media": "IGN",
-      "title_kr": "Assassin's Creed Black Flag Resynced가 리메이크의 공식 타이틀 - IGN Daily Fix",
-      "content_summary_kr": "Ubisoft의 미발표 Assassin's Creed Black Flag 리메이크 작품의 공식 명칭이 'Assassin's Creed Black Flag Resynced'로 PEGI 등급 심사 웹사이트에서 유출. Resident Evil Requiem의 PlayStation 스토어 아트워크를 통해 Leon S. Kennedy가 2012년 Resident Evil 6 이후 처음으로 메인 시리즈 복귀 예정임이 공개.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
-    },
-    {
-      "title": "Fortnite's Ninjago: Rise of the Ninja Update Is Basically a Whole New LEGO Game in Fornite",
-      "url": "https://www.ign.com/articles/lego-fortnites-big-ninjago-rise-of-the-ninja-update-is-basically-a-whole-new-game-in-fortnite",
-      "date": "2025-12-10 01:12",
-      "comments": 2,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/cmiruttxc1c1f07mvi5cek8v7-1765296080332.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Epic Games has announced the next era of LEGO Fortnite, via its huge Ninjago: Rise of the Ninja update which lands later this week.\nArriving ahead of Ninjago's 15th anniversary next year and in time for LEGO's second anniversary within Fortnite this month, Rise of the Ninja looks to be one of LEGO Fortnite Odyssey's largest ever updates — with a new world to explore, Ninjago weapons to master, and some very familiar faces.\nZane, Jay, Cole and Kai will all arrive in Fortnite, with the latter ninja part of the Ninjago LEGO Pass. All four characters will also get human-like (as in, not LEGO minifigure) versions for the first time, for use in Fortnite's non-LEGO modes.\nPlayers will be able to master elemental abilities by travelling across the game's new Ninjago island and visiting Sanctums to earn ice, lightning and earth powers. It's the latest move away from traditional weapons seen in LEGO Fortnite, following the addition of class-based hero powers a few months ago.\nOf course, that's n",
-      "media": "IGN",
-      "title_kr": "Fortnite의 Ninjago: Rise of the Ninja 업데이트, 사실상 완전히 새로운 LEGO 게임",
-      "content_summary_kr": "Epic Games, 이번 주 LEGO Fortnite의 대규모 Ninjago: Rise of the Ninja 업데이트 출시 예정 발표. 새로운 Ninjago 섬, 얼음·번개·대지 등 원소 능력 시스템, Zane·Jay·Cole·Kai 등 Ninjago 캐릭터 추가 및 일반 Fortnite 모드용 휴먼 버전 최초 제공. 전통적인 무기 체계에서 벗어나 클래스 기반 능력 시스템으로 전환하는 LEGO Fortnite 역대 최대 규모 업데이트.",
-      "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "title_kr": "1년 전, Indiana Jones And The Great Circle이 시리즈의 유머를 상기시킨 방법",
+      "content_summary_kr": "Indiana Jones and the Great Circle이 출시 1주년을 맞아, 원작 영화의 모험과 코미디 정신을 게임으로 성공적으로 구현한 점이 재조명됨. MachineGames는 Uncharted 스타일의 단순한 시네마틱 게임 공식을 따르는 대신, Indiana Jones만의 독특한 게임 경험을 제공하며 기대 이상의 성과를 달성함.",
+      "category": "커뮤니티 & 이벤트",
+      "game_relevance": 1.0,
+      "importance": 0.4
     },
     {
       "title": "WoW Player Houses Are Now Officially Allowed To Fly",
@@ -399,10 +177,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1647/16470614/4619840-wowhousescanflynow.jpg",
       "body": "World of Warcraft players are pushing the game's new player-housing system to its limit, including defying the laws of gravity in a way Blizzard never intended. But rather than fix the ability to send houses skyward, Blizzard is instead embracing it.\nWhen housing first arrived on December 2 as part of patch 11.2.7, it didn't take long for players to discover that, while the UI didn't show it, houses could actually be lifted off the ground using keybinds. The result was players making all kinds of airborne housing creations, including elaborate treehouses, airships, mechs, homes held up by kites, and everything in between.\nNow Playing: World of Warcraft - Housing 101 Overview Trailer\nIn a forum post, WoW community manager Randy Jordan (aka Kaivax) stated that instead of fixing the ability to elevate houses, Blizzard has with this week's scheduled maintenance actually made it easier by enabling proper controls to move houses upward.\nThat said, Blizzard does have some concerns. Since it n",
       "media": "GameSpot",
-      "title_kr": "WoW 플레이어 하우스, 이제 공식적으로 공중 부양 허용",
-      "content_summary_kr": "World of Warcraft의 신규 하우징 시스템에서 플레이어들이 키바인드를 이용해 집을 공중에 띄우는 버그를 발견했으나, Blizzard는 이를 수정하는 대신 정식 기능으로 채택하여 이번 주 정기 점검을 통해 집을 위로 이동시킬 수 있는 적절한 컨트롤을 추가함. 플레이어들은 이 기능으로 나무 위의 집, 비행선, 메카 등 다양한 공중 건축물을 제작 중.",
+      "title_kr": "WoW 플레이어 하우스, 이제 공식적으로 하늘을 나는 것이 허용됨",
+      "content_summary_kr": "World of Warcraft의 신규 하우징 시스템에서 플레이어들이 키바인드를 이용해 집을 공중에 띄우는 방법을 발견한 가운데, Blizzard가 이를 버그로 수정하는 대신 오히려 공식 기능으로 채택하여 집을 위로 이동시킬 수 있는 정식 컨트롤을 추가함. 플레이어들은 이 기능을 활용해 공중 나무집, 비행선, 메카 등 다양한 창의적 건축물을 제작 중.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Lego Fortnite Ninjago Update Brings Human Versions Of Ninjago Characters",
@@ -413,9 +192,10 @@
       "body": "Lego Fortnite Odyssey is getting a Ninjago-themed makeover on Thursday, and for the very first time Epic Games will offer Fortnite versions of Lego characters--with Kai, Cole, Zane, and Jay from the Ninjago TV series all getting human-style Fortnite skins.\nKai will actually be the subject of the next Lego Pass--buying the pass for 1,400 V-Bucks, or unlocking it via Fortnite Crew, will instantly unlock both the Lego and Fortnite varieties for Kai. Progressing through the pass from there with XP in any Fortnite experience will grant you a number of Ninjago-themed builds that you can use wherever you like in Lego Fortnite Odyssey, or on your home lot in Lego Fortnite Brick Life.\nThe rest of the Ninjago gang will be available in the item shop on Thursday, and you'll be able to buy them individually or in a big bundle that includes all three and their accompanying accessories. Where are Lloyd and Nya, the other two members of the ninja squad from the show? We don't know, but don't count out",
       "media": "GameSpot",
       "title_kr": "Lego Fortnite Ninjago 업데이트, Ninjago 캐릭터의 인간 버전 추가",
-      "content_summary_kr": "Lego Fortnite Odyssey에 목요일 Ninjago 테마 업데이트 적용. Epic Games가 처음으로 Lego 캐릭터의 Fortnite 버전을 제공하며, Kai, Cole, Zane, Jay가 인간 스타일 스킨으로 등장. Kai는 1,400 V-Bucks의 Lego Pass를 통해 획득 가능하며, 나머지 캐릭터들은 아이템 샵에서 개별 또는 번들로 판매 예정.",
+      "content_summary_kr": "Lego Fortnite Odyssey에 목요일부터 Ninjago 테마 업데이트가 적용되며, Epic Games가 처음으로 Lego 캐릭터의 Fortnite 버전을 제공. Kai, Cole, Zane, Jay가 인간 스타일의 Fortnite 스킨으로 출시되며, Kai는 1,400 V-Bucks의 Lego Pass를 통해, 나머지는 아이템 샵에서 개별 또는 번들로 구매 가능.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Skyrim Is Now On Yet Another Platform, But There's A Way To Upgrade For Free",
@@ -425,10 +205,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1647/16470614/4619753-skyrimswitch2release.jpg",
       "body": "Yet another version of The Elder Scrolls V: Skyrim is here, with developer Bethesda Game Studios mega-hit RPG now available for Nintendo Switch 2.\nSkyrim continues to conquer every platform imaginable, and this time it's specifically 2021's Skyrim Anniversary Edition that's available on Nintendo's new console. This new version of the game does come with a few additional bells and whistles not found in the original Switch version, namely Joy-Con 2 mouse-control support. It also sports improved load times and performance in addition to features found in the original Switch version of Skyrim, like Legend of Zelda Amiibo support, Zelda-themed items, and motion controls.\nFor those who already own the Anniversary Edition on the original Switch, the Switch 2 upgrade is available for free. Those who don't already own any version of Skyrim on Switch can buy it on Switch 2 for $60. Owners of the non-Anniversary Edition of Skyrim on Switch can upgrade to the Anniversary Edition for $20 and then r",
       "media": "GameSpot",
-      "title_kr": "Skyrim, 또 다른 플랫폼 출시... 무료 업그레이드 방법도 공개",
-      "content_summary_kr": "Bethesda Game Studios의 The Elder Scrolls V: Skyrim Anniversary Edition이 Nintendo Switch 2로 출시. 기존 Switch용 Anniversary Edition 소유자에게는 무료 업그레이드 제공, 신규 구매 시 60달러이며 Joy-Con 2 마우스 컨트롤 지원 및 향상된 로딩 시간과 성능을 특징으로 함.",
+      "title_kr": "Skyrim, 또 다른 플랫폼에 출시되었지만 무료 업그레이드 방법 존재",
+      "content_summary_kr": "Bethesda Game Studios의 The Elder Scrolls V: Skyrim Anniversary Edition이 Nintendo Switch 2에 출시. 기존 Switch용 Anniversary Edition 소유자는 무료로 Switch 2 버전 업그레이드가 가능하며, 신규 구매 시 60달러, 일반 에디션 소유자는 20달러에 Anniversary Edition으로 업그레이드 가능.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Official Nintendo Switch 2 Wheel Set For Mario Kart Gets First Discount At Amazon",
@@ -439,9 +220,10 @@
       "body": "Nintendo Switch 2 Wheel Set for Joy-Con 2\n$21.49 (was $25)\nIf you're one of the many holiday shoppers who took advantage of last week's Nintendo Switch 2 Mario Kart World bundle promotion, you should check out this week's deal on the racing wheel attachment set. Nintendo's official Joy-Con 2 Wheel Set is on sale for $21.49 (was $25) at Amazon and Target. Deals on first-party Nintendo accessories are uncommon, so even though you're only saving $3.50, it's still a noteworthy deal. Designed for playing Mario Kart World with motion controls, the two-pack of steering wheels launched alongside the Switch 2 console in June.\nThe official Nintendo Switch 2 Wheel Set comes with one light blue and one red attachment that match the color scheme of the Joy-Con 2 controllers. The textured grips are nicer than a lot of third-party wheels and Nintendo's attachments from the Nintendo Wii era.\nJust like the Switch 2 console itself, the first-party steering wheels have magnetic connectors for the control",
       "media": "GameSpot",
       "title_kr": "Mario Kart용 Nintendo Switch 2 공식 휠 세트, Amazon에서 첫 할인",
-      "content_summary_kr": "Nintendo Switch 2용 공식 Joy-Con 2 휠 세트가 Amazon과 Target에서 25달러에서 21.49달러로 할인 판매 중. 1사 Nintendo 액세서리 할인은 드문 일이며, 해당 제품은 Mario Kart World를 모션 컨트롤로 즐기기 위해 Switch 2 콘솔과 함께 6월에 출시됨.",
+      "content_summary_kr": "Nintendo Switch 2용 공식 Joy-Con 2 휠 세트가 Amazon과 Target에서 25달러에서 21.49달러로 할인 판매 중. 6월 Switch 2 콘솔과 함께 출시된 이 제품은 Mario Kart World를 모션 컨트롤로 즐기기 위한 악세서리로, 자석 커넥터가 탑재된 라이트 블루와 레드 색상 2개 구성으로 판매됨.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.7
+      "game_relevance": 0.3,
+      "importance": 0.1
     },
     {
       "title": "Perfect Dark Devs Launch New Studio At Take-Two Following Game's Cancellation",
@@ -451,10 +233,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1837/18375603/4619712-perfectdark.jpg",
       "body": "The chances of the Perfect Dark reboot rising from last summer's cancellation are slim-to-none. But two of the primary developers behind it, studio head Darrell Gallagher and director Brian Horton, have found a new home at Take-Two Interactive.\nBloomberg's Jason Schreier broke the story about Gallagher and Horton on Bluesky. According to Schreier, the duo will start their own studio under the Take-Two umbrella. However, there are currently no details about any games that they're working on.\nSchreier previously reported that Take-Two came close to reviving the Perfect Dark reboot. However, the deal reportedly fell apart over which company would own the rights for the franchise. Regardless, it seems that both Gallagher and Horton made an impression on Take-Two that led to them being hired.\nLast summer, Gallagher shared his eulogy for the canceled Perfect Black reboot, and added that he \"couldn't be prouder of the talented and passionate team\" that he put together. It's unclear if any of ",
       "media": "GameSpot",
-      "title_kr": "Perfect Dark 개발진, 게임 취소 이후 Take-Two에서 새 스튜디오 설립",
-      "content_summary_kr": "지난 여름 취소된 Perfect Dark 리부트의 스튜디오 대표 Darrell Gallagher와 디렉터 Brian Horton이 Take-Two Interactive 산하에 새로운 스튜디오를 설립. Take-Two가 Perfect Dark 리부트 인수를 검토했으나 IP 소유권 문제로 무산되었으며, 두 개발자는 새 스튜디오에서 아직 미공개된 프로젝트 진행 예정.",
+      "title_kr": "Perfect Dark 개발진, 게임 취소 후 Take-Two에서 새 스튜디오 설립",
+      "content_summary_kr": "지난 여름 취소된 Perfect Dark 리부트의 스튜디오 헤드 Darrell Gallagher와 디렉터 Brian Horton이 Take-Two Interactive 산하에 새로운 스튜디오를 설립. Take-Two가 Perfect Dark 리부트 인수를 시도했으나 IP 소유권 문제로 무산되었지만, 두 개발자를 영입하여 새 프로젝트 추진.",
       "category": "매출 & 성과",
-      "game_relevance": 0.85
+      "game_relevance": 0.8,
+      "importance": 0.6
     },
     {
       "title": "Battlefield 6 Update Live With Winter Offensive And Limited-Time Multiplayer Event",
@@ -464,10 +247,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1837/18375603/4616836-battlefield6winter.jpg",
       "body": "Battlefield 6's 1.1.3.0 update is live now and brings the fog of war into winter. There's also a new Winter Offensive event pass to complete for new rewards.\nAs part of the new Winter Offensive, players can access a new version of the Empire State map called Ice Lock Empire State. This map will only be around for a limited time, but it swaps out the standard map with frozen streets and other examples of cold and hazardous weather.\nThe new map also has a themed event mode, allowing you to play Domination, Conquest, and Gauntlet mission variations that utilize the new \"Freeze\" mechanic. Players have access to the ice-climbing axe through the Winter Offensive Bonus Path. Once they have the axe, players can unleash it as a melee weapon on unlucky foes. That bonus path also features an 11-tier, time-limited reward track featuring event cosmetics, and XP Boosters.\nAccording to Battlefield Labs, the new update has \"a broad range of fixes and refinements across Battlefield 6.\" Some of the impr",
       "media": "GameSpot",
-      "title_kr": "Battlefield 6, Winter Offensive와 기간 한정 멀티플레이어 이벤트를 포함한 업데이트 출시",
-      "content_summary_kr": "Battlefield 6의 1.1.3.0 업데이트가 출시되어 겨울 테마의 'Ice Lock Empire State' 맵과 'Winter Offensive' 이벤트 패스를 추가. 새로운 'Freeze' 메커니즘과 얼음 등반 도끼 근접 무기를 포함한 11단계 보상 트랙 및 다양한 게임 개선 사항을 적용.",
+      "title_kr": "Battlefield 6, 겨울 공세와 기간 한정 멀티플레이어 이벤트를 포함한 업데이트 출시",
+      "content_summary_kr": "Battlefield 6의 1.1.3.0 업데이트가 출시되어 겨울 테마의 새로운 맵 'Ice Lock Empire State'와 Winter Offensive 이벤트 패스를 추가. 기간 한정 이벤트에서는 얼음 등반용 도끼를 활용한 새로운 'Freeze' 메커니즘이 적용된 Domination, Conquest, Gauntlet 미션 변형 모드를 플레이할 수 있으며, 11단계 보상 트랙을 통해 이벤트 코스메틱 및 XP 부스터 획득 가능.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Analogue 3D Returns Soon With Fresh Retro Colourways",
@@ -477,23 +261,25 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4619646-le_funtastic_img04.jpg",
       "body": "The Analogue 3D is earning high praise as one of the best 4K N64 emulators ever made, and it'll soon be available in a wide range of \"funtastic\" colors. As part of a highly limited-edition release, Analogue will offer its console with transparent shells designed to emulate the look of classic N64 consoles from the 2000s. Priced at $300 each, these will launch alongside matching 8BitDo controllers on December 10 at 8 AM PT / 11 AM ET and will be delivered before Christmas.\nAnalogue says it spent over a year getting the colors just right for this release, and it collaborated with 8BitDo to replicate the look of the Funtastic originals. There'll be eight colorways to choose from: Jungle, Ice, Watermelon, Fire, Grape, Clea, Smoke, and a Gold model inspired by the legendary Toys R Us N4 console that collectors highly covet. The 8BitDo controllers will also be released in the same color set.\nIf you'd prefer a regular version of the Analogue 3D in black or white, it is being restocked on Dece",
       "media": "GameSpot",
-      "title_kr": "Analogue 3D, 레트로 컬러 버전으로 곧 재출시",
-      "content_summary_kr": "Analogue이 N64 에뮬레이터 'Analogue 3D'를 2000년대 클래식 N64 콘솔 디자인을 재현한 투명 쉘 8종 컬러로 12월 10일 한정 출시 예정. 8BitDo와 협업하여 Jungle, Ice, Watermelon 등 8가지 컬러웨이로 제작되며, 매칭되는 컨트롤러와 함께 개당 300달러에 판매.",
+      "title_kr": "Analogue 3D, 레트로 감성의 새로운 컬러로 곧 재출시",
+      "content_summary_kr": "Analogue 3D가 2000년대 클래식 N64 콘솔 디자인을 재현한 투명 쉘의 한정판 모델로 12월 10일 출시 예정. 8BitDo와 협업해 Jungle, Ice, Watermelon 등 8가지 'Funtastic' 컬러를 300달러에 선보이며, 수집가들이 탐내는 전설적인 Toys R Us 골드 모델도 포함.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 0.85
+      "game_relevance": 0.9,
+      "importance": 0.3
     },
     {
-      "title": "A Future Lenovo Legion Gaming Laptop Could Have an Ultrawide Screen on Demand",
-      "url": "https://www.ign.com/articles/a-future-lenovo-legion-gaming-laptop-could-have-an-ultrawide-screen-on-demand",
-      "date": "2025-12-10 07:39",
-      "comments": 1,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/09/lenovo-legion-rollable-1765311572884.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Lenovo could show off a new approach to its rollable OLED screen tech early next year: giving a laptop the ability to go ultrawide, according to Windows Latest (via The Verge). The laptop, which the outlet refers to as the Legion Pro Rollable, would be the first from Lenovo with a horizontally-rolling display.\nAs The Verge notes, there's precious little detail in Windows Latest's post, so we don't know anything about the refresh rate, brightness, resolution, and so on – just that it's going to have a 21:9 aspect ratio, which is way wider than any of our favorite gaming laptops. The outlet also claims to have confirmed that the laptop will have an Intel Core Ultra processor, but that would hardly be a surprise. The post also guesses the screen will have at least a 120Hz refresh rate, given that the ThinkBook Plus Gen 6 Rollable already does. Windows Latest also published what it says is an official promotional image for the laptop.\nWe probably won't have to wait long to hear more, as Wi",
-      "media": "IGN",
-      "title_kr": "차세대 Lenovo Legion 게이밍 노트북, 필요에 따라 울트라와이드 화면으로 확장 가능",
-      "content_summary_kr": "Lenovo가 2025년 초 가로로 확장되는 롤러블 OLED 디스플레이를 탑재한 Legion Pro Rollable 노트북을 공개할 예정. 21:9 화면 비율의 울트라와이드 디스플레이와 Intel Core Ultra 프로세서 탑재가 예상되며, 120Hz 이상의 주사율을 지원할 것으로 추정됨.",
-      "category": "게임 출시 & 발표",
-      "game_relevance": 0.7
+      "title": "Pokemon Legends: Z-A Is Adding Hoenn Starter Mega Stones As Ranked Rewards",
+      "url": "https://www.gamespot.com/articles/pokemon-legends-z-a-is-adding-hoenn-starter-mega-stones-as-ranked-rewards/1100-6536811/",
+      "date": "2025-12-10 09:10",
+      "comments": 0,
+      "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1578/15787979/4619995-plzahoenn.jpg",
+      "body": "The Pokemon Company has revealed the next slate of Ranked Battle rewards coming to Pokemon Legends: Z-A. Players will have a chance to earn Mega Stones for the Hoenn starter Pokemon--Sceptile, Swampert, and Blaziken--during the next few seasons of the game's online multiplayer mode.\nLike other special Mega Stones, these elusive items are not otherwise obtainable in the game, so you'll need to participate in Ranked Battles if you want to snag them. Sceptilite will be available during Season 5; Swampertite will be distributed during Season 6; and Blazikenite can be earned during Season 7.\nNow Playing: Pokémon Legends Z-A Everything To Know\nAs before, you'll need to hit a certain rank before the season ends to earn the Mega Stones. Previous rewards, such as the Mega Stones for Chesnaught, Delphox, and Greninja, were distributed upon reaching rank S.\nSeason 3 is currently underway until December 17 and offers the aforementioned Chesnaughtite stone, as well Delphoxite and Greninjite for tho",
+      "media": "GameSpot",
+      "title_kr": "Pokemon Legends: Z-A, 랭크 보상으로 호연 스타터 메가스톤 추가",
+      "content_summary_kr": "The Pokemon Company가 Pokemon Legends: Z-A의 랭크전 보상으로 호연 지방 스타터 포켓몬(나무킹, 대짱이, 번치코)의 메가스톤을 시즌 5~7에 걸쳐 순차 배포한다고 발표. 해당 메가스톤은 게임 내에서 다른 방법으로 획득할 수 없어 랭크전 참여 필수이며, 시즌 종료 전 특정 랭크 달성 시 획득 가능. 현재 시즌 3는 12월 17일까지 진행 중이며 칼로스 스타터의 메가스톤을 보상으로 제공 중.",
+      "category": "업데이트 & 패치",
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "This 15-Inch Super Mario Goomba Plush Is 42% Off",
@@ -503,10 +289,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1702/17023653/4619755-mixcollage-09-dec-2025-09-50-am-7653.jpg",
       "body": "Super Mario Goomba 15-Inch Plush\n$22.74 (was $39)\nAmazon recently restocked a bunch of popular 15-inch Mocchi-Mocchi stuffed plush figures, including the adorable Super Mario Goomba. Not only is it back in stock, but it's listed for one of its best prices of the year at $22.74 (was $39). We've also rounded up the other restocks below, so be sure to check them out if you're shopping for an adorable holiday gift.\nThis Goomba is an officially licensed Nintendo product, meaning you can expect it to be built to high standards. Club Mocchi-Mocchi plushies are always ultra-soft, and they feel much more premium than most other plushies on the market. The 15-inch models are fantastic pieces of home decor for a game room, though they're also ideal snuggle buddies for kids.\nIf you're shopping for a holiday gift, you'll be glad to know that many locations are eligible for next-day shipping. We're not sure how long the popular Goomba will remain in stock, however, so consider snagging it for cheap ",
       "media": "GameSpot",
-      "title_kr": "15인치 Super Mario Goomba 인형 42% 할인",
-      "content_summary_kr": "Amazon에서 공식 라이선스 제품인 15인치 Super Mario Goomba Mocchi-Mocchi 인형을 39달러에서 22.74달러로 42% 할인 판매 중. Nintendo 공식 제품으로 프리미엄 품질을 자랑하며, 홀리데이 선물용으로 익일 배송 가능 지역 多數.",
+      "title_kr": "15인치 Super Mario Goomba 인형 42% 할인 판매",
+      "content_summary_kr": "Amazon에서 15인치 Super Mario Goomba Mocchi-Mocchi 인형을 39달러에서 22.74달러로 42% 할인 판매 중. Nintendo 정식 라이선스 제품으로 프리미엄 품질의 부드러운 소재를 사용했으며, 일부 지역은 익일 배송 가능.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.3
+      "game_relevance": 0.3,
+      "importance": 0.1
     },
     {
       "title": "Add Some Retro Flavor To Your Home With This Pac-Man Gaming Pixel Light Deal",
@@ -517,9 +304,10 @@
       "body": "Govee Gaming Light Deals\nSave on Light Bars, Light Boards, and more\nIf you're looking for a quirky way to light up your home for the holidays, Amazon is running a limited-time deal on the Govee x Pac-Man Gaming Pixel Light. Now available at its lowest price ever of $90 (was $140), the customizable LED panel comes with over 100 preset designs--four of which are exclusive Pac-Man animations that bring the retro icon to life. A bunch of other Govee products are discounted ahead of the holidays, which we've listed below in case you're looking for a fun last-minute gift idea.\nThis LED panel features a 52x32 grid of large pixels and can be mounted on a wall or placed on a desk with the included stand. While the display comes pre-programmed with Pac-Man art, it can also run animations and widgets, such as weather forecasts and scores of sports games. There's also a handful of Pac-Man animations and a small, built-in speaker that plays a variety of sound effects and music. It also offers 10 li",
       "media": "GameSpot",
       "title_kr": "Pac-Man 게이밍 픽셀 라이트 할인으로 집에 레트로 감성 더하기",
-      "content_summary_kr": "Amazon에서 Govee x Pac-Man Gaming Pixel Light를 역대 최저가인 90달러(기존 140달러)에 판매 중. 52x32 픽셀 그리드의 LED 패널로 100가지 이상의 디자인과 4가지 Pac-Man 전용 애니메이션을 제공하며, 날씨 정보와 스포츠 경기 점수 표시 등 다양한 위젯 기능과 내장 스피커를 통한 음향 효과 지원.",
+      "content_summary_kr": "Amazon에서 Govee x Pac-Man Gaming Pixel Light를 기존 $140에서 $90로 할인 판매 중. 52x32 픽셀 그리드 LED 패널로 100가지 이상의 프리셋 디자인과 4가지 독점 Pac-Man 애니메이션을 제공하며, 벽걸이 또는 책상 거치 가능하고 날씨 위젯 및 스포츠 점수 표시 기능도 지원함.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.3
+      "game_relevance": 0.3,
+      "importance": 0.1
     },
     {
       "title": "How To Complete All Warzone Easter Eggs On Haven's Hollow And Unlock All Rewards",
@@ -529,10 +317,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1639/16394540/4619999-bo7warzones1newmap.jpg",
       "body": "Season 1 of Black Ops 7 adds the new Haven's Hollow map to Call of Duty: Warzone, and this quaint West Virginia town holds a lot of secrets to uncover. This includes six separate Easter eggs to complete for rewards, and there's a final super Easter egg reward for completing them all. In this guide, we'll walk you through how to complete all the Easter eggs on Haven's Hollow and earn every reward.\nThere are six Easter eggs that you can complete on Haven's Hollow, and while these can all be completed solo, two of them can become complicated without the help of teammates.\nThe Easter eggs and rewards are as follows:\nThese Easter eggs are best completed in Warzone's Casual Resurgence mode, and we'll give you the tips for completing them all to earn the \"Now You See Me\" universal weapon camo. They can also be completed in any order.\nThere is a secret cave behind the waterfall in the northern portion of the map. The entrance is high up, as shown in the image above. You can only access this ar",
       "media": "GameSpot",
-      "title_kr": "Haven's Hollow에서 모든 Warzone 이스터에그를 완료하고 보상을 획득하는 방법",
-      "content_summary_kr": "Black Ops 7 시즌 1에서 Call of Duty: Warzone에 추가된 새 맵 Haven's Hollow에 총 6개의 이스터에그 존재. 모든 이스터에그를 완료하면 최종 보상으로 'Now You See Me' 유니버설 무기 카모 획득 가능하며, Casual Resurgence 모드에서 솔로 또는 팀과 함께 임의 순서로 완료 가능.",
+      "title_kr": "Haven's Hollow 맵의 모든 Warzone 이스터에그 완료 및 보상 획득 방법",
+      "content_summary_kr": "Call of Duty: Warzone의 시즌 1에 새로운 맵 Haven's Hollow 추가. 해당 맵에는 6개의 이스터에그가 숨겨져 있으며, 모두 완료 시 최종 보상으로 'Now You See Me' 유니버설 무기 스킨 획득 가능. Casual Resurgence 모드에서 공략 가능하며, 일부 이스터에그는 팀원의 도움 필요.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.3
     },
     {
       "title": "Call Of Duty Will No Longer Do Back-To-Back Black Ops Or Modern Warfare Games",
@@ -543,9 +332,10 @@
       "body": "Activision is making a major strategic shift with the Call of Duty series that will affect it for years to come. Following the less-than-stellar response to Black Ops 7, the franchise will no longer get back-to-back entries in the same sub-series. This applies not only to Black Ops, but also to Modern Warfare.\n\"We will no longer do back-to-back releases of Modern Warfare or Black Ops games,\" Activision said in the official announcement. \"The reasons are many, but the main one is to ensure we provide an absolutely unique experience each and every year.\"\nNow Playing: Call of Duty: Black Ops 7 Campaign Review\nAlongside this announcement, Activision promised \"meaningful, not incremental\" innovation for the series' future. It didn't specify exactly what this would mean, instead stressing it would share more \"when the time is right.\"\nBlack Ops 7 will still be getting the seasonal support players have come to expect from the series, however, and Activision said it \"won't rest until Black Ops ",
       "media": "GameSpot",
       "title_kr": "Call of Duty, 더 이상 Black Ops나 Modern Warfare 연속 출시 중단",
-      "content_summary_kr": "Activision이 Black Ops 7의 부진한 반응 이후 Call of Duty 시리즈의 주요 전략 변경을 발표. 앞으로 Modern Warfare나 Black Ops 같은 하위 시리즈를 연속으로 출시하지 않고 매년 독특한 경험을 제공하기 위해 '점진적이 아닌 의미 있는' 혁신을 추구한다는 방침 공개.",
+      "content_summary_kr": "Activision이 Call of Duty 시리즈의 주요 전략 변화를 발표. Black Ops 7의 부진한 반응 이후, 동일 하위 시리즈(Black Ops, Modern Warfare)를 연속으로 출시하지 않고 매년 독특한 경험을 제공하기 위해 '점진적이 아닌 의미 있는' 혁신을 약속함.",
       "category": "매출 & 성과",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.85
     },
     {
       "title": "New Brandon Sanderson Sci-Fi Book Is 30% Off On Launch Day",
@@ -555,10 +345,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1595/15950357/4619987-tailoredrealities.png",
       "body": "Brandon Sanderson - Tailored Realities (Hardcover)\n$21 (was $30)\nFantasy and science fiction readers can add another Brandon Sanderson book to the to-be-read pile. Tailored Realities, a lengthy collection of novellas and short stories, is available now, and Amazon is offering a 30% discount on launch day (December 9). The hardcover edition of Tailored Realities is on sale for only $21 (was $30).. Walmart had the same deal, but the retailer is currently sold out of copies.\nIf you're interested in buying the book as a gift for a Sanderson fan, you should order a copy soon. Amazon currently estimates a December 19-21 delivery window for Prime members. Tailored Realities is also available in ebook and audiobook formats. The collection made Amazon's list of the best science fiction and fantasy books of December 2025.\nTailored Realities is a 448-page collection featuring 10 novellas and short stories. Though Sanderson is largely known as a fantasy author, Tailored Realities skews more toward",
       "media": "GameSpot",
-      "title_kr": "Brandon Sanderson의 새 SF 소설, 출시일에 30% 할인",
-      "content_summary_kr": "판타지 작가 Brandon Sanderson의 SF 단편집 'Tailored Realities'가 12월 9일 출시되어 Amazon에서 30% 할인가인 21달러에 판매 중. 448페이지 분량의 이 책은 10편의 중편 및 단편 소설을 수록하고 있으며, Amazon의 2025년 12월 최고의 SF/판타지 도서 목록에 선정.",
-      "category": "IP & 콜라보",
-      "game_relevance": 0.0
+      "title_kr": "Brandon Sanderson의 새 공상과학 소설, 출시일에 30% 할인",
+      "content_summary_kr": "판타지 작가 Brandon Sanderson의 중편소설 및 단편소설 모음집 'Tailored Realities'가 12월 9일 출시되어 Amazon에서 30% 할인가인 21달러에 판매 중. 448페이지 분량으로 10편의 작품을 수록한 이 책은 Amazon의 2025년 12월 최고의 공상과학 및 판타지 도서 목록에 선정됨.",
+      "category": "커뮤니티 & 이벤트",
+      "game_relevance": 0.0,
+      "importance": 0.1
     },
     {
       "title": "Divinity Original Sin 3 Not Happening Now At Larian, Nor Is A Toilet Simulator",
@@ -568,10 +359,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/4619992-original.jpg",
       "body": "In the lead-up to The Game Awards, there has been some speculation that the scary monolith teaser was for Divinity: Original Sin 3, but developer Larian has now clarified it's not making that game. Nor is it making a toilet simulator game.\nPublishing boss Michael Douse cleared things up on social media, posting, \"There aren't currently any plans for a new Divinity: Original Sin 3 game but once we are ready to show what we've been working on we will.\"\nWhat Larian is making next after the huge success of Baldur's Gate 3 is a mystery, but the studio has said it has multiple projects in various stages of development. One project Larian fans won't get, at least not soon, however, is a game about toilets.\nDouse added, \"I can confirm we aren't working on a toilet simulator at this moment.\"\nThe Game Awards monolith is also not teasing Diablo 4, The Elder Scrolls 6, or the next God of War game, according to reports.\nIn another post, Douse reacted to the revelation that a Definitive Edition of D",
       "media": "GameSpot",
-      "title_kr": "Larian, Divinity Original Sin 3 개발 없음... 화장실 시뮬레이터도 아님",
-      "content_summary_kr": "Larian Studios의 퍼블리싱 책임자 Michael Douse가 The Game Awards의 티저 추측에 대해 현재 Divinity: Original Sin 3 개발 계획이 없음을 공식 확인. Baldur's Gate 3 성공 이후 차기 프로젝트는 여전히 베일에 싸여 있으며, 다수의 프로젝트가 다양한 개발 단계에 있다고만 밝힌 상황.",
+      "title_kr": "Larian, Divinity Original Sin 3 개발하지 않으며 화장실 시뮬레이터도 제작 안 함",
+      "content_summary_kr": "Larian Studios의 퍼블리싱 책임자 Michael Douse가 The Game Awards의 티저가 Divinity: Original Sin 3가 아니라고 확인하며, 현재 해당 게임 개발 계획이 없음을 밝힘. Baldur's Gate 3의 성공 이후 여러 프로젝트를 개발 중이지만 구체적인 내용은 아직 공개하지 않은 상태.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
+      "game_relevance": 0.9,
+      "importance": 0.5
     },
     {
       "title": "Sony's PS5 \"Must-Play\" Games Of 2026 Video Includes Halo But Not GTA 6",
@@ -582,9 +374,10 @@
       "body": "After 25 years of being exclusive on console to Xbox, Microsoft's Halo series is headed to PlayStation in 2026 with Halo: Campaign Evolved. With the year coming to a close, Sony has published a video highlighting some of the \"must-play\" titles coming to PS5 in 2026, and Halo got a special shoutout in the video, while GTA 6 was not mentioned.\nSeeing Halo promoted so heavily by Sony would have been unthinkable not long ago, and the comments on the video reflect this. The top comment on the video states, \"Seeing Halo here is still surreal.\" Someone else said, \"It feels so weird seeing Halo being advertised by PlayStation.\"\nNow Playing: PlayStation 5 - Upcoming Games in 2026 Trailer\nOthers have pointed out that Rockstar's GTA 6 is not mentioned in the video, with people taking this to mean, or suggest, that Sony is concerned that Rockstar could push the game to 2027. But there could be any number of reasons why GTA 6 was left out. Rockstar, after all, is highly protective of its own game a",
       "media": "GameSpot",
       "title_kr": "Sony의 PS5 2026년 '필수 플레이' 게임 영상에 Halo는 포함되고 GTA 6는 제외",
-      "content_summary_kr": "25년간 Xbox 독점이었던 Microsoft의 Halo 시리즈가 2026년 PlayStation에 출시 예정인 가운데, Sony가 공개한 PS5 2026년 필수 게임 영상에 Halo를 대대적으로 홍보하면서 게임 팬들 사이에서 이례적인 반응을 불러일으킴. 반면 같은 영상에서 GTA 6가 제외되어 일각에서는 Rockstar의 출시 연기 가능성을 우려하는 의견 제기.",
+      "content_summary_kr": "25년간 Xbox 독점이었던 Microsoft의 Halo 시리즈가 2026년 PlayStation으로 출시되며, Sony가 PS5 2026년 필수 게임 홍보 영상에 Halo를 포함시킨 반면 GTA 6는 제외함. 과거에는 상상할 수 없었던 Sony의 Halo 홍보에 대해 이용자들이 놀라움을 표현하고 있으며, GTA 6 제외는 Rockstar의 2027년 출시 연기 가능성을 시사한다는 추측이 제기됨.",
       "category": "게임 출시 & 발표",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.75
     },
     {
       "title": "The Game Awards Creator Hears Your Feedback --\"Do We Always Get It Right? No\"",
@@ -594,10 +387,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/4619947-screenshot2025-12-09at3.44.25%E2%80%AFpm.png",
       "body": "The Game Awards host and organizer Geoff Keighley has opened up on the challenges of running a show that aims to celebrate games and the people who make them while also acknowledging the challenging times people in the industry today are facing. So far in 2025, numerous developers lost their jobs, Microsoft canceled games, and the industry further consolidated with EA announcing plans to sell itself to Saudi Arabia.\nSpeaking to The Game Business, Keighley said the introduction of the Game Changer award in 2024 was an initial attempt to address this. Amir Satvat was given the prize for his work to support people who were laid off in the gaming industry.\nKeighley hasn't said if this award is coming back in 2025, but it would be a glaring omission if it did not. In any event, Keighley said walking the line between celebrating games and acknowledging current circumstances is no easy task.\n\"It's a very difficult needle to thread, because on one level, it is a celebration of the industry. Bu",
       "media": "GameSpot",
-      "title_kr": "The Game Awards 제작자, 피드백 수용 의사 밝혀 --\"항상 옳은 선택을 하는가? 아니다\"",
-      "content_summary_kr": "The Game Awards 주최자 Geoff Keighley가 게임 업계의 대규모 해고와 어려운 상황 속에서 축제와 현실 인식 사이의 균형을 맞추는 것이 쉽지 않다고 언급. 2024년 업계 해고자 지원 활동을 한 Amir Satvat에게 수여된 Game Changer 상이 이러한 문제를 다루기 위한 첫 시도였으며, 2025년에도 이 상의 지속 여부가 주목받고 있음.",
+      "title_kr": "The Game Awards 제작자, 피드백 수용 의사 밝혀 -- \"항상 옳은 결정을 내리는가? 아니다\"",
+      "content_summary_kr": "The Game Awards 주최자 Geoff Keighley가 게임 산업의 대규모 해고와 어려운 상황 속에서 축제와 현실 인식 사이의 균형을 맞추는 것이 쉽지 않다고 고충을 토로함. 2024년 도입된 Game Changer 상은 게임 업계 해고자 지원 활동을 한 Amir Satvat에게 수여되었으며, 이는 업계 현실을 반영하려는 초기 시도였음. 2025년에도 Microsoft의 게임 취소, EA의 사우디아라비아 매각 계획 등 업계 통합과 구조조정이 계속되는 상황에서 해당 상의 존속 여부가 주목받고 있음.",
       "category": "규제 & 이슈",
-      "game_relevance": 0.8
+      "game_relevance": 0.9,
+      "importance": 0.75
     },
     {
       "title": "Arc Raiders Cold Snap Update: Start Date, New Map Condition, And Everything We Know So Far",
@@ -607,10 +401,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1632/16320660/4619854-screenshot2025-12-09112115.png",
       "body": "Arc Raiders has been the talk of the town in the multiplayer arena over the past two months, landing a nomination for Best Multiplayer Game at The Game Awards and becoming one of the most played games in recent weeks. As players prep for this month's upcoming Expedition--an optional wipe that resets much of their progress in exchange for in-game rewards--they'll also be treated to the fresh Cold Snap update. This new content includes an additional snow-based map condition, a premium Raider Deck, and another event to complete for goodies. Here's everything we know about it so far.\nArc Raiders' Cold Snap update will release on December 16, 2025. While we don't know an exact launch time for this update yet, the previous North Line update launched at 1:30 AM PT / 4:30 AM ET, so it's safe to assume this one may also launch in the wee hours of the morning for US-based players.\nThe Cold Snap update falls just one day before the Expedition window opens, which will allow players to send their r",
       "media": "GameSpot",
-      "title_kr": "Arc Raiders Cold Snap 업데이트: 시작 날짜, 새로운 맵 조건 및 현재까지 알려진 모든 것",
-      "content_summary_kr": "Arc Raiders가 12월 16일 Cold Snap 업데이트를 출시하며 눈 기반의 새로운 맵 조건, 프리미엄 Raider Deck, 추가 이벤트를 제공할 예정. 업데이트는 플레이어 진행도를 초기화하고 게임 내 보상을 제공하는 선택적 Expedition 기간 하루 전에 실시됨. The Game Awards 최고 멀티플레이어 게임 부문 후보에 오르며 최근 몇 주간 가장 많이 플레이된 게임 중 하나로 기록됨.",
+      "title_kr": "Arc Raiders Cold Snap 업데이트: 시작 날짜, 새로운 맵 조건, 그리고 현재까지 알려진 모든 것",
+      "content_summary_kr": "Arc Raiders의 Cold Snap 업데이트가 2025년 12월 16일 출시 예정. 눈을 기반으로 한 새로운 맵 조건, 프리미엄 Raider Deck, 추가 이벤트가 포함되며, 업데이트 하루 뒤 플레이어의 진행 상황을 초기화하고 보상을 제공하는 선택적 Expedition 기간이 시작됨.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Fallout's Ella Purnell Still Has Her Poop Finger In Season 2",
@@ -621,9 +416,10 @@
       "body": "In the first season of Prime Video's Fallout, Ella Purnell's Lucy lost one of her fingers to The Ghoul (Walton Goggins) and eventually replaced it with another ghoul's finger. Purnell has been vocal about her dislike for Lucy's \"poop finger,\" but it's coming back for Season 2.\nWhile speaking with IGN, Purnell offered a more positive assessment of Lucy's mismatched finger.\n\"I'm very fond of my poop finger,\" said Purnell. \"It's the thing that is the Wasteland that Lucy carries with her. It's quite literally a piece of the Wasteland. Some random ghoul's finger that she's now got stuck. Even if she was to go back to the vault to try to continue life as normal, she will always have this reminder.\"\nOutside of the show's set, Purnell conceded that, \"It is still an embarrassment. I just have to remember to take it off at the end of the day and not go home with it.\"\nFollowing the end of Season 1, Lucy is now traveling with the Ghoul, who has her original finger on his hand. It remains to be see",
       "media": "GameSpot",
       "title_kr": "Fallout의 Ella Purnell, 시즌 2에서도 '똥 손가락' 유지",
-      "content_summary_kr": "Prime Video 드라마 Fallout 시즌 1에서 Ella Purnell이 연기한 Lucy는 The Ghoul에게 손가락을 잃고 구울의 손가락으로 대체했으며, 배우는 이를 '똥 손가락'이라 부르며 불편함을 표현. Purnell은 IGN과의 인터뷰에서 이 손가락이 황무지(Wasteland)를 상징하는 Lucy의 중요한 정체성 요소로 시즌 2에도 계속 등장할 것이라고 언급.",
+      "content_summary_kr": "Prime Video 드라마 Fallout 시즌 1에서 Ella Purnell이 연기한 Lucy는 The Ghoul에게 손가락을 잃고 구울의 손가락으로 교체함. Purnell은 이 '똥 손가락'을 싫어했지만, 시즌 2에서도 등장하며 황무지(Wasteland)를 상징하는 중요한 요소로 계속 유지될 예정임.",
       "category": "IP & 콜라보",
-      "game_relevance": 0.6
+      "game_relevance": 0.6,
+      "importance": 0.3
     },
     {
       "title": "Star Wars: Unlimited TCG Booster Boxes Are Super Cheap At Amazon Right Now",
@@ -634,9 +430,10 @@
       "body": "Star Wars: Unlimited Trading Card Game\nCheck out all deals and recent releases.\nStar Wars: Unlimited Trading Card Game Booster Boxes and Starter Sets are on sale for extremely low prices at Amazon. Three Booster Boxes are available for over 50% off, including Legends of the Force, Jump to Lightspeed, and Twilight of the Republic. If you're interested in playing Asmodee's Star Wars TCG for the first time, the Starter Sets come with two ready-to-play decks and all of the accessories you need to dive in. Twilight of the Republic's Starter Set is discounted to only $18.80 (was $35), and Shadows of the Galaxy's Starter Set is $21.17 (was $35).\nAlong with the deals, Star Wars: Unlimited collectors can pick up the 2025 Gift Box for $30 at Amazon. The Gift Box comes with three exclusive cards and eight Booster Packs, which makes it a nice option for existing players and collectors as well as newcomers.\nStar Wars: Unlimited Booster Boxes include 24 packs with 16 cards each (384 cards total). Th",
       "media": "GameSpot",
       "title_kr": "Star Wars: Unlimited TCG 부스터 박스, Amazon에서 파격 할인 중",
-      "content_summary_kr": "Asmodee의 Star Wars: Unlimited 트레이딩 카드 게임 부스터 박스 3종이 Amazon에서 50% 이상 할인 판매 중. Twilight of the Republic 스타터 세트는 $18.80(원가 $35), Shadows of the Galaxy 스타터 세트는 $21.17(원가 $35)로 판매되며, 2025 Gift Box는 독점 카드 3장과 부스터 팩 8개를 포함하여 $30에 구매 가능.",
+      "content_summary_kr": "Amazon에서 Star Wars: Unlimited 트레이딩 카드 게임의 부스터 박스 3종을 50% 이상 할인 판매 중. 스타터 세트는 $18.80~$21.17에 구매 가능하며, 2025 기프트 박스($30)에는 독점 카드 3장과 부스터 팩 8개 포함.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.1
     },
     {
       "title": "MS Flight Sim's Stranger Things Collab Has Landed",
@@ -646,10 +443,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1597/15976769/4619719-54964396098_b9dd6289c4_h.jpg",
       "body": "While Stranger Things is wrapping up after an almost decade run on Netflix, that hasn't stopped the Upside Down from seeping into places most wouldn't expect. Microsoft Flight Simulator 24's collab with Stranger Things has arrived today on Steam, cloud, Xbox, and, despite initial pushback, PS5. The crossover is more than skins; it even features Murray Bauman (Brett Gelman) from the original cast as you help the citizens of Hawkins escape the encroaching darkness.\n\"Enter the world of Netflix’s Stranger Things to help Hawkins, a town under lockdown, heavy patrols, and supernatural threats,\" it reads on the official PlayStation Blog. \"And, if you’re ready to visit Hawkins, Indiana, even after the credits roll on the crew’s last strange adventure, you will be able to explore a highly detailed map and recreation of the town with more than 40 iconic locations made famous by the show.\"\nPlayers will take to the skies in a Bell UH-1H, also known as the \"Huey\" helicopter, a model primarily used ",
       "media": "GameSpot",
-      "title_kr": "MS Flight Simulator의 Stranger Things 콜라보 업데이트 출시",
-      "content_summary_kr": "Microsoft Flight Simulator 24가 Netflix 드라마 Stranger Things와의 협업 콘텐츠를 Steam, Xbox, PS5에 정식 출시. 원작 배우 Brett Gelman이 연기하는 Murray Bauman이 등장하며, 플레이어는 Bell UH-1H 헬리콥터를 조종해 초자연적 위협에 처한 Hawkins 마을 주민들을 구출하고 드라마 속 40개 이상의 상징적 장소를 탐험 가능.",
+      "title_kr": "MS Flight Sim의 Stranger Things 콜라보 출시",
+      "content_summary_kr": "Microsoft Flight Simulator 24가 Netflix 드라마 Stranger Things와의 콜라보를 Steam, Xbox, PS5에 출시. 원작 캐릭터 Murray Bauman이 등장하며, Hawkins 마을의 40개 이상 상징적 장소를 재현한 맵에서 Bell UH-1H 헬리콥터를 조종하며 미션 수행 가능.",
       "category": "IP & 콜라보",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "Pokemon Go Fest 2026 Announced For Three Major Cities, Including Chicago",
@@ -660,9 +458,10 @@
       "body": "Niantic Inc. has chosen three cities spanning three continents for Pokemon Go Fest 2026: Tokyo, Chicago, and Copenhagen in Denmark. The event--which will celebrate the popular game's 10th anniversary next year--will kick off in late May in Japan and end in the middle of June in Copenhagen.\nDetails are sparse outside the host cities for Pokemon Go Fest 2026 so far. However, there will be global events as well, for players who can't attend at the main locations. For Pokemon Go Fest 2025, global events introduced Gigantamax starters to the game, for example.\nCurrently, there are a ton of Pokemon Go December events happening, such as five-star raids and Spotlight Hours. The Well-Armed event is set to go live this Thursday, December 11, and will bring the fighting-type octopus Clobbopus to the game for the first time.\nPokemon Go saw its leveling system overhauled in October. The level cap for the game was also substantially raised, from 50 to 80.\nGot a news tip or want to contact us directl",
       "media": "GameSpot",
       "title_kr": "Pokemon Go Fest 2026, 시카고 포함 3개 주요 도시에서 개최 발표",
-      "content_summary_kr": "Niantic이 Pokemon Go의 10주년을 기념하는 Pokemon Go Fest 2026을 도쿄, 시카고, 코펜하겐 3개 도시에서 개최한다고 발표. 행사는 5월 말 일본에서 시작해 6월 중순 코펜하겐에서 종료되며, 현장 참석이 어려운 플레이어를 위한 글로벌 이벤트도 함께 진행. 현재 Pokemon Go는 12월 이벤트 진행 중이며, 10월에는 레벨 상한선이 50에서 80으로 대폭 상향 조정.",
+      "content_summary_kr": "Niantic이 Pokemon Go의 10주년을 기념하는 Pokemon Go Fest 2026을 도쿄, 시카고, 코펜하겐 3개 도시에서 5월 말부터 6월 중순까지 개최한다고 발표. 현장 참석이 어려운 플레이어를 위한 글로벌 이벤트도 함께 진행될 예정이며, 현재 게임에서는 12월 이벤트와 함께 레벨 상한선이 50에서 80으로 대폭 상향 조정됨.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.5
     },
     {
       "title": "AI VTuber Neuro-Sama Finally Completes Hardcore Minecraft, But Some Aren't Happy",
@@ -672,10 +471,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1850/18507742/4619693-neuro-sama-minecraft.jpg",
       "body": "When I wrote yesterday about Neuro-Sama attempting to complete Minecraft Hardcore, I never imagined that she would actually cross the threshold a few short hours later and emerge victorious. During a nail-biting seven-hour stream, the AI VTuber ventured into the Nether, discovered a Stronghold, and (mostly) willingly leapt into the End Portal to take on the game's final boss--the Ender Dragon.\nAfter days of tense grinding on her creator Vedal987's Twitch channel, Neuro's Minecraft Hardcore attempts became somewhat of a minor phenomenon due to her tendency to react in a way that no human player would. One minute she'd be hyperfocusing on digging straight lines down (like a termite, according to her fellow players Filian and Crelly), and the next she would be drowning in the middle of a lake. I'll be the first to admit I was joining the participants' weary sighs, wondering if it was an achievable feat.\nThen along came run number 87. Crelly, as Neuro's unofficial new babysitter, spent the",
       "media": "GameSpot",
-      "title_kr": "AI VTuber Neuro-Sama, 마침내 Minecraft 하드코어 모드 클리어 성공했지만 일부 불만 제기",
-      "content_summary_kr": "AI VTuber Neuro-Sama가 7시간의 스트림 끝에 87번째 시도 만에 Minecraft 하드코어 모드를 클리어하며 최종 보스 Ender Dragon 격파에 성공. 제작자 Vedal987의 Twitch 채널에서 며칠간 진행된 도전은 AI 특유의 예측 불가능한 플레이 방식으로 화제를 모았으며, 동료 플레이어들의 도움 속에서 Nether 탐험과 End Portal 진입을 거쳐 최종 목표 달성.",
+      "title_kr": "AI VTuber Neuro-Sama, 드디어 Minecraft 하드코어 모드 클리어했지만 일부 반응은 부정적",
+      "content_summary_kr": "AI VTuber Neuro-Sama가 7시간의 생방송 끝에 87번째 시도 만에 Minecraft 하드코어 모드를 클리어함. 제작자 Vedal987의 Twitch 채널에서 진행된 이번 도전은 AI 특유의 예측 불가능한 플레이 방식으로 소규모 화제를 모았으나, 일부 시청자들은 부정적 반응을 보임.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.85
+      "game_relevance": 0.7,
+      "importance": 0.5
     },
     {
       "title": "Medieval Life Sim Adds Free Update That Includes Visible Pregnancy And More",
@@ -685,10 +485,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1837/18375603/4619621-medievaldynasty.jpg",
       "body": "Since its official launch in 2021, Medieval Dynasty has given players a glimpse of life in the middle ages without any fantasy flourishes. You don't have to worry about dragons, wizards, or orcs killing you in this game, but you still have to survive in some harsh conditions. Now, a free update for Medieval Dynasty is adding some new touches for the game that go beyond mere survival.\nThere were pregnancies and children in this game prior to the Labor of Love update, but there are now more realistic depictions of it including visibly pregnant women, new animations and conversations, as well as a productivity boost for the player during the pregnancy and while the mother takes care of the child. In this game, players go on to play as their children after the death of their characters. Additionally, pregnant women will stop working during their second term.\nThis free update is also accompanied by a paid DLC called The Exquisite Pack. The cosmetic options include two new outfits: a dress a",
       "media": "GameSpot",
-      "title_kr": "중세 생활 시뮬레이션, 임신 표현 등을 포함한 무료 업데이트 추가",
-      "content_summary_kr": "2021년 출시된 중세 생활 시뮬레이션 게임 Medieval Dynasty가 'Labor of Love' 무료 업데이트를 통해 임신한 여성의 시각적 표현, 새로운 애니메이션 및 대화, 임신 및 육아 기간 동안의 생산성 부스트 등 보다 현실적인 임신 및 출산 시스템을 추가함. 업데이트와 함께 두 가지 의상을 포함한 유료 DLC 'The Exquisite Pack'도 함께 출시됨.",
+      "title_kr": "중세 생활 시뮬레이션 게임, 임신 표현 등을 포함한 무료 업데이트 추가",
+      "content_summary_kr": "2021년 출시된 중세 생활 시뮬레이션 게임 Medieval Dynasty가 'Labor of Love' 무료 업데이트를 통해 임신한 여성 캐릭터의 시각적 표현, 새로운 애니메이션 및 대화, 임신 및 육아 기간 동안의 생산성 보너스 등을 추가함. 업데이트와 함께 의상 2종을 포함한 유료 DLC 'The Exquisite Pack'도 함께 출시.",
       "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.3
     },
     {
       "title": "Geoff Keighley's Demonic Game Awards Monolith Has Been Spotted In LA",
@@ -698,23 +499,11 @@
       "thumbnail": "https://www.gamespot.com/a/uploads/screen_kubrick/1601/16018044/4619666-monolith.jpg",
       "body": "As The Game Awards draws closer, everyone's attention right now is on a mysterious demonic monolith that is teasing something. First seen in the Mojave Desert--and described by TGA host Geoff Keighley as being pure \"regal.inspiring.thickness\" as it stood there--the monolith has now been spotted in Los Angeles. It's not clear if this is the same monolith as the one in the desert or a new one, and there's still no clue what this piece of aura-farming architecture is teasing yet.\nOne franchise that it's probably not linked to? Battlefield, as Battlefield Studios senior director of integrated communications Andy McNamara snapped a photo of the monolith and mentioned that it wasn't linked to EA's FPS franchise.\nBeyond that, there have been plenty more guesses as to what the demonic monolith will reveal. Some people have speculated that it could be teasing the next Diablo 4 expansion or The Elder Scrolls 6--industry reporter Jason Schreier claims it's not related to either IP--and CI Games C",
       "media": "GameSpot",
-      "title_kr": "Geoff Keighley의 악마 모양 Game Awards 모노리스가 LA에서 목격됨",
-      "content_summary_kr": "The Game Awards를 앞두고 Mojave 사막에서 처음 발견된 악마 모양의 모노리스가 Los Angeles에서 다시 목격되며 무언가를 예고 중. Battlefield Studios 관계자는 Battlefield 프랜차이즈와는 무관하다고 밝혔으며, 일각에서는 Diablo 4 확장팩이나 The Elder Scrolls 6를 예상하고 있으나 업계 리포터 Jason Schreier는 두 IP 모두 아니라고 주장.",
+      "title_kr": "Geoff Keighley의 악마 같은 Game Awards 모노리스가 LA에서 포착됨",
+      "content_summary_kr": "The Game Awards를 앞두고 정체불명의 악마 형상 모노리스가 Mojave 사막에 이어 Los Angeles에서 발견되어 화제. 주최자 Geoff Keighley가 언급했으나 정확한 의미는 불명이며, Battlefield Studios는 자사 프랜차이즈와 무관함을 밝혔고, Diablo 4 확장팩이나 The Elder Scrolls 6 관련 추측도 제기되고 있으나 업계 기자 Jason Schreier는 이를 부인한 상황.",
       "category": "커뮤니티 & 이벤트",
-      "game_relevance": 0.7
-    },
-    {
-      "title": "Did This Battlefield 6 Skin Change for the Better?",
-      "url": "https://www.ign.com/videos/did-this-battlefield-6-skin-change-for-the-better",
-      "date": "2025-12-10 11:12",
-      "comments": 0,
-      "thumbnail": "https://assets-prd.ignimgs.com/2025/12/10/screenshot-2025-12-09-at-6-09-09-pm-1765332671668.png?width=1280&format=jpg&auto=webp&quality=80",
-      "body": "Is the Wicked Grin better or boring now?",
-      "media": "IGN",
-      "title_kr": "Battlefield 6의 이 스킨 변경, 더 나아졌을까?",
-      "content_summary_kr": "Battlefield 6의 'Wicked Grin' 스킨이 변경되면서 더 나아졌는지 아니면 지루해졌는지에 대한 평가. 해당 스킨의 디자인 변화에 대한 커뮤니티의 의견 조사.",
-      "category": "업데이트 & 패치",
-      "game_relevance": 1.0
+      "game_relevance": 0.8,
+      "importance": 0.5
     },
     {
       "title": "“微恐民俗风”也能赢？疯狂游戏“皮影小游戏”《遗弃之地》杀进微信抖音畅销榜TOP20！",
@@ -724,10 +513,11 @@
       "thumbnail": "http://img.gamelook.com.cn/2025/12/yqzd01-320x180.jpg",
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/提到疯狂游戏，一下就能想起这家公司在小游戏市场的多款标杆性产品。最早月流水破亿的现象级产品《海盗来了》，之后的《疯狂骑士团》《咸鱼之王》……都是月流水破亿的热门小游戏。\n然而，随着近几年SLG、RPG等重度品类大举冲入小游戏榜单，叠加三七互娱、途游、大梦龙图等买量大佬进场发力。相比之下，疯狂游戏声势确实多少有所减弱。疯狂游戏下一个爆款在哪，也是外界一直在关注的话题。\n直到近日，疯狂游戏的又一款新游戏《遗弃之地》初步杀出重围，在原生手游市场和小游戏市场都获得了不错的成绩。\n《遗弃之地》早在今年11月就已经上架，直到12月左右开始正式大推。截止目前，游戏最高冲上国内iOS畅销榜TOP20；今天（12月9日），游戏登上微信小游戏畅销榜17名，抖音小游戏则位居畅销榜第14名，且名次还在上升。\n可以说，《遗弃之地》是疯狂游戏过去两年难得表现亮眼的新游戏。虽然刚刚开始发力仍处于早期阶段，但已经展现出了足够的增长潜力。\n抓牢「民俗+皮影戏」文化牌，自带辨识度进场\n第一眼看到《遗弃之地》就能感受到，微恐是这款游戏身上最大的标签之一。\n当然，今天我们聊到微恐可能更多想到巨人大杀四方的《超自然行动组》，《遗弃之地》则是走了一条完全不同的套路：以民俗传说塑造中式微恐氛围，并采用调性高度匹配的皮影戏美术风格，整体感受更偏独立游戏。\n作为颇具代表性的非遗文化，剪纸、皮影戏一直以来都是游戏圈的常客，国内商业化产品都和皮影戏有过交集。如《原神》《阴阳师》《天龙八部》《梦幻西游》《新倩女幽魂》《开心消消乐》……都曾经联动或者加入过皮影戏的内容和元素。\n但真正将「剪纸皮影戏」作为主打元素的商业化游戏产品，少之又少。而《遗弃之地》将这种美术风格紧扣微恐题材（中式民俗传说），用相对可控的成本做出了一款在体量、规格、投入各方面都较为适中的产品。\n这种独特风格直接赋予了《遗弃之地》属于独立游戏的稀缺感，在买量环节也更容易抓住玩家的注意力。\nDataEye-ADX 数据显示，游戏投放素材除了实机视频介绍玩法，主要以凸出中国民俗传说、展现独特皮影美术风格为主——类似素材在外部投放时确实少见，《遗弃之地》得以用一种强烈的新鲜感持续拉高玩家关注度。\n图源：DataEye-ADX\n在GameLook看来，这种文化性正是《遗弃之地》最大的优势，毕竟靶心like",
       "media": "Gamelook",
-      "title_kr": "\"미호러 민속풍\"도 통한다? 疯狂游戏의 '그림자극 게임' 《遗弃之地》, 위챗·틱톡 매출 순위 TOP20 진입!",
-      "content_summary_kr": "疯狂游戏의 신작 《遗弃之地》가 중국 전통 민속과 그림자극(皮影戏) 스타일을 결합한 미호러 장르로 차별화에 성공하며, iOS 매출 순위 20위권 및 위챗·틱톡 미니게임 매출 순위 TOP20에 진입. 독특한 중국 전통문화 요소와 그림자극 미술 스타일을 광고 소재로 활용하여 강한 신선함으로 플레이어 관심도를 확보하고, 과거 2년간 疯狂游戏의 신작 중 가장 눈에 띄는 성과를 기록함.",
+      "title_kr": "\"미공포 민속풍\"도 통한다? 疯狂游戏의 '그림자극 미니게임' 《遗弃之地》, 위챗·틱톡 매출 순위 TOP20 진입!",
+      "content_summary_kr": "疯狂游戏의 신작 《遗弃之地》가 중국 민속 전설과 그림자극(皮影戏) 미술 스타일을 결합한 미공포 장르로 차별화에 성공하며, iOS 매출 순위 20위권 및 위챗·틱톡 미니게임 매출 순위 14~17위에 진입. 독특한 문화적 요소와 인디게임 감성의 미술 스타일이 마케팅에서 강한 신선함으로 작용하며, 최근 2년간 疯狂游戏의 가장 주목받는 신작으로 평가받음.",
       "category": "매출 & 성과",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.65
     },
     {
       "title": "全行业大兵压境，SLG巨佬壳木“交作业”了：两款休闲SLG长什么样？",
@@ -737,10 +527,11 @@
       "thumbnail": "http://img.gamelook.com.cn/2025/12/NextAgers6-320x180.jpg",
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/在存量竞争与用户时间碎片化的双重背景下，休闲化SLG 正成为手游市场中最值得关注的赛道之一。它既保留了 SLG 的长线策略与社交深度，又通过简化操作、融合休闲玩法，显著降低了入门门槛，从而在保留核心用户的同时，成功吸引了更广泛的泛用户群体。\n轻量化的策略也为游戏上线小游戏平台、拓展泛用户提供了便利。Gamelook最近发布的11月微信小游戏报告显示，Top 50当中的SLG已经达到6款。世纪华通旗下点点互动的成功，正是这一趋势的有力证明：《Whiteout Survival（国服“无尽冬日”）》以独特的冰雪生存题材打开市场，《Kingshot（国服名“奔奔王国”）》则巧妙融入偏休闲的塔防元素持续拓圈。\n两款游戏的成功直接推动世纪华通成为全球收入第六的游戏公司，仅次于EA。业内数据显示，自2025年10月份开始，《Whiteout Survival》和《Kingshot》两款游戏就开始会师全球手游畅销榜Top 10，后者更是仅用了9个月的时间，就实现了年内收入超5亿美元的纪录。\n点点互动两个爆款的成功，无疑向行业释放了明确的信号。一场围绕“SLG 进化形态”的竞争已悄然展开。从FunPlus、IGG 已上线的新作，到恺英网络、三七互娱等大厂储备中的多款产品，各大上市公司均已在这一赛道密集布局，试图在下一个爆款窗口期抢占先机。\n而在众多竞争者中，壳木软件凭借长期深耕与稳定产出，在SLG赛道有着长期积累，母公司神州泰岳在10月底的投资者问答中表示，“上线超 6 年的《Age of Origins（旭日之城）》和上线超 8 年的《War and Order（战火与秩序）》，继续保持较高的玩家吸引力，延续稳健流水态势，公司将继续通过稳定的投放、高频的更新，深度挖掘产品的长线运营潜力，使上述两款游戏产品保持稳健的流水状态。”\n如今，壳木软件似乎正迎来新一轮产品爆发期：两款已获版号的新作《Stellar Sanctuary》（荒星传说：牧者之息）与《Next Agers》（长河万卷）已进入上线倒计时，处于“全球爆发前夜”。\n<span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-heig",
       "media": "Gamelook",
-      "title_kr": "SLG 업계 전반의 경쟁 격화, 거장 壳木의 '성적표' 제출: 두 가지 캐주얼 SLG의 모습은?",
-      "content_summary_kr": "중국 게임 시장에서 캐주얼 SLG 장르가 핵심 트렌드로 부상하며, 점점互动의 《Whiteout Survival》과 《Kingshot》이 글로벌 매출 톱10에 진입하는 성과 달성. 이에 FunPlus, IGG, 恺英网络, 三七互娱 등 주요 퍼블리셔들이 해당 장르에 집중 투자하고 있으며, 壳木软件도 《Stellar Sanctuary》와 《Next Agers》 두 신작의 출시를 앞두고 시장 진입 준비 완료.",
+      "title_kr": "전 업계가 총출동, SLG 거장 壳木의 '숙제 제출': 두 개의 캐주얼 SLG는 어떤 모습인가?",
+      "content_summary_kr": "모바일 게임 시장에서 캐주얼 SLG 장르가 핵심 트렌드로 부상하며, 世纪华通 산하 点点互动의 《Whiteout Survival》과 《Kingshot》이 글로벌 매출 상위권에 진입하는 성과 달성. 이에 FunPlus, IGG, 恺英网络, 三七互娱 등 주요 게임사들이 캐주얼 SLG 시장에 본격 진출하고 있으며, 壳木软件도 신작 《Stellar Sanctuary》와 《Next Agers》 출시를 앞두고 시장 공략 준비 완료.",
       "category": "매출 & 성과",
-      "game_relevance": 0.95
+      "game_relevance": 0.9,
+      "importance": 0.75
     },
     {
       "title": "二游遭冲击：《星穹铁道》宣布4.0版延期，《火影忍者》取消十周年线下活动",
@@ -751,9 +542,10 @@
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/2025年的年末，对于中国游戏行业，特别是深耕“二次元”赛道的厂商而言，原本应是丰收与庆典的季节。\n近期，受地缘政治关系出现的复杂波动影响，文化产业作为最为敏感的风向标之一，不可避免地受到了波及。在这场没有硝烟的博弈中，无论是坚持原创架构的头部厂商，还是运营多年的经典IP代理，近期都做出了快速的调整。\n作为中国二次元游戏的领军者，米哈游旗下的银河冒险策略游戏《崩坏：星穹铁道》首当其冲。这款自上线以来便在全球范围内屡创佳绩的产品，近期不得不放缓了其在星辰大海中疾驰的步伐。\n据官方最新发布的公告显示，原定按部就班推进的版本更新计划出现重大调整，备受玩家期待的4.0大版本宣告延期，当下的3.8版本持续时间将被迫延长。\n尽管官方在公告中维持了体面与克制，将延期原因归结为“开发团队为追求极致品质，需对4.0版本的游戏内容进行更为精细的打磨与完善”，并承诺期望下一个世界「二相乐园」能带给开拓者们超越以往的沉浸式体验。\n但这一“技术性调整”的说辞，并未能完全平复社区内的猜测。不少网友都联想到，所谓的“打磨”，极大概率是一场伤筋动骨的“修改”。\n据社区的讨论，原定于4.0版本上线的「二相乐园」世界，在原本的早期设定中，可能参考了某国文化的相关内容。在当前敏感的地缘政治节点下，这些曾经被视为“文化包容”的卖点，瞬间转变成了可能引发舆论风险的“雷点”。\n如果猜测属实，为了规避潜在的风险，确保产品的长线安全运营，很显然制作组不得不对此前耗费数月甚至经年累月构建的内容进行修改。对于一款工业化程度极高的游戏而言，这种临阵换将般的修改，其工作量不亚于重新开发一款中型游戏。\n更困难的是，考虑到米哈游《崩坏：星穹铁道》每次整数版本往往是后续一年内容的主舞台，此次延期也许会影响到后续一整年内容的更新。\n虽然考虑到米哈游的工业化实力，庞大的团队规模，只要给时间、后续版本如期而至或许不是问题，但3.8版本的延长，不仅是时间的停滞，更是开发团队在幕后无数个通宵达旦、如今又颇为无奈的缩影。\n如果说《崩坏：星穹铁道》的遭遇是原创内容在风口上的被动避险，那么由腾讯魔方工作室运营的常青树产品《火影忍者》手游，则更是直面了IP源头带来的冲击。作为一款运营即将迈入第十个年头的国民级格斗手游，《火影忍者》本应在2026年迎来其最为辉煌的“十周年庆典”。\n然而，",
       "media": "Gamelook",
       "title_kr": "2차원 게임 충격: 《崩坏：星穹铁道》 4.0 버전 연기 발표, 《火影忍者》 10주년 오프라인 행사 취소",
-      "content_summary_kr": "지정학적 긴장 고조로 중국 2차원 게임 업계가 직격탄을 맞음. miHoYo의 《崩坏：星穹铁道》는 4.0 버전 '二相乐园' 업데이트를 연기했으며, 특정 국가 문화 요소 포함 가능성으로 인해 대규모 콘텐츠 수정 작업이 불가피한 상황. Tencent가 운영하는 《火影忍者》 모바일은 2026년 10주년 기념 오프라인 행사를 취소하며, IP 원작 국가와의 관계 악화가 직접적 영향을 미친 것으로 분석됨.",
+      "content_summary_kr": "중국 2차원 게임들이 지정학적 문제로 인해 큰 타격을 받음. 米哈游의 《崩坏：星穹铁道》는 4.0 대형 업데이트를 연기했으며, 개발팀이 특정 국가 문화 요소를 포함한 콘텐츠를 대규모로 수정 중인 것으로 추정됨. 腾讯이 운영하는 《火影忍者》 모바일은 10주년 기념 행사를 취소하며 IP 원천 국가와의 갈등으로 직접적 영향을 받고 있음.",
       "category": "규제 & 이슈",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.85
     },
     {
       "title": "未保之风吹遍全球，社交媒体成为重点关照对象？",
@@ -763,10 +555,11 @@
       "thumbnail": "http://img.gamelook.com.cn/2026/12/azjl00-320x180.jpg",
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/12月10日，或许将成为被全球互联网行业铭记的一天——澳大利亚新法案将正式生效，16岁以下青少年用户全面禁止拥有社交媒体账户以及访问社交媒体平台，包括TikTok、Twitter（X）、Facebook、Instagram等全球社交媒体巨头无一幸免。\n很显然，这项法案是聚焦于未成年人保护，避免他们接触社交媒体上的有害内容。考虑到最近两年，全球范围内都在积极推动未成年保护相关法案落地，因此这次澳大利亚首开先河落地了堪称史上最严格的互联网内容管控措施，可能只是一个风向标。事实上目前已经有多国对澳大利亚的新未保政策表示出高度关注，并计划跟进。\n那么为什么社交媒体会成为当下这股席卷全球的未保风潮中，被重点关注的对象？\n常年处于“混沌之地”状态的社交媒体\n关于这次新法案，澳大利亚主管部门可谓是筹划已久，早在去年澳大利亚总理安东尼·阿尔巴尼斯（Albanese）就表示，政府计划对青少年访问社交媒体设定最低年龄限制。\n去年阿尔巴尼斯发布在先驱太阳报的文章\n总理亲自出面盖章也能看出澳大利亚对于管控社交媒体的决心，只不过很多人没想到，澳大利亚会一刀切式地禁止16岁以下用户使用社交媒体。根据法案内容，相关平台必须禁止16岁以下用户注册账户，违规企业将面临最高4950万澳元(约2.3亿人民币)的罚款。\n为什么社交媒体会成为被集火的目标？如果查看禁用产品列表就会发现，被禁止的都是Tik Tok、Twitter这样的广域社交平台，而像Discord这样需要成员申请加入子频道的更加私密的平台，则得到了免除。\n新法案禁止与允许的部分互联网应用\n从以上这些互联网社媒巨头的发展路径来看，社交媒体最开始的定位只是让用户分享个人生活，社交属性是主导。然而随着大数据技术不断发展，广域社交平台纷纷通过算法推荐进行内容分发，社媒平台也变成了一个鱼龙混杂的内容平台。尤其是随着短视频的高速发展，信息传播速度进一步加快，社媒平台内容管理失序的问题也愈发严重。\n有澳大利亚网友就表示，我们对于影视内容行业有清晰的强制性标准，但是“社交媒体仍然是一片充斥着有害内容的混沌之地”。\n还有人表示，当社交媒体只是一个单纯分享个人生活的平台时一切都良好，但是当算法推荐出现以后，社交平台开始变成“一台为了获取用户注意力，而无休止地推送垃圾内容的机器”。\n大数据技术和算法推荐",
       "media": "Gamelook",
-      "title_kr": "미성년자 보호 바람이 전 세계로 확산, 소셜 미디어가 집중 규제 대상으로",
-      "content_summary_kr": "호주가 12월 10일부터 16세 미만 청소년의 소셜 미디어 사용을 전면 금지하는 세계 최초의 강력한 규제 시행. TikTok, Twitter, Facebook, Instagram 등 주요 소셜 미디어 플랫폼이 대상이며, 위반 시 최대 4950만 호주달러(약 2.3억 위안)의 벌금 부과. 알고리즘 기반 콘텐츠 추천으로 인해 소셜 미디어가 유해 콘텐츠로 가득 찬 '혼돈의 영역'이 되면서 미성년자 보호를 위한 규제 강화 필요성 대두.",
+      "title_kr": "미성년자 보호 바람이 전 세계로 확산, 소셜 미디어가 집중 관리 대상으로",
+      "content_summary_kr": "호주가 12월 10일부터 16세 미만 청소년의 소셜 미디어 사용을 전면 금지하는 세계 최초의 법안을 시행하며, TikTok, Twitter, Facebook, Instagram 등 주요 플랫폼이 대상에 포함됨. 소셜 미디어가 알고리즘 추천으로 단순 소통 공간에서 유해 콘텐츠가 넘치는 '혼돈의 공간'으로 변화한 것이 규제 강화의 주요 원인이며, 위반 시 최대 4,950만 호주달러(약 2.3억 위안)의 벌금 부과 예정. 다수 국가들이 호주의 정책에 높은 관심을 보이며 유사 규제 도입을 검토 중.",
       "category": "규제 & 이슈",
-      "game_relevance": 0.3
+      "game_relevance": 0.3,
+      "importance": 0.75
     },
     {
       "title": "报告：“00后”玩家最爱腾讯游戏？TOP10鹅厂占7款，原神/蛋仔/消消乐在列！",
@@ -776,10 +569,11 @@
       "thumbnail": "http://img.gamelook.com.cn/2025/12/00HQM1-320x180.jpg",
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/QuestMobile近日发布的《2025 “00后”用户消费洞察报告》显示，截止2025年10月，移动互联网“00后”月度活跃用户规模达到1.79亿，同比增长了10.1%，在全网用户中的占比也达到了14%。这部分人群月度人均使用时长和人均使用次数分别达到217.6小时和3296.7次，同比分别增长了3.7%和4%，比全网用户平均水平分别高了18.7%和24.0%。\n“00后”用户对MOBA、策略类和射击类游戏的偏好明显（《王者荣耀》、《开心消消乐》、《和平精英》、《金铲铲之战》、《三角洲行动》”00后”月活跃用户数分别为4245.6万、2523.8万、1339.0万、1301.3万、1146.2万），与他们在分享、达人内容方面的兴趣结合，形成了电竞内容的深度消费，LPL在S15热门赛事期间周活达2157万，KPL总决赛也吸引近660万用户关注。\n数据显示，手游成为“00后”重要的使用方式，仅次于移动视频和社交。2025年10月期间，手游占据这部分用户互联网使用时长的9.7%，同比略有增长。\n2025年10月，00后的手游偏好集中在MOBA、策略和射击三大品类，00后月活用户规模前十的游戏分别为《王者荣耀》、《开心消消乐》、《和平精英》、《金铲铲之战》、《三角洲行动》、《蛋仔派对》、《穿越火线：枪战王者》、《英雄联盟手游》、《原神》和《无畏契约：源能行动》。\n除手游之外，电竞也是“00后”的重要消费内容，他们对头部战队、明星选手和关键赛程有强烈关注。例如在重大赛事期间，英雄联盟职业联赛和KPL王者荣耀职业联赛官方号都有明显的用户活跃度提升，LPL在S15热门赛事期间周活达2157万，KPL总决赛也吸引近660万用户关注，显示了顶级赛事对年轻用户的强吸引力与流量拉动效应。\n报告指出，除了线上消费，00后同样重视现场氛围感，漫展成为了二次元文化商业变现的重要载体，如哔哩哔哩、小红书等内容平台正在通过线下漫展活动串联起品牌与年轻消费者，促进社区建设和商业价值的实现。\n漫展之外，“00后”对电竞赛事与线下演出的参与度同样不低，QuestMobile数据显示，2025KPL年度总决赛吸引观众超6万人，床下“最多观众的单场电竞赛事”吉尼斯世界纪录，还吸引了多个品牌的赞助；10月期间，00后再KPL王者荣耀职业联赛官方账",
       "media": "Gamelook",
-      "title_kr": "보고서: \"00후\" 게이머가 가장 사랑하는 게임은 Tencent? TOP10 중 7개 차지, 原神/蛋仔派对/开心消消乐 포함",
-      "content_summary_kr": "QuestMobile의 2025년 \"00후\" 사용자 소비 보고서에 따르면, 2025년 10월 기준 중국 00년대생 게이머의 월간 활성 사용자 수가 1.79억 명에 달하며, 이들이 가장 선호하는 게임 장르는 MOBA, 전략, 슈팅 게임으로 나타남. TOP10 게임 중 《王者荣耀》가 4,245만 명으로 1위를 차지했으며, Tencent 게임이 7개를 점유하고 《原神》, 《蛋仔派对》 등도 상위권에 포함됨. 이들은 모바일 게임에 월평균 217.6시간을 소비하며, 전체 인터넷 사용 시간의 9.7%를 게임에 할애하는 것으로 집계됨.",
+      "title_kr": "보고서: '00후' 게이머들이 가장 좋아하는 게임은 Tencent? TOP10 중 7개 차지, 原神/蛋仔派对/開心消消樂 포함",
+      "content_summary_kr": "QuestMobile의 2025년 '00후(2000년대생)' 사용자 소비 인사이트 보고서에 따르면, 중국 00후 모바일 게임 이용자는 1.79억 명으로 전년 대비 10.1% 증가했으며, 월평균 사용시간은 217.6시간으로 전체 평균보다 18.7% 높은 수준을 기록. 00후가 가장 선호하는 게임 TOP10에는 《王者荣耀》, 《開心消消樂》, 《和平精英》, 《金铲铲之战》, 《三角洲行动》, 《蛋仔派对》, 《穿越火线》, 《英雄联盟手游》, 《原神》, 《无畏契约》가 포함되었으며, 이 중 7개가 Tencent 게임으로 MOBA, 전략, 슈팅 장르에 대한 높은 선호도를 확인. LPL S15 시즌 주간 활성 사용자 2,157만 명, KPL 결승전 660만 명 시청 등 e스포츠 콘텐츠에 대한 깊은 관여도와 함께 오프라인 행사 참여도 증가하는 추세임.",
       "category": "매출 & 성과",
-      "game_relevance": 0.95
+      "game_relevance": 0.9,
+      "importance": 0.8
     },
     {
       "title": "想潜入中国市场？二游《棕色尘埃2》与Steam审核拉锯无果、官宣下架",
@@ -789,10 +583,11 @@
       "thumbnail": "http://img.gamelook.com.cn/2025/12/bd1-320x180.jpg",
       "body": "【GameLook专稿，禁止转载！】\nGameLook报道/备受全球二次元玩家期待的RPG手游《棕色尘埃2》（Brown Dust 2）在Steam平台的登陆计划，近日在一场戏剧性的拉锯战后宣告彻底流产。\n这款由NEOWIZ运营、GAMFS N开发的游戏，原定于近期正式解锁Steam版本，此前甚至已高调宣布突破20万份愿望单。然而，就在上线前夕的紧要关头，其Steam商店页面突然毫无征兆地消失，令所有等待的玩家措手不及。\n面对这一突发状况，官方最初的公关回应显得颇为仓促，声称将“尽快与Steam方面沟通”以解决问题，试图维持上线的希望。\n然而，随后的事态发展迅速急转直下，官方最终发布了一纸沉重的公告，承认由于存在“难以解决的平台政策问题”，游戏将不再推进在Steam平台提供服务。这一声明宣告了Steam版的“死刑”。\n尽管官方公告对具体原因讳莫如深，仅以“政策问题”一笔带过，但结合SteamDB（Steam数据库）的后台记录及社区的消息，导致《棕色尘埃2》“暴毙”的核心原因，是一场关于“成人内容标签”的反复拉锯。\n这场看似微小的标签之争，实则触碰了Valve的监管红线。\n可以看到「Nudity」等相关标签重复被官方删除\n结合SteamDB的数据，目前最有可能的猜测是，事件的起因在于游戏官方对“中国”市场的执着。为了确保《棕色尘埃2》能够在中国大陆地区的Steam商店（或针对中国IP的全球区展示）正常上架并获得曝光，官方运营团队制定了移除“成人元素”标签的策略。\n众所周知，Steam平台对不同区域有着严格的内容分级展示规则，一旦游戏被打上特定的标签，其在中国区的曝光就会受到影响，无法对中国玩家正常展示。\n然而，Steam的审核团队在对游戏内容进行人工审查后，认定其美术风格和角色立绘包含明显的成人暗示及“擦边”元素，不符合全年龄或一般成熟级游戏的标准，因此Steam在后台强行将“成人元素”标签加了回去。\n矛盾并未就此终结。根据SteamDB的历史数据，在Steam审核团队添加标签后，游戏官方并未接受这一定级，而是再次手动删除了该标签，试图“强行闯关”上线。\n这种无视平台审核意见、反复修改后台元数据的行为，显然会被Valve视为对平台规则的公然挑战。当然这一说法虽然未得到官方的公开承认。\n不过《棕色尘埃2》宁愿冒着被下架的风险也要规避“成人”标签，其背后在GameLook",
       "media": "Gamelook",
-      "title_kr": "중국 시장 진출 시도? 2차원 게임 《Brown Dust 2》, Steam 심사와 줄다리기 끝에 결국 서비스 중단 선언",
-      "content_summary_kr": "NEOWIZ가 운영하는 RPG 게임 《Brown Dust 2》가 Steam 출시를 앞두고 '성인 콘텐츠' 태그 문제로 플랫폼과 갈등을 빚다 결국 서비스 중단을 결정. 중국 시장 진출을 위해 성인 태그를 반복 삭제했으나 Valve의 심사팀이 게임 내 성인 요소를 인정해 태그를 재부착했고, 이를 무시하고 재삭제를 시도한 것이 플랫폼 규칙 위반으로 간주되어 Steam 상점 페이지 자체가 삭제됨.",
+      "title_kr": "중국 시장 진출 시도? 이차원 게임 《Brown Dust 2》, Steam 심사와의 줄다리기 끝에 공식 하차 선언",
+      "content_summary_kr": "NEOWIZ가 운영하는 RPG 모바일 게임 《Brown Dust 2》가 Steam 플랫폼 출시를 포기한다고 공식 발표. 20만 위시리스트를 돌파했으나 출시 직전 상점 페이지가 삭제되었으며, SteamDB 기록에 따르면 중국 시장 진출을 위해 '성인 콘텐츠' 태그를 반복 삭제하다 Valve의 플랫폼 규칙 위반으로 간주되어 서비스 제공 불가 판정을 받은 것으로 추정됨.",
       "category": "규제 & 이슈",
-      "game_relevance": 1.0
+      "game_relevance": 1.0,
+      "importance": 0.75
     }
   ]
 }
