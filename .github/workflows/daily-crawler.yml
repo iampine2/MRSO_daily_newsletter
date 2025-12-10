@@ -9,6 +9,8 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Git push 권한 추가
     
     steps:
     - name: Checkout repository

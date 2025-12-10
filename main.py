@@ -404,10 +404,17 @@ def crawl_ign(driver, now_kst):
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
     print(f'   IGN 총 {len(cards)}개 카드 발견')
     
-    # 모든 카드 처리
+    # 최대 20개 처리 (타임아웃 방지) + 24시간 내 기사만 수집
+    processed_count = 0
+    max_articles = 20
+    
     for idx, card in enumerate(cards, 1):
+        if processed_count >= max_articles:
+            print(f'   최대 {max_articles}개 처리 완료 - 중단')
+            break
+            
         try:
-            print(f'   IGN 기사 {idx}/{len(cards)} 처리 중...')
+            print(f'   IGN 기사 {idx}/{min(len(cards), max_articles)} 처리 중...')
             title_elem = card.find_element(By.CSS_SELECTOR, '[data-cy="item-title"]')
             title = title_elem.text.strip()
             
@@ -485,7 +492,8 @@ def crawl_ign(driver, now_kst):
                     'body': body_text[:1000],
                     'media': 'IGN'
                 })
-                print(f'   ✅ IGN 기사 {idx} 수집 완료!')
+                processed_count += 1  # 수집 성공 시 카운트 증가
+                print(f'   ✅ IGN 기사 {idx} 수집 완료! (총 {processed_count}개)')
                 
             except Exception as e:
                 print(f'   ❌ IGN 기사 {idx} 처리 실패: {e}')
