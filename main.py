@@ -51,12 +51,21 @@ def setup_driver():
     print('Chrome 드라이버 초기화 중...')
     driver = webdriver.Chrome(options=chrome_options)
     
-    # WebDriver 속성 숨기기 (봇 감지 우회)
+    # WebDriver 속성 숨기기 (봇 감지 우회 - 강화)
     driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
         'source': '''
             Object.defineProperty(navigator, 'webdriver', {
                 get: () => undefined
-            })
+            });
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [1, 2, 3, 4, 5]
+            });
+            Object.defineProperty(navigator, 'languages', {
+                get: () => ['en-US', 'en']
+            });
+            window.chrome = {
+                runtime: {}
+            };
         '''
     })
     
@@ -234,10 +243,12 @@ def crawl_gamespot(driver, now_kst):
         url = 'https://www.gamespot.com/news/' if page_num == 1 else f'https://www.gamespot.com/news/?page={page_num}'
         
         try:
+            print(f'   GameSpot 페이지 {page_num} 로딩 중...')
             driver.get(url)
-            time.sleep(2)
+            time.sleep(5)  # 2초 → 5초로 증가
+            print(f'   GameSpot 페이지 {page_num} 로드 완료')
         except Exception as e:
-            print(f'   GameSpot 페이지 {page_num} 로드 실패: {e}')
+            print(f'   GameSpot 페이지 {page_num} 로드 실패: {str(e)[:100]}')
             continue
         
         try:
@@ -286,7 +297,7 @@ def crawl_gamespot(driver, now_kst):
                     thumbnail = ''
                     try:
                         driver.get(url)
-                        time.sleep(1)
+                        time.sleep(2)  # 1초 → 2초로 증가
                         
                         WebDriverWait(driver, 5).until(
                             EC.presence_of_element_located((By.CSS_SELECTOR, '.article-body'))
@@ -331,7 +342,7 @@ def crawl_gamelook(driver, now_kst):
         
         try:
             driver.get(url)
-            time.sleep(2)
+            time.sleep(3)  # 2초 → 3초로 증가
         except Exception as e:
             print(f'   Gamelook 페이지 {page_num} 로드 실패: {e}')
             continue
@@ -431,7 +442,7 @@ def crawl_ign(driver, now_kst):
     try:
         print('   IGN 메인 페이지 로딩... (15초 타임아웃)')
         driver.get('https://www.ign.com/news')
-        time.sleep(2)
+        time.sleep(5)  # 2초 → 5초로 증가
         print('   IGN 메인 페이지 로드 완료')
     except Exception as e:
         print(f'   IGN 페이지 로드 실패: {str(e)[:100]}')
