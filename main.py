@@ -36,7 +36,11 @@ def setup_driver():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
-    return webdriver.Chrome(options=chrome_options)
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    # 페이지 로드 타임아웃 설정 (30초)
+    driver.set_page_load_timeout(30)
+    return driver
 
 def is_within_24_hours(article_time_kst, now_kst):
     """24시간 이내 기사인지 확인"""
@@ -343,8 +347,12 @@ def crawl_ign(driver, now_kst):
     print('>> [IGN] 크롤링 중...')
     articles = []
     
-    driver.get('https://www.ign.com/news')
-    time.sleep(2)
+    try:
+        driver.get('https://www.ign.com/news')
+        time.sleep(2)
+    except Exception as e:
+        print(f'   IGN 페이지 로드 실패: {e}')
+        return articles
     
     # 스크롤해서 더 많은 기사 로드
     for _ in range(3):
@@ -381,8 +389,15 @@ def crawl_ign(driver, now_kst):
             # 상세 페이지에서 날짜 확인
             driver.execute_script("window.open('');")
             driver.switch_to.window(driver.window_handles[-1])
-            driver.get(url)
-            time.sleep(1)
+            
+            try:
+                driver.get(url)
+                time.sleep(1)
+            except Exception as e:
+                print(f'   IGN 상세 페이지 로드 실패: {url[:50]}...')
+                driver.close()
+                driver.switch_to.window(driver.window_handles[0])
+                continue
             
             try:
                 WebDriverWait(driver, 5).until(
@@ -452,19 +467,28 @@ def main():
     
     try:
         # GameSpot 크롤링
-        gamespot_articles = crawl_gamespot(driver, now_kst)
-        all_articles.extend(gamespot_articles)
-        print(f'   GameSpot: {len(gamespot_articles)}개 수집')
+        try:
+            gamespot_articles = crawl_gamespot(driver, now_kst)
+            all_articles.extend(gamespot_articles)
+            print(f'   GameSpot: {len(gamespot_articles)}개 수집')
+        except Exception as e:
+            print(f'   ❌ GameSpot 크롤링 실패: {e}')
         
         # IGN 크롤링
-        ign_articles = crawl_ign(driver, now_kst)
-        all_articles.extend(ign_articles)
-        print(f'   IGN: {len(ign_articles)}개 수집')
+        try:
+            ign_articles = crawl_ign(driver, now_kst)
+            all_articles.extend(ign_articles)
+            print(f'   IGN: {len(ign_articles)}개 수집')
+        except Exception as e:
+            print(f'   ❌ IGN 크롤링 실패: {e}')
         
         # Gamelook 크롤링
-        gamelook_articles = crawl_gamelook(driver, now_kst)
-        all_articles.extend(gamelook_articles)
-        print(f'   Gamelook: {len(gamelook_articles)}개 수집')
+        try:
+            gamelook_articles = crawl_gamelook(driver, now_kst)
+            all_articles.extend(gamelook_articles)
+            print(f'   Gamelook: {len(gamelook_articles)}개 수집')
+        except Exception as e:
+            print(f'   ❌ Gamelook 크롤링 실패: {e}')
         
     finally:
         driver.quit()
