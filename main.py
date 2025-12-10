@@ -565,30 +565,54 @@ def main():
         print('Chrome 드라이버 종료 완료!')
         sys.stdout.flush()
     
+    print(f'\n>> 수집 완료! 총 {len(all_articles)}개 기사')
+    sys.stdout.flush()
+    
     # 댓글 수 기준 정렬
-    all_articles.sort(key=lambda x: x['comments'], reverse=True)
+    print('>> 댓글 수 기준 정렬 중...')
+    sys.stdout.flush()
+    all_articles.sort(key=lambda x: x.get('comments', 0), reverse=True)
+    print('>> 정렬 완료!')
+    sys.stdout.flush()
     
     print(f'\n총 수집 기사: {len(all_articles)}개')
+    sys.stdout.flush()
     
     if all_articles:
         # 번역 및 요약 처리
         print(f'\n>> 번역, 요약 및 카테고리 분류 중...')
+        sys.stdout.flush()
         for i, article in enumerate(all_articles, 1):
             print(f'   [{i}/{len(all_articles)}] {article["media"]} - {article["title"][:50]}...')
-            title_kr, content_summary_kr, category, game_relevance = translate_and_summarize(
-                article['title'], 
-                article['body']
-            )
-            article['title_kr'] = title_kr
-            article['content_summary_kr'] = content_summary_kr
-            article['category'] = category
-            article['game_relevance'] = game_relevance
+            sys.stdout.flush()
+            
+            try:
+                title_kr, content_summary_kr, category, game_relevance = translate_and_summarize(
+                    article['title'], 
+                    article['body']
+                )
+                article['title_kr'] = title_kr
+                article['content_summary_kr'] = content_summary_kr
+                article['category'] = category
+                article['game_relevance'] = game_relevance
+                print(f'   ✅ 번역 완료: {title_kr[:30]}...')
+                sys.stdout.flush()
+            except Exception as e:
+                print(f'   ❌ 번역 실패: {e}')
+                article['title_kr'] = article['title']
+                article['content_summary_kr'] = article['body'][:200]
+                article['category'] = '기타'
+                article['game_relevance'] = 1.0
+                sys.stdout.flush()
+            
             time.sleep(0.5)  # API 호출 간격
         
         # AI Summary 생성
         print(f'\n>> AI Summary 생성 중...')
+        sys.stdout.flush()
         daily_summary = generate_daily_summary(all_articles)
         print(f'✅ AI Summary 생성 완료')
+        sys.stdout.flush()
         
         # JSON 파일로 저장
         output_file = 'collected_articles.json'
