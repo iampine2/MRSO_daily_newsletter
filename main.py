@@ -381,13 +381,13 @@ def crawl_ign(driver, now_kst):
         print(f'   IGN 페이지 로드 실패: {e}')
         return articles
     
-    # 스크롤해서 더 많은 기사 로드
+    # 스크롤해서 더 많은 기사 로드 (24시간 내 모든 기사 로드)
     try:
-        print('   IGN 페이지 스크롤 중...')
-        for i in range(3):
+        print('   IGN 페이지 스크롤 중... (더 많은 기사 로드)')
+        for i in range(5):  # 3 → 5로 증가
             driver.execute_script('window.scrollBy(0, document.body.scrollHeight)')
-            time.sleep(1)
-            print(f'   스크롤 {i+1}/3 완료')
+            time.sleep(1.5)
+            print(f'   스크롤 {i+1}/5 완료')
     except Exception as e:
         print(f'   스크롤 실패: {e}')
     
@@ -404,10 +404,10 @@ def crawl_ign(driver, now_kst):
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
     print(f'   IGN 총 {len(cards)}개 카드 발견')
     
-    # 최대 10개만 처리 (시간 단축)
-    for idx, card in enumerate(cards[:10], 1):
+    # 모든 카드 처리
+    for idx, card in enumerate(cards, 1):
         try:
-            print(f'   IGN 기사 {idx}/10 처리 중...')
+            print(f'   IGN 기사 {idx}/{len(cards)} 처리 중...')
             title_elem = card.find_element(By.CSS_SELECTOR, '[data-cy="item-title"]')
             title = title_elem.text.strip()
             
