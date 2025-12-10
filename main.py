@@ -506,17 +506,22 @@ def main():
             print(f'   ❌ GameSpot 크롤링 실패: {e}')
             sys.stdout.flush()
         
-        # IGN 크롤링
-        try:
-            print('>> [IGN] 크롤링 시작...')
-            sys.stdout.flush()
-            ign_articles = crawl_ign(driver, now_kst)
-            all_articles.extend(ign_articles)
-            print(f'   IGN: {len(ign_articles)}개 수집')
-            sys.stdout.flush()
-        except Exception as e:
-            print(f'   ❌ IGN 크롤링 실패: {e}')
-            sys.stdout.flush()
+        # IGN 크롤링 (GitHub Actions에서 차단되는 경우가 있어 임시 스킵)
+        print('>> [IGN] 크롤링 스킵 (GitHub Actions 환경에서 불안정)')
+        print('   IGN: 0개 수집 (스킵됨)')
+        sys.stdout.flush()
+        
+        # 로컬 환경에서만 IGN 크롤링 시도
+        # try:
+        #     print('>> [IGN] 크롤링 시작...')
+        #     sys.stdout.flush()
+        #     ign_articles = crawl_ign(driver, now_kst)
+        #     all_articles.extend(ign_articles)
+        #     print(f'   IGN: {len(ign_articles)}개 수집')
+        #     sys.stdout.flush()
+        # except Exception as e:
+        #     print(f'   ❌ IGN 크롤링 실패: {e}')
+        #     sys.stdout.flush()
         
         # Gamelook 크롤링
         try:
