@@ -373,28 +373,41 @@ def crawl_ign(driver, now_kst):
     articles = []
     
     try:
+        print('   IGN 메인 페이지 로딩...')
         driver.get('https://www.ign.com/news')
-        time.sleep(2)
+        time.sleep(3)  # 조금 더 대기
+        print('   IGN 메인 페이지 로드 완료')
     except Exception as e:
         print(f'   IGN 페이지 로드 실패: {e}')
         return articles
     
     # 스크롤해서 더 많은 기사 로드
-    for _ in range(3):
-        driver.execute_script('window.scrollBy(0, document.body.scrollHeight)')
-        time.sleep(1.5)
+    try:
+        print('   IGN 페이지 스크롤 중...')
+        for i in range(3):
+            driver.execute_script('window.scrollBy(0, document.body.scrollHeight)')
+            time.sleep(1)
+            print(f'   스크롤 {i+1}/3 완료')
+    except Exception as e:
+        print(f'   스크롤 실패: {e}')
     
     try:
-        WebDriverWait(driver, 5).until(
+        print('   IGN 기사 카드 대기 중...')
+        WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '[data-cy="item-details"]'))
         )
-    except:
+        print('   IGN 기사 카드 발견!')
+    except Exception as e:
+        print(f'   IGN 기사 카드를 찾을 수 없음: {e}')
         return articles
     
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
+    print(f'   IGN 총 {len(cards)}개 카드 발견')
     
-    for card in cards:
+    # 최대 10개만 처리 (시간 단축)
+    for idx, card in enumerate(cards[:10], 1):
         try:
+            print(f'   IGN 기사 {idx}/10 처리 중...')
             title_elem = card.find_element(By.CSS_SELECTOR, '[data-cy="item-title"]')
             title = title_elem.text.strip()
             
@@ -404,6 +417,8 @@ def crawl_ign(driver, now_kst):
             if url.startswith('/'):
                 url = 'https://www.ign.com' + url
             
+            print(f'   제목: {title[:50]}...')
+            
             # 댓글 수
             try:
                 comment_elem = card.find_element(By.CSS_SELECTOR, '.comment-count')
@@ -412,20 +427,23 @@ def crawl_ign(driver, now_kst):
                 comments = 0
             
             # 상세 페이지에서 날짜 확인
+            print(f'   상세 페이지 열기: {url[:50]}...')
             driver.execute_script("window.open('');")
             driver.switch_to.window(driver.window_handles[-1])
             
             try:
                 driver.get(url)
                 time.sleep(1)
+                print(f'   상세 페이지 로드 완료')
             except Exception as e:
-                print(f'   IGN 상세 페이지 로드 실패: {url[:50]}...')
+                print(f'   IGN 상세 페이지 로드 실패: {e}')
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
                 continue
             
             try:
-                WebDriverWait(driver, 5).until(
+                print(f'   메타데이터 파싱 중...')
+                WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.TAG_NAME, 'main'))
                 )
                 
@@ -434,8 +452,10 @@ def crawl_ign(driver, now_kst):
                 published_time = published_meta.get_attribute('content')
                 
                 article_time_kst = date_parser.parse(published_time).astimezone(KST)
+                print(f'   날짜: {article_time_kst.strftime("%Y-%m-%d %H:%M")}')
                 
                 if not is_within_24_hours(article_time_kst, now_kst):
+                    print(f'   24시간 이내 기사 아님 - 스킵')
                     driver.close()
                     driver.switch_to.window(driver.window_handles[0])
                     continue
@@ -443,6 +463,7 @@ def crawl_ign(driver, now_kst):
                 # 본문
                 paragraphs = driver.find_elements(By.CSS_SELECTOR, 'main p')
                 body_text = '\n'.join([p.text.strip() for p in paragraphs if p.text.strip()])
+                print(f'   본문 길이: {len(body_text)}자')
                 
                 # 썸네일
                 thumbnail = ''
@@ -464,10 +485,15 @@ def crawl_ign(driver, now_kst):
                     'body': body_text[:1000],
                     'media': 'IGN'
                 })
+                print(f'   ✅ IGN 기사 {idx} 수집 완료!')
                 
             except Exception as e:
-                driver.close()
-                driver.switch_to.window(driver.window_handles[0])
+                print(f'   ❌ IGN 기사 {idx} 처리 실패: {e}')
+                try:
+                    driver.close()
+                    driver.switch_to.window(driver.window_handles[0])
+                except:
+                    pass
                 continue
                 
         except Exception as e:
@@ -506,22 +532,19 @@ def main():
             print(f'   ❌ GameSpot 크롤링 실패: {e}')
             sys.stdout.flush()
         
-        # IGN 크롤링 (GitHub Actions에서 차단되는 경우가 있어 임시 스킵)
-        print('>> [IGN] 크롤링 스킵 (GitHub Actions 환경에서 불안정)')
-        print('   IGN: 0개 수집 (스킵됨)')
-        sys.stdout.flush()
-        
-        # 로컬 환경에서만 IGN 크롤링 시도
-        # try:
-        #     print('>> [IGN] 크롤링 시작...')
-        #     sys.stdout.flush()
-        #     ign_articles = crawl_ign(driver, now_kst)
-        #     all_articles.extend(ign_articles)
-        #     print(f'   IGN: {len(ign_articles)}개 수집')
-        #     sys.stdout.flush()
-        # except Exception as e:
-        #     print(f'   ❌ IGN 크롤링 실패: {e}')
-        #     sys.stdout.flush()
+        # IGN 크롤링
+        try:
+            print('>> [IGN] 크롤링 시작...')
+            sys.stdout.flush()
+            ign_articles = crawl_ign(driver, now_kst)
+            all_articles.extend(ign_articles)
+            print(f'   IGN: {len(ign_articles)}개 수집')
+            sys.stdout.flush()
+        except Exception as e:
+            print(f'   ❌ IGN 크롤링 실패: {e}')
+            import traceback
+            traceback.print_exc()
+            sys.stdout.flush()
         
         # Gamelook 크롤링
         try:
