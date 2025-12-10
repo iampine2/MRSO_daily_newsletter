@@ -30,16 +30,31 @@ anthropic_client = Anthropic(api_key=CLAUDE_API_KEY)
 def setup_driver():
     """Chrome 드라이버 설정"""
     chrome_options = Options()
-    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless=new')  # 새로운 headless 모드
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-software-rasterizer')
+    chrome_options.add_argument('--disable-extensions')
+    chrome_options.add_argument('--disable-logging')
+    chrome_options.add_argument('--disable-web-security')
+    chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('--remote-debugging-port=9222')  # 디버깅 포트
     chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
     
+    # 로그 레벨 설정
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    
+    print('Chrome 드라이버 초기화 중...')
     driver = webdriver.Chrome(options=chrome_options)
-    # 페이지 로드 타임아웃 설정 (30초)
+    
+    # 타임아웃 설정
     driver.set_page_load_timeout(30)
+    driver.set_script_timeout(30)
+    driver.implicitly_wait(10)
+    
+    print('Chrome 드라이버 초기화 완료!')
     return driver
 
 def is_within_24_hours(article_time_kst, now_kst):
@@ -463,14 +478,17 @@ def crawl_ign(driver, now_kst):
 def main():
     """메인 실행 함수"""
     import json
+    import sys
     
     print('='*60)
     print('>> 게임 뉴스 크롤링 시작')
     print('='*60)
+    sys.stdout.flush()  # 즉시 출력
     
     now_kst = datetime.now(KST)
     print(f'현재 시각 (KST): {now_kst.strftime("%Y-%m-%d %H:%M:%S")}')
     print(f'필터링 기준: 24시간 이내 기사\n')
+    sys.stdout.flush()
     
     driver = setup_driver()
     all_articles = []
@@ -478,30 +496,46 @@ def main():
     try:
         # GameSpot 크롤링
         try:
+            print('>> [GameSpot] 크롤링 시작...')
+            sys.stdout.flush()
             gamespot_articles = crawl_gamespot(driver, now_kst)
             all_articles.extend(gamespot_articles)
             print(f'   GameSpot: {len(gamespot_articles)}개 수집')
+            sys.stdout.flush()
         except Exception as e:
             print(f'   ❌ GameSpot 크롤링 실패: {e}')
+            sys.stdout.flush()
         
         # IGN 크롤링
         try:
+            print('>> [IGN] 크롤링 시작...')
+            sys.stdout.flush()
             ign_articles = crawl_ign(driver, now_kst)
             all_articles.extend(ign_articles)
             print(f'   IGN: {len(ign_articles)}개 수집')
+            sys.stdout.flush()
         except Exception as e:
             print(f'   ❌ IGN 크롤링 실패: {e}')
+            sys.stdout.flush()
         
         # Gamelook 크롤링
         try:
+            print('>> [Gamelook] 크롤링 시작...')
+            sys.stdout.flush()
             gamelook_articles = crawl_gamelook(driver, now_kst)
             all_articles.extend(gamelook_articles)
             print(f'   Gamelook: {len(gamelook_articles)}개 수집')
+            sys.stdout.flush()
         except Exception as e:
             print(f'   ❌ Gamelook 크롤링 실패: {e}')
+            sys.stdout.flush()
         
     finally:
+        print('Chrome 드라이버 종료 중...')
+        sys.stdout.flush()
         driver.quit()
+        print('Chrome 드라이버 종료 완료!')
+        sys.stdout.flush()
     
     # 댓글 수 기준 정렬
     all_articles.sort(key=lambda x: x['comments'], reverse=True)
