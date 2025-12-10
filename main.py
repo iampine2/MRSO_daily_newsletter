@@ -413,14 +413,21 @@ def crawl_ign(driver, now_kst):
     print('>> [IGN] 크롤링 중...')
     articles = []
     
+    # 페이지 로드 타임아웃을 일시적으로 15초로 줄임
+    original_timeout = driver.timeouts.page_load
+    driver.set_page_load_timeout(15)
+    
     try:
-        print('   IGN 메인 페이지 로딩...')
+        print('   IGN 메인 페이지 로딩... (15초 타임아웃)')
         driver.get('https://www.ign.com/news')
-        time.sleep(3)  # 조금 더 대기
+        time.sleep(2)
         print('   IGN 메인 페이지 로드 완료')
     except Exception as e:
-        print(f'   IGN 페이지 로드 실패: {e}')
+        print(f'   IGN 페이지 로드 실패: {str(e)[:100]}')
+        driver.set_page_load_timeout(30)  # 원래대로 복구
         return articles
+    finally:
+        driver.set_page_load_timeout(30)  # 원래대로 복구
     
     # 스크롤해서 더 많은 기사 로드 (24시간 내 모든 기사 로드)
     try:
@@ -581,19 +588,32 @@ def main():
             print(f'   ❌ GameSpot 크롤링 실패: {e}')
             sys.stdout.flush()
         
-        # IGN 크롤링
-        try:
-            print('>> [IGN] 크롤링 시작...')
-            sys.stdout.flush()
-            ign_articles = crawl_ign(driver, now_kst)
-            all_articles.extend(ign_articles)
-            print(f'   IGN: {len(ign_articles)}개 수집')
-            sys.stdout.flush()
-        except Exception as e:
-            print(f'   ❌ IGN 크롤링 실패: {e}')
-            import traceback
-            traceback.print_exc()
-            sys.stdout.flush()
+        # IGN 크롤링 (재시도 로직 추가)
+        ign_success = False
+        max_retries = 3
+        
+        for retry in range(max_retries):
+            try:
+                if retry > 0:
+                    print(f'>> [IGN] 재시도 {retry}/{max_retries-1}...')
+                    sys.stdout.flush()
+                    time.sleep(5)  # 재시도 전 대기
+                else:
+                    print('>> [IGN] 크롤링 시작...')
+                    sys.stdout.flush()
+                
+                ign_articles = crawl_ign(driver, now_kst)
+                all_articles.extend(ign_articles)
+                print(f'   IGN: {len(ign_articles)}개 수집')
+                sys.stdout.flush()
+                ign_success = True
+                break
+            except Exception as e:
+                print(f'   ❌ IGN 크롤링 실패 (시도 {retry+1}/{max_retries}): {str(e)[:100]}')
+                sys.stdout.flush()
+                if retry == max_retries - 1:
+                    print(f'   ⚠️ IGN 크롤링 최종 실패 - GameSpot과 Gamelook으로 계속 진행')
+                    sys.stdout.flush()
         
         # Gamelook 크롤링
         try:
