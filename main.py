@@ -415,12 +415,16 @@ def crawl_ign(driver, now_kst):
     
     try:
         print('   IGN 메인 페이지 로딩...')
+        sys.stdout.flush()
         driver.get('https://www.ign.com/news')
         time.sleep(3)
         print('   IGN 메인 페이지 로드 완료')
+        sys.stdout.flush()
     except Exception as e:
-        print(f'   IGN 페이지 로드 실패: {e}')
-        return articles
+        print(f'   IGN 페이지 로드 실패: {str(e)[:100]}')
+        sys.stdout.flush()
+        # 재시도를 위해 예외를 다시 던짐
+        raise Exception(f'IGN 메인 페이지 로드 실패: {str(e)[:50]}')
     
     # 스크롤해서 더 많은 기사 로드 (24시간 내 모든 기사 로드)
     try:
@@ -434,13 +438,17 @@ def crawl_ign(driver, now_kst):
     
     try:
         print('   IGN 기사 카드 대기 중...')
+        sys.stdout.flush()
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '[data-cy="item-details"]'))
         )
         print('   IGN 기사 카드 발견!')
+        sys.stdout.flush()
     except Exception as e:
-        print(f'   IGN 기사 카드를 찾을 수 없음: {e}')
-        return articles
+        print(f'   IGN 기사 카드를 찾을 수 없음: {str(e)[:100]}')
+        sys.stdout.flush()
+        # 재시도를 위해 예외를 다시 던짐
+        raise Exception(f'IGN 기사 카드 로드 실패: {str(e)[:50]}')
     
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
     print(f'   IGN 총 {len(cards)}개 카드 발견')
