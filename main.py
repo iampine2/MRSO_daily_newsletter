@@ -63,36 +63,52 @@ def is_within_24_hours(article_time_kst, now_kst):
     return diff.total_seconds() / 3600 <= 24
 
 def generate_daily_summary(articles):
-    """Claude API를 사용하여 오늘의 게임 산업 트렌드 요약 (4개 불릿)"""
+    """Claude API를 사용하여 오늘의 게임 산업 트렌드 분석 (4개 불릿)"""
     try:
-        # 상위 20개 기사의 제목과 요약만 추출
+        # 상위 30개 기사의 제목과 요약만 추출
         article_summaries = []
-        for i, article in enumerate(articles[:20], 1):
-            article_summaries.append(f"{i}. [{article.get('media', 'Unknown')}] {article.get('title_kr', article.get('title', ''))}\n   요약: {article.get('content_summary_kr', '')[:100]}...")
+        for i, article in enumerate(articles[:30], 1):
+            category = article.get('category', '기타')
+            article_summaries.append(f"{i}. [{category}] {article.get('title_kr', article.get('title', ''))}\n   {article.get('content_summary_kr', '')[:100]}...")
         
         articles_text = "\n\n".join(article_summaries)
         
-        prompt = f"""다음은 오늘 수집된 게임 산업 뉴스 기사들입니다. 이 기사들을 분석하여 오늘의 주요 게임 산업 트렌드와 이슈를 **4개의 불릿 포인트**로 요약해주세요.
+        prompt = f"""당신은 게임 산업 분석가입니다. 오늘 수집된 뉴스 기사들을 분석하여 **구체적인 사례 기반의 산업 트렌드**를 파악해주세요.
 
 수집된 기사들:
 {articles_text}
 
-요구사항:
-1. 정확히 4개의 불릿 포인트로 작성
-2. 각 불릿은 한 문장으로 간결하게 (최대 50자)
-3. 가장 중요하고 영향력 있는 트렌드 위주로 선정
-4. 구체적인 게임명, 회사명 포함
-5. 명사형 종결어미 사용 (예: ~발표, ~출시, ~논란, ~성장)
+분석 요구사항:
+1. **반드시 구체적인 게임명, 회사명, 사례를 언급**하면서 트렌드 설명
+2. 여러 기사에서 공통적으로 나타나는 주제나 패턴을 **실제 사례와 함께** 제시
+3. "~경향", "~추세" 같은 추상적 표현보다는 **"A사의 B게임 전략"** 같은 구체적 표현 사용
+4. 단순 나열이 아닌, 사례를 통해 산업의 변화 방향을 보여줄 것
+
+출력 형식:
+- 정확히 4개의 불릿 포인트
+- 각 불릿은 1-2문장 (최대 100자)
+- 명사형 종결어미 사용
+- **반드시 구체적인 게임명/회사명/수치 포함**
+
+좋은 예시:
+• Call of Duty 시리즈의 연속 출시 중단 결정으로 Activision의 장기 개발 전략 전환
+• Battlefield 6의 Wicked Grin 스킨 논란으로 게임 내 과금 콘텐츠에 대한 커뮤니티 반발 심화
+• Assassin's Creed Black Flag 리메이크 발표로 Ubisoft의 IP 재활용 전략 본격화
+• Lenovo Legion 게임 노트북의 투명 디스플레이 탑재로 게임 하드웨어 차별화 경쟁 가속
+
+나쁜 예시 (너무 추상적):
+• AAA급 게임 개발 주기 장기화 추세
+• 게임 유통 구조 재편 가속화
 
 형식:
-• [불릿 1]
-• [불릿 2]
-• [불릿 3]
-• [불릿 4]"""
+• [구체적 사례 기반 트렌드 1]
+• [구체적 사례 기반 트렌드 2]
+• [구체적 사례 기반 트렌드 3]
+• [구체적 사례 기반 트렌드 4]"""
 
         response = anthropic_client.messages.create(
             model="claude-sonnet-4-20250514",
-            max_tokens=500,
+            max_tokens=800,
             messages=[{"role": "user", "content": prompt}]
         )
         
@@ -104,7 +120,7 @@ def generate_daily_summary(articles):
         return "• 오늘의 게임 산업 트렌드를 분석 중입니다.\n• 주요 이슈를 정리하고 있습니다.\n• 업데이트 소식을 확인 중입니다.\n• 산업 동향을 모니터링하고 있습니다."
 
 def translate_and_summarize(title, content):
-    """Claude API를 사용하여 제목 번역, 본문 요약, 카테고리 분류"""
+    """Claude API를 사용하여 제목 번역, 본문 요약, 카테고리 분류, 중요도 평가"""
     try:
         prompt = f"""다음 게임 뉴스 기사를 분석하고 한국어로 번역 및 요약해주세요.
 
@@ -129,13 +145,37 @@ def translate_and_summarize(title, content):
    - 1.0: 게임 개발, 출시, 업데이트 등 게임 자체에 대한 내용
    - 0.5~0.9: 게임 IP를 활용한 다른 미디어 (영화, 애니메이션 등)
    - 0~0.4: 게임과 거의 무관한 내용
+7. 기사 중요도 (importance): 0~1 사이의 값으로 평가 (0.4 이상이 중요)
+   
+   **매우 낮음 (0.0~0.2):**
+   - 특별 할인, 세일 정보
+   - 무료 배포 소식
+   - 게이밍 기어 (노트북, 헤드셋, 키보드, 마우스) 관련 정보
+   
+   **낮음 (0.2~0.4):**
+   - 게임의 단순한 기능 추가, 마이너 패치노트
+   - 게임 공략 및 가이드
+   - 일반적인 게임 플레이 팁
+   
+   **높음 (0.4~0.7):**
+   - 신작 게임 출시 정보
+   - 게임 업데이트 및 메이저 패치
+   - 게임 IP 관련 미디어 확장 (영화, 드라마 등)
+   
+   **매우 높음 (0.7~1.0):**
+   - 산업 보고서, 시장 분석
+   - 규제 및 법적 이슈
+   - 게임사 전략 변화, 비즈니스 모델 전환
+   - 유저 동향 및 커뮤니티 반응 분석
+   - 게임 산업 전반에 영향을 미치는 뉴스
 
 응답 형식 (JSON):
 {{
   "title_kr": "번역된 제목",
   "content_summary_kr": "명사형 종결어미로 작성된 요약",
   "category": "카테고리명",
-  "game_relevance": 0.0
+  "game_relevance": 0.0,
+  "importance": 0.0
 }}"""
 
         message = anthropic_client.messages.create(
@@ -166,12 +206,13 @@ def translate_and_summarize(title, content):
             result.get('title_kr', title),
             result.get('content_summary_kr', content[:200]),
             result.get('category', '기타'),
-            result.get('game_relevance', 1.0)
+            result.get('game_relevance', 1.0),
+            result.get('importance', 0.5)
         )
         
     except Exception as e:
         print(f'   [WARN] 번역/요약 실패: {e}')
-        return title, content[:200], '기타', 1.0  # 실패시 기본값 반환
+        return title, content[:200], '기타', 1.0, 0.5  # 실패시 기본값 반환
 
 def crawl_gamespot(driver, now_kst):
     """GameSpot 크롤링"""
@@ -595,7 +636,7 @@ def main():
             sys.stdout.flush()
             
             try:
-                title_kr, content_summary_kr, category, game_relevance = translate_and_summarize(
+                title_kr, content_summary_kr, category, game_relevance, importance = translate_and_summarize(
                     article['title'], 
                     article['body']
                 )
@@ -603,7 +644,8 @@ def main():
                 article['content_summary_kr'] = content_summary_kr
                 article['category'] = category
                 article['game_relevance'] = game_relevance
-                print(f'   ✅ 번역 완료: {title_kr[:30]}...')
+                article['importance'] = importance
+                print(f'   ✅ 번역 완료: {title_kr[:30]}... (중요도: {importance:.2f})')
                 sys.stdout.flush()
             except Exception as e:
                 print(f'   ❌ 번역 실패: {e}')
@@ -611,6 +653,7 @@ def main():
                 article['content_summary_kr'] = article['body'][:200]
                 article['category'] = '기타'
                 article['game_relevance'] = 1.0
+                article['importance'] = 0.5
                 sys.stdout.flush()
             
             time.sleep(0.5)  # API 호출 간격

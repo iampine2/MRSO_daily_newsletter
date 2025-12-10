@@ -19,8 +19,10 @@ def load_articles():
         return {'daily_summary': '', 'articles': []}
 
 def filter_articles(articles):
-    """game_relevance 0.5 이상만 필터링"""
-    return [a for a in articles if a.get('game_relevance', 0) >= 0.5]
+    """game_relevance 0.5 이상 AND importance 0.4 이상만 필터링"""
+    return [a for a in articles 
+            if a.get('game_relevance', 0) >= 0.5 
+            and a.get('importance', 0) >= 0.4]
 
 def get_hot_trend_articles(articles):
     """댓글 10개 이상인 기사를 댓글 수 내림차순으로 정렬"""
@@ -575,7 +577,7 @@ def generate_html(data):
     
     # 필터링
     filtered = filter_articles(articles)
-    print(f">> game_relevance >= 0.5 필터링: {len(filtered)}개 기사")
+    print(f">> game_relevance >= 0.5 AND importance >= 0.4 필터링: {len(filtered)}개 기사")
     
     # HOT TREND
     hot_articles = get_hot_trend_articles(filtered)
