@@ -41,13 +41,24 @@ def setup_driver():
     chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--remote-debugging-port=9222')  # 디버깅 포트
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36')
     
-    # 로그 레벨 설정
-    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    # 봇 감지 우회
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
+    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
     
     print('Chrome 드라이버 초기화 중...')
     driver = webdriver.Chrome(options=chrome_options)
+    
+    # WebDriver 속성 숨기기 (봇 감지 우회)
+    driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
+        'source': '''
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            })
+        '''
+    })
     
     # 타임아웃 설정
     driver.set_page_load_timeout(30)
