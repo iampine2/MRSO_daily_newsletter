@@ -41,33 +41,13 @@ def setup_driver():
     chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--window-size=1920,1080')
     chrome_options.add_argument('--remote-debugging-port=9222')  # 디버깅 포트
-    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36')
+    chrome_options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
     
-    # 봇 감지 우회
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
-    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+    # 로그 레벨 설정
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     
     print('Chrome 드라이버 초기화 중...')
     driver = webdriver.Chrome(options=chrome_options)
-    
-    # WebDriver 속성 숨기기 (봇 감지 우회 - 강화)
-    driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
-        'source': '''
-            Object.defineProperty(navigator, 'webdriver', {
-                get: () => undefined
-            });
-            Object.defineProperty(navigator, 'plugins', {
-                get: () => [1, 2, 3, 4, 5]
-            });
-            Object.defineProperty(navigator, 'languages', {
-                get: () => ['en-US', 'en']
-            });
-            window.chrome = {
-                runtime: {}
-            };
-        '''
-    })
     
     # 타임아웃 설정
     driver.set_page_load_timeout(30)
@@ -243,12 +223,10 @@ def crawl_gamespot(driver, now_kst):
         url = 'https://www.gamespot.com/news/' if page_num == 1 else f'https://www.gamespot.com/news/?page={page_num}'
         
         try:
-            print(f'   GameSpot 페이지 {page_num} 로딩 중...')
             driver.get(url)
-            time.sleep(5)  # 2초 → 5초로 증가
-            print(f'   GameSpot 페이지 {page_num} 로드 완료')
+            time.sleep(2)
         except Exception as e:
-            print(f'   GameSpot 페이지 {page_num} 로드 실패: {str(e)[:100]}')
+            print(f'   GameSpot 페이지 {page_num} 로드 실패: {e}')
             continue
         
         try:
@@ -297,7 +275,7 @@ def crawl_gamespot(driver, now_kst):
                     thumbnail = ''
                     try:
                         driver.get(url)
-                        time.sleep(2)  # 1초 → 2초로 증가
+                        time.sleep(1)
                         
                         WebDriverWait(driver, 5).until(
                             EC.presence_of_element_located((By.CSS_SELECTOR, '.article-body'))
@@ -342,7 +320,7 @@ def crawl_gamelook(driver, now_kst):
         
         try:
             driver.get(url)
-            time.sleep(3)  # 2초 → 3초로 증가
+            time.sleep(2)
         except Exception as e:
             print(f'   Gamelook 페이지 {page_num} 로드 실패: {e}')
             continue
@@ -435,21 +413,14 @@ def crawl_ign(driver, now_kst):
     print('>> [IGN] 크롤링 중...')
     articles = []
     
-    # 페이지 로드 타임아웃을 일시적으로 15초로 줄임
-    original_timeout = driver.timeouts.page_load
-    driver.set_page_load_timeout(15)
-    
     try:
-        print('   IGN 메인 페이지 로딩... (15초 타임아웃)')
+        print('   IGN 메인 페이지 로딩...')
         driver.get('https://www.ign.com/news')
-        time.sleep(5)  # 2초 → 5초로 증가
+        time.sleep(3)
         print('   IGN 메인 페이지 로드 완료')
     except Exception as e:
-        print(f'   IGN 페이지 로드 실패: {str(e)[:100]}')
-        driver.set_page_load_timeout(30)  # 원래대로 복구
+        print(f'   IGN 페이지 로드 실패: {e}')
         return articles
-    finally:
-        driver.set_page_load_timeout(30)  # 원래대로 복구
     
     # 스크롤해서 더 많은 기사 로드 (24시간 내 모든 기사 로드)
     try:
