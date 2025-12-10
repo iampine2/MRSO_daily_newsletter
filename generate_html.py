@@ -276,8 +276,6 @@ def generate_category_section(category_name, articles, english_name):
     if not articles:
         return ""
     
-    icon = get_category_icon(english_name)
-    
     html = []
     html.append(f"""
                     <!-- Divider -->
@@ -294,18 +292,7 @@ def generate_category_section(category_name, articles, english_name):
                     <!-- Category: {category_name} -->
                     <tr>
                         <td class="mobile-padding" style="padding: 40px 50px 25px 50px;">
-                            <table cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td valign="middle" style="padding-right: 8px;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            {icon}
-                                        </svg>
-                                    </td>
-                                    <td valign="middle">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">{english_name}</font>
-                                    </td>
-                                </tr>
-                            </table>
+                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">{english_name}</font>
                         </td>
                     </tr>
 """)
@@ -416,7 +403,7 @@ def generate_ai_summary_section(summary_text):
                                                 <table cellpadding="0" cellspacing="0" border="0">
                                                     <tr>
                                                         <td valign="top" style="padding-right: 12px;">
-                                                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 16px; font-weight: 700; color: #667eea;">•</font>
+                                                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 16px; font-weight: 700; color: #000000;">•</font>
                                                         </td>
                                                         <td valign="top">
                                                             <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 14px; font-weight: 400; color: #333333; line-height: 1.6;">{escape_html(bullet)}</font>
@@ -430,31 +417,14 @@ def generate_ai_summary_section(summary_text):
                     <!-- AI Summary Section -->
                     <tr>
                         <td class="mobile-padding" style="padding: 40px 50px 10px 50px;">
-                            <table cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td valign="middle" style="padding-right: 8px;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6C7.8 12.16 7 10.63 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z" fill="#000000"/>
-                                        </svg>
-                                    </td>
-                                    <td valign="middle">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">AI SUMMARY</font>
-                                    </td>
-                                </tr>
-                            </table>
+                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">AI SUMMARY</font>
                         </td>
                     </tr>
                     
                     <tr>
                         <td class="mobile-padding" style="padding: 20px 50px 40px 50px;">
-                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f8f9fa; border-left: 4px solid #667eea; border-radius: 4px;">
-                                <tr>
-                                    <td style="padding: 25px 30px;">
-                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
 {''.join(bullets_html)}
-                                        </table>
-                                    </td>
-                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -478,8 +448,6 @@ def generate_compact_category_section(category_name, articles, english_name):
     if not articles:
         return ""
     
-    icon = get_category_icon(english_name)
-    
     html = []
     html.append(f"""
                     <!-- Divider -->
@@ -496,18 +464,7 @@ def generate_compact_category_section(category_name, articles, english_name):
                     <!-- Category: {category_name} -->
                     <tr>
                         <td class="mobile-padding" style="padding: 40px 50px 20px 50px;">
-                            <table cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td valign="middle" style="padding-right: 8px;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            {icon}
-                                        </svg>
-                                    </td>
-                                    <td valign="middle">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">{english_name}</font>
-                                    </td>
-                                </tr>
-                            </table>
+                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">{english_name}</font>
                         </td>
                     </tr>
 """)
@@ -631,18 +588,22 @@ def generate_html(data):
                         <td class="mobile-padding" style="padding: 60px 50px 20px 50px;">
                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
-                                    <td align="left" style="padding-bottom: 8px;">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 48px; font-weight: 900; color: #000000; letter-spacing: -2px; line-height: 1;">Daily Game</font>
+                                    <td align="center" style="padding-bottom: 20px;">
+                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 36px; font-weight: 900; color: #000000; letter-spacing: -1px; line-height: 1;">MRSO DAILY GLOBAL NEWS</font>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td align="left" style="padding-bottom: 12px;">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 14px; font-weight: 400; color: #999999;">{date_str} — {day_str} Edition</font>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td align="left">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 12px; font-weight: 400; color: #666666; font-style: italic;">새 아웃룩 또는 모바일 보기에 최적화 되어 있습니다.</font>
+                                    <td style="padding-bottom: 12px;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="left" width="50%">
+                                                    <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 400; color: #666666;">{date_str} — {day_str}</font>
+                                                </td>
+                                                <td align="right" width="50%">
+                                                    <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 12px; font-weight: 400; color: #999999; font-style: italic;">새 아웃룩 또는 모바일 보기에 최적화 되어 있습니다.</font>
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </td>
                                 </tr>
                             </table>
@@ -665,18 +626,7 @@ def generate_html(data):
                     <!-- HOT TREND Section -->
                     <tr>
                         <td class="mobile-padding" style="padding: 40px 50px 10px 50px;">
-                            <table cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td valign="middle" style="padding-right: 8px;">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            {get_category_icon('HOT TREND')}
-                                        </svg>
-                                    </td>
-                                    <td valign="middle">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">HOT TREND</font>
-                                    </td>
-                                </tr>
-                            </table>
+                            <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 13px; font-weight: 700; color: #000000; letter-spacing: 2px;">HOT TREND</font>
                         </td>
                     </tr>
 
@@ -699,13 +649,21 @@ def generate_html(data):
                         <td class="mobile-padding" style="padding: 40px 50px 60px 50px; border-top: 4px solid #000000;">
                             <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
-                                    <td align="center" style="padding-bottom: 10px;">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 11px; font-weight: 400; color: #999999; line-height: 1.6;">Sources: IGN, GameSpot, Gamelook</font>
+                                    <td align="center" style="padding-bottom: 15px;">
+                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 11px; font-weight: 400; color: #666666; line-height: 1.8;">
+                                            매일 오전 9시에 최근 24시간 내 발행된 북미·중국 게임 기사를 수집하고,<br>
+                                            AI 분석에 따라 카테고리 분류 및 중요도 높은 기사를 선별합니다.
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="padding-bottom: 15px;">
+                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 11px; font-weight: 400; color: #999999;">Sources: IGN｜GameSpot｜GameLook</font>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="center">
-                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 10px; font-weight: 400; color: #cccccc;">© 2025 Daily Game Report</font>
+                                        <font face="'Malgun Gothic', '맑은 고딕', Arial, sans-serif" style="font-size: 10px; font-weight: 400; color: #cccccc;">ⓒ {now.year} MRSO Daily Global News</font>
                                     </td>
                                 </tr>
                             </table>
