@@ -166,8 +166,12 @@ def crawl_gamespot(driver, now_kst):
     for page_num in range(1, MAX_PAGE + 1):
         url = 'https://www.gamespot.com/news/' if page_num == 1 else f'https://www.gamespot.com/news/?page={page_num}'
         
-        driver.get(url)
-        time.sleep(2)
+        try:
+            driver.get(url)
+            time.sleep(2)
+        except Exception as e:
+            print(f'   GameSpot 페이지 {page_num} 로드 실패: {e}')
+            continue
         
         try:
             WebDriverWait(driver, 10).until(
@@ -210,12 +214,13 @@ def crawl_gamespot(driver, now_kst):
                     # 본문 크롤링
                     driver.execute_script("window.open('');")
                     driver.switch_to.window(driver.window_handles[-1])
-                    driver.get(url)
-                    time.sleep(1)
                     
                     body_text = ''
                     thumbnail = ''
                     try:
+                        driver.get(url)
+                        time.sleep(1)
+                        
                         WebDriverWait(driver, 5).until(
                             EC.presence_of_element_located((By.CSS_SELECTOR, '.article-body'))
                         )
@@ -225,8 +230,8 @@ def crawl_gamespot(driver, now_kst):
                         # 썸네일
                         og_image = driver.find_element(By.CSS_SELECTOR, 'meta[property="og:image"]')
                         thumbnail = og_image.get_attribute('content')
-                    except:
-                        pass
+                    except Exception as e:
+                        print(f'   GameSpot 상세 페이지 로드 실패: {url[:50]}...')
                     
                     driver.close()
                     driver.switch_to.window(driver.window_handles[0])
@@ -257,8 +262,12 @@ def crawl_gamelook(driver, now_kst):
     for page_num in range(1, MAX_PAGE + 1):
         url = 'http://www.gamelook.com.cn/' if page_num == 1 else f'http://www.gamelook.com.cn/page/{page_num}/'
         
-        driver.get(url)
-        time.sleep(2)
+        try:
+            driver.get(url)
+            time.sleep(2)
+        except Exception as e:
+            print(f'   Gamelook 페이지 {page_num} 로드 실패: {e}')
+            continue
         
         try:
             WebDriverWait(driver, 10).until(
@@ -305,18 +314,19 @@ def crawl_gamelook(driver, now_kst):
                 # 본문 크롤링
                 driver.execute_script("window.open('');")
                 driver.switch_to.window(driver.window_handles[-1])
-                driver.get(url)
-                time.sleep(1)
                 
                 body_text = ''
                 try:
+                    driver.get(url)
+                    time.sleep(1)
+                    
                     WebDriverWait(driver, 5).until(
                         EC.presence_of_element_located((By.CSS_SELECTOR, 'article'))
                     )
                     paragraphs = driver.find_elements(By.CSS_SELECTOR, 'article p')
                     body_text = '\n'.join([p.text.strip() for p in paragraphs if p.text.strip()])
-                except:
-                    pass
+                except Exception as e:
+                    print(f'   Gamelook 상세 페이지 로드 실패: {url[:50]}...')
                 
                 driver.close()
                 driver.switch_to.window(driver.window_handles[0])
