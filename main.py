@@ -445,9 +445,9 @@ def crawl_ign(driver, now_kst):
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
     print(f'   IGN 총 {len(cards)}개 카드 발견')
     
-    # 최대 20개 처리 (타임아웃 방지) + 24시간 내 기사만 수집
+    # 최대 10개 처리 (타임아웃 방지) + 24시간 내 기사만 수집
     processed_count = 0
-    max_articles = 20
+    max_articles = 10
     
     for idx, card in enumerate(cards, 1):
         if processed_count >= max_articles:
@@ -476,18 +476,30 @@ def crawl_ign(driver, now_kst):
             
             # 상세 페이지에서 날짜 확인
             print(f'   상세 페이지 열기: {url[:50]}...')
+            sys.stdout.flush()
             driver.execute_script("window.open('');")
             driver.switch_to.window(driver.window_handles[-1])
+            
+            # 상세 페이지 로드 타임아웃을 10초로 제한
+            driver.set_page_load_timeout(10)
             
             try:
                 driver.get(url)
                 time.sleep(1)
                 print(f'   상세 페이지 로드 완료')
+                sys.stdout.flush()
             except Exception as e:
-                print(f'   IGN 상세 페이지 로드 실패: {e}')
-                driver.close()
-                driver.switch_to.window(driver.window_handles[0])
+                print(f'   IGN 상세 페이지 로드 실패 (10초 타임아웃): {str(e)[:50]}')
+                sys.stdout.flush()
+                driver.set_page_load_timeout(30)  # 원래대로 복구
+                try:
+                    driver.close()
+                    driver.switch_to.window(driver.window_handles[0])
+                except:
+                    pass
                 continue
+            finally:
+                driver.set_page_load_timeout(30)  # 원래대로 복구
             
             try:
                 print(f'   메타데이터 파싱 중...')
