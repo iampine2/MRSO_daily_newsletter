@@ -450,11 +450,13 @@ def crawl_ign(driver, now_kst):
     max_articles = 10
     
     for idx, card in enumerate(cards, 1):
-        if processed_count >= max_articles:
-            print(f'   최대 {max_articles}개 처리 완료 - 중단')
-            break
-            
         try:
+            # 최대 개수 체크를 try 블록 안으로 이동
+            if processed_count >= max_articles:
+                print(f'   최대 {max_articles}개 처리 완료 - 중단')
+                sys.stdout.flush()
+                break
+            
             print(f'   IGN 기사 {idx}/{min(len(cards), max_articles)} 처리 중...')
             title_elem = card.find_element(By.CSS_SELECTOR, '[data-cy="item-title"]')
             title = title_elem.text.strip()
@@ -549,16 +551,42 @@ def crawl_ign(driver, now_kst):
                 print(f'   ✅ IGN 기사 {idx} 수집 완료! (총 {processed_count}개)')
                 
             except Exception as e:
-                print(f'   ❌ IGN 기사 {idx} 처리 실패: {e}')
+                print(f'   ❌ IGN 기사 {idx} 처리 실패: {str(e)[:100]}')
+                sys.stdout.flush()
+                # 윈도우 정리
                 try:
-                    driver.close()
-                    driver.switch_to.window(driver.window_handles[0])
-                except:
-                    pass
+                    if len(driver.window_handles) > 1:
+                        driver.close()
+                        driver.switch_to.window(driver.window_handles[0])
+                except Exception as cleanup_error:
+                    print(f'   윈도우 정리 실패: {str(cleanup_error)[:50]}')
+                    sys.stdout.flush()
                 continue
                 
         except Exception as e:
+            print(f'   ❌ IGN 기사 {idx} 외부 예외: {str(e)[:100]}')
+            sys.stdout.flush()
+            # 윈도우 정리
+            try:
+                if len(driver.window_handles) > 1:
+                    driver.close()
+                    driver.switch_to.window(driver.window_handles[0])
+            except:
+                pass
             continue
+    
+    # IGN 크롤링 완료 후 메인 윈도우로 확실히 복귀
+    try:
+        if len(driver.window_handles) > 1:
+            for handle in driver.window_handles[1:]:
+                driver.switch_to.window(handle)
+                driver.close()
+            driver.switch_to.window(driver.window_handles[0])
+            print(f'   IGN 크롤링 완료 - 모든 추가 윈도우 닫음')
+            sys.stdout.flush()
+    except Exception as e:
+        print(f'   윈도우 정리 중 오류: {str(e)[:50]}')
+        sys.stdout.flush()
     
     return articles
 
