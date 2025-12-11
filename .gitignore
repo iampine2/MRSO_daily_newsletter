@@ -39,6 +39,9 @@ geckodriver
 .DS_Store
 Thumbs.db
 
+# Environment variables (로컬 개발용)
+.env
+
 # Results - GitHub Actions가 자동으로 커밋합니다
 # (로컬 테스트 파일은 수동으로 커밋하세요)
 

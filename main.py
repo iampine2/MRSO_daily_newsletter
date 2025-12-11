@@ -12,9 +12,15 @@ import pytz
 import requests
 import time
 import re
+import sys
+import json
 from dateutil import parser as date_parser
 from anthropic import Anthropic
 import os
+from dotenv import load_dotenv
+
+# .env 파일 로드 (로컬 개발용)
+load_dotenv()
 
 # 설정
 WEBHOOK_URL = os.getenv('WEBHOOK_URL', 'https://hook.us2.make.com/x66njlvg1dx6jxethzuy4n92w4xrgua5')
@@ -119,8 +125,73 @@ def generate_daily_summary(articles):
         print(f"[ERROR] AI Summary 생성 실패: {e}")
         return "• 오늘의 게임 산업 트렌드를 분석 중입니다.\n• 주요 이슈를 정리하고 있습니다.\n• 업데이트 소식을 확인 중입니다.\n• 산업 동향을 모니터링하고 있습니다."
 
-def translate_and_summarize(title, content):
-    """Claude API를 사용하여 제목 번역, 본문 요약, 카테고리 분류, 중요도 평가"""
+def quick_filter(title, content):
+    """1단계: 원문으로 게임 관련성 & 중요도만 빠르게 평가 (저렴한 토큰)"""
+    try:
+        # 본문 처음 500자만 사용 (토큰 절약)
+        content_preview = content[:500]
+        
+        prompt = f"""Evaluate this gaming article quickly (DO NOT translate):
+
+Title: {title}
+Content Preview: {content_preview}
+
+Evaluate:
+1. game_relevance (0.0-1.0):
+   - 1.0: Game development, release, updates
+   - 0.5-0.9: Game IP in other media (movies, shows)
+   - 0.0-0.4: Not game-related
+
+2. importance (0.0-1.0):
+   - Very Low (0.0-0.2): Sales, discounts, free giveaways, gaming gear
+   - Low (0.2-0.4): Minor patches, guides, tips
+   - High (0.4-0.7): New releases, major updates, IP expansions
+   - Very High (0.7-1.0): Industry reports, regulations, business strategy changes
+
+Return ONLY JSON:
+{{
+  "game_relevance": 0.0,
+  "importance": 0.0,
+  "should_process": true/false
+}}
+
+Set should_process to true ONLY if game_relevance >= 0.5 AND importance >= 0.4"""
+
+        message = anthropic_client.messages.create(
+            model="claude-sonnet-4-20250514",  # 더 저렴한 모델 사용
+            max_tokens=150,  # 짧은 응답만 필요
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+        
+        # 응답 파싱
+        response_text = message.content[0].text
+        
+        # JSON 파싱
+        import json
+        if '```json' in response_text:
+            json_start = response_text.find('```json') + 7
+            json_end = response_text.find('```', json_start)
+            response_text = response_text[json_start:json_end].strip()
+        elif '```' in response_text:
+            json_start = response_text.find('```') + 3
+            json_end = response_text.find('```', json_start)
+            response_text = response_text[json_start:json_end].strip()
+        
+        result = json.loads(response_text)
+        return (
+            result.get('game_relevance', 0.0),
+            result.get('importance', 0.0),
+            result.get('should_process', False)
+        )
+        
+    except Exception as e:
+        print(f'   [WARN] 빠른 필터링 실패: {e}')
+        return 1.0, 0.5, True  # 실패시 처리 진행
+
+def translate_and_summarize(title, content, category_hint=''):
+    """2단계: 필터 통과한 기사만 번역 + 요약 (비싼 토큰)"""
     try:
         prompt = f"""다음 게임 뉴스 기사를 분석하고 한국어로 번역 및 요약해주세요.
 
@@ -141,41 +212,12 @@ def translate_and_summarize(title, content):
    - "업데이트 & 패치": 게임 패치, 기능 업데이트, 버그 수정
    - "IP & 콜라보": 게임 IP 관련 뉴스, 협업, 미디어 확장(영화, 시리즈 등)
    - "커뮤니티 & 이벤트": 게임 이벤트, 팬 행사, 프로모션
-6. 게임 연관도 (game_relevance): 0~1 사이의 값으로 평가
-   - 1.0: 게임 개발, 출시, 업데이트 등 게임 자체에 대한 내용
-   - 0.5~0.9: 게임 IP를 활용한 다른 미디어 (영화, 애니메이션 등)
-   - 0~0.4: 게임과 거의 무관한 내용
-7. 기사 중요도 (importance): 0~1 사이의 값으로 평가 (0.4 이상이 중요)
-   
-   **매우 낮음 (0.0~0.2):**
-   - 특별 할인, 세일 정보
-   - 무료 배포 소식
-   - 게이밍 기어 (노트북, 헤드셋, 키보드, 마우스) 관련 정보
-   
-   **낮음 (0.2~0.4):**
-   - 게임의 단순한 기능 추가, 마이너 패치노트
-   - 게임 공략 및 가이드
-   - 일반적인 게임 플레이 팁
-   
-   **높음 (0.4~0.7):**
-   - 신작 게임 출시 정보
-   - 게임 업데이트 및 메이저 패치
-   - 게임 IP 관련 미디어 확장 (영화, 드라마 등)
-   
-   **매우 높음 (0.7~1.0):**
-   - 산업 보고서, 시장 분석
-   - 규제 및 법적 이슈
-   - 게임사 전략 변화, 비즈니스 모델 전환
-   - 유저 동향 및 커뮤니티 반응 분석
-   - 게임 산업 전반에 영향을 미치는 뉴스
 
 응답 형식 (JSON):
 {{
   "title_kr": "번역된 제목",
   "content_summary_kr": "명사형 종결어미로 작성된 요약",
-  "category": "카테고리명",
-  "game_relevance": 0.0,
-  "importance": 0.0
+  "category": "카테고리명"
 }}"""
 
         message = anthropic_client.messages.create(
@@ -189,9 +231,8 @@ def translate_and_summarize(title, content):
         # 응답 파싱
         response_text = message.content[0].text
         
-        # JSON 파싱 시도
+        # JSON 파싱
         import json
-        # JSON 블록 추출 (```json ... ``` 형태일 수 있음)
         if '```json' in response_text:
             json_start = response_text.find('```json') + 7
             json_end = response_text.find('```', json_start)
@@ -205,14 +246,12 @@ def translate_and_summarize(title, content):
         return (
             result.get('title_kr', title),
             result.get('content_summary_kr', content[:200]),
-            result.get('category', '기타'),
-            result.get('game_relevance', 1.0),
-            result.get('importance', 0.5)
+            result.get('category', '기타')
         )
         
     except Exception as e:
         print(f'   [WARN] 번역/요약 실패: {e}')
-        return title, content[:200], '기타', 1.0, 0.5  # 실패시 기본값 반환
+        return title, content[:200], '기타'  # 실패시 기본값 반환
 
 def crawl_gamespot(driver, now_kst):
     """GameSpot 크롤링"""
@@ -452,10 +491,11 @@ def crawl_ign(driver, now_kst):
     
     cards = driver.find_elements(By.CSS_SELECTOR, '[data-cy="item-details"]')
     print(f'   IGN 총 {len(cards)}개 카드 발견')
+    sys.stdout.flush()
     
-    # 최대 10개 처리 (타임아웃 방지) + 24시간 내 기사만 수집
+    # 최대 30개 처리 + 24시간 내 기사만 수집
     processed_count = 0
-    max_articles = 10
+    max_articles = 30
     
     for idx, card in enumerate(cards, 1):
         try:
@@ -689,35 +729,75 @@ def main():
     sys.stdout.flush()
     
     if all_articles:
-        # 번역 및 요약 처리
-        print(f'\n>> 번역, 요약 및 카테고리 분류 중...')
+        # 🎯 1단계: 빠른 필터링 (원문으로 게임 관련성 & 중요도만 평가)
+        print(f'\n>> [1단계] 빠른 필터링 중... (원문 평가)')
         sys.stdout.flush()
+        
+        filtered_articles = []
+        skipped_count = 0
+        
         for i, article in enumerate(all_articles, 1):
             print(f'   [{i}/{len(all_articles)}] {article["media"]} - {article["title"][:50]}...')
             sys.stdout.flush()
             
             try:
-                title_kr, content_summary_kr, category, game_relevance, importance = translate_and_summarize(
+                game_relevance, importance, should_process = quick_filter(
+                    article['title'], 
+                    article['body']
+                )
+                
+                article['game_relevance'] = game_relevance
+                article['importance'] = importance
+                
+                if should_process:
+                    filtered_articles.append(article)
+                    print(f'   ✅ 필터 통과 (관련성: {game_relevance:.2f}, 중요도: {importance:.2f})')
+                else:
+                    skipped_count += 1
+                    print(f'   ⏭️  필터 제외 (관련성: {game_relevance:.2f}, 중요도: {importance:.2f})')
+                sys.stdout.flush()
+            except Exception as e:
+                print(f'   ❌ 필터링 실패: {e} - 기본 처리 진행')
+                article['game_relevance'] = 1.0
+                article['importance'] = 0.5
+                filtered_articles.append(article)
+                sys.stdout.flush()
+            
+            time.sleep(0.3)  # API 호출 간격
+        
+        print(f'\n>> [1단계 완료] {len(filtered_articles)}개 통과, {skipped_count}개 제외')
+        print(f'   💰 토큰 절약: 약 {skipped_count * 1500} 토큰 (~{skipped_count * 1500 * 0.003 / 1000:.2f}원)')
+        sys.stdout.flush()
+        
+        # 🎯 2단계: 통과한 기사만 번역 + 요약
+        print(f'\n>> [2단계] 번역 & 요약 중... (필터 통과 기사만)')
+        sys.stdout.flush()
+        
+        for i, article in enumerate(filtered_articles, 1):
+            print(f'   [{i}/{len(filtered_articles)}] {article["media"]} - {article["title"][:50]}...')
+            sys.stdout.flush()
+            
+            try:
+                title_kr, content_summary_kr, category = translate_and_summarize(
                     article['title'], 
                     article['body']
                 )
                 article['title_kr'] = title_kr
                 article['content_summary_kr'] = content_summary_kr
                 article['category'] = category
-                article['game_relevance'] = game_relevance
-                article['importance'] = importance
-                print(f'   ✅ 번역 완료: {title_kr[:30]}... (중요도: {importance:.2f})')
+                print(f'   ✅ 번역 완료: {title_kr[:30]}...')
                 sys.stdout.flush()
             except Exception as e:
                 print(f'   ❌ 번역 실패: {e}')
                 article['title_kr'] = article['title']
                 article['content_summary_kr'] = article['body'][:200]
                 article['category'] = '기타'
-                article['game_relevance'] = 1.0
-                article['importance'] = 0.5
                 sys.stdout.flush()
             
             time.sleep(0.5)  # API 호출 간격
+        
+        # 필터링된 기사로 교체
+        all_articles = filtered_articles
         
         # AI Summary 생성
         print(f'\n>> AI Summary 생성 중...')
